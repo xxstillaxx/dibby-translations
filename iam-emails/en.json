@@ -1,1 +1,21 @@
-﻿{}
+{
+  "common": {
+    "copyLink": "Or copy this link:"
+  },
+  "confirm": {
+    "subject": "Confirm your Dibby account",
+    "preheader": "Confirm Your Email",
+    "heading": "Welcome to Dibby",
+    "body": "Thanks for signing up! Please confirm your email address to get started.",
+    "button": "Confirm Email",
+    "footer": "If you didn't create an account, you can safely ignore this email."
+  },
+  "reset": {
+    "subject": "Reset your Dibby password",
+    "preheader": "Reset Your Password",
+    "heading": "Password Reset",
+    "body": "You requested a password reset. Click the button below to set a new password.",
+    "button": "Reset Password",
+    "footer": "If you didn't request this, you can safely ignore this email. Your password will remain unchanged."
+  }
+}

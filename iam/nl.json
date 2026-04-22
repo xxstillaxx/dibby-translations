@@ -1,1 +1,23 @@
-﻿{}
+{
+  "account": {
+    "login": {
+      "title": "Inloggen",
+      "heading": "Welkom terug",
+      "subtitle": "Log in op je DibbyIAM-account",
+      "email": "E-mail",
+      "emailPlaceholder": "jij@example.com",
+      "password": "Wachtwoord",
+      "togglePassword": "Wachtwoord zichtbaarheid wisselen",
+      "rememberMe": "Onthoud mij",
+      "submit": "Inloggen",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "registerPrompt": "Nog geen account?",
+      "register": "Registreren",
+      "resendPrompt": "Moet je je e-mail nog bevestigen?",
+      "resend": "Bevestiging opnieuw verzenden",
+      "or": "of",
+      "developerConsole": "Ontwikkelaarsconsole",
+      "developerConsoleSuffix": "Registreer je app voor OAuth 2.0"
+    }
+  }
+}
