@@ -1,0 +1,349 @@
+﻿{
+    "sidebar":  {
+                    "quickScan":  "Snel scannen",
+                    "quickScanDescription":  "Maak een foto om bongegevens automatisch vast te leggen",
+                    "scanReceipt":  "+ Bon scannen",
+                    "toggleSidebar":  "Zijbalk in-/uitklappen"
+                },
+    "header":  {
+                   "overview":  "Overzicht",
+                   "allReceipts":  "Alle bonnen",
+                   "shoppingProfile":  "Winkelprofiel",
+                   "page":  "Pagina",
+                   "profileSubtitle":  "Beheer je persoonsgegevens, adressen en betaalmethoden"
+               },
+    "user":  {
+                 "menu":  "Gebruikersmenu",
+                 "defaultName":  "Gebruiker",
+                 "editProfile":  "Profiel bewerken",
+                 "signIn":  "Inloggen",
+                 "signOut":  "Uitloggen",
+                 "logOut":  "Uitloggen"
+             },
+    "welcome":  {
+                    "heading":  "Welkom bij Dibby",
+                    "description":  "Log in om je bonnen en mappen te beheren."
+                },
+    "auth":  {
+                 "completingSignIn":  "Inloggen voltooienâ€¦"
+             },
+    "errors":  {
+                   "notFoundTitle":  "Pagina niet gevonden",
+                   "notFoundDescription":  "We kunnen de pagina die je zoekt niet vinden!",
+                   "backToHome":  "Terug naar home"
+               },
+    "dashboard":  {
+                      "pageTitle":  "Dashboard | Dibby",
+                      "pageDescription":  "Dibby bonnenbeheer dashboard",
+                      "monthlyTrend":  "Maandelijkse trend",
+                      "byCategory":  "Per categorie",
+                      "total":  "totaal",
+                      "noDataYet":  "Nog geen gegevens",
+                      "stats":  {
+                                    "totalSpent":  "Totaal uitgegeven",
+                                    "allTime":  "altijd",
+                                    "receipts":  "Bonnen",
+                                    "verifiedSuffix":  "{{count}} geverifieerd",
+                                    "pending":  "In afwachting",
+                                    "needsReview":  "te beoordelen",
+                                    "avgTransaction":  "Gem. transactie",
+                                    "perReceipt":  "per bon"
+                                },
+                      "recent":  {
+                                     "heading":  "Recente transacties",
+                                     "itemsCount":  "{{count}} items",
+                                     "empty":  "Nog geen bonnen",
+                                     "receiptFallback":  "Bon"
+                                 }
+                  },
+    "receipts":  {
+                     "pageTitle":  "Bonnen | Dibby",
+                     "pageDescription":  "Beheer je bonnen in mappen",
+                     "sidebarMode":  {
+                                         "binders":  "Mappen",
+                                         "merchants":  "Winkels"
+                                     },
+                     "binders":  {
+                                     "heading":  "Mappen",
+                                     "allReceipts":  "Alle bonnen",
+                                     "unfiled":  "Niet ingedeeld",
+                                     "newBinder":  "Nieuwe map",
+                                     "namePlaceholder":  "Mapnaam...",
+                                     "add":  "Toevoegen",
+                                     "delete":  "Verwijderen",
+                                     "cancel":  "Annuleren",
+                                     "deleteConfirm":  "\"{{title}}\" verwijderen?",
+                                     "deleteTooltip":  "Map verwijderen"
+                                 },
+                     "merchantsPanel":  {
+                                            "heading":  "Winkels",
+                                            "allReceipts":  "Alle bonnen",
+                                            "unmatched":  "Niet gekoppeld",
+                                            "empty":  "Nog geen winkelgegevens"
+                                        },
+                     "toolbar":  {
+                                     "filterPlaceholder":  "Filter...",
+                                     "count_one":  "{{count}} bon",
+                                     "count_other":  "{{count}} bonnen"
+                                 },
+                     "states":  {
+                                    "loading":  "Bonnen laden...",
+                                    "empty":  "Nog geen bonnen. Upload er een om te beginnen!",
+                                    "noMatches":  "Geen bonnen voldoen aan je filter."
+                                },
+                     "listHeader":  {
+                                        "merchant":  "Winkel",
+                                        "category":  "Categorie",
+                                        "date":  "Datum",
+                                        "amount":  "Bedrag",
+                                        "status":  "Status"
+                                    },
+                     "items_one":  "{{count}} item",
+                     "items_other":  "{{count}} items",
+                     "receiptFallback":  "Bon",
+                     "upload":  {
+                                    "title":  "Bon uploaden",
+                                    "close":  "Sluiten",
+                                    "prompt":  "Sleep een bestand hierheen of klik om te bladeren",
+                                    "fileTypes":  "JPEG, PNG, WebP, GIF of PDF Â· Max 10 MB",
+                                    "previewAlt":  "Voorbeeld",
+                                    "binder":  "Map",
+                                    "binderPlaceholder":  "Kies een map...",
+                                    "merchantCaption":  "Winkel / Titel",
+                                    "merchantCaptionPlaceholder":  "bijv. Albert Heijn",
+                                    "category":  "Categorie",
+                                    "categoryPlaceholder":  "Kies...",
+                                    "totalAmount":  "Totaalbedrag",
+                                    "tax":  "BTW",
+                                    "date":  "Datum",
+                                    "paymentMethod":  "Betaalmethode",
+                                    "paymentMethodPlaceholder":  "bijv. Visa 4821",
+                                    "note":  "Notitie",
+                                    "notePlaceholder":  "Optionele notitie...",
+                                    "cancel":  "Annuleren",
+                                    "submit":  "Bon uploaden",
+                                    "submitting":  "Uploaden...",
+                                    "errors":  {
+                                                   "fileType":  "Alleen JPEG, PNG, GIF, WebP of PDF bestanden zijn toegestaan.",
+                                                   "fileSize":  "Bestand moet kleiner zijn dan 10 MB.",
+                                                   "fileRequired":  "Selecteer een bestand.",
+                                                   "uploadFailed":  "Uploaden mislukt. Probeer het opnieuw."
+                                               }
+                                },
+                     "edit":  {
+                                  "title":  "Bon bewerken",
+                                  "close":  "Sluiten",
+                                  "binder":  "Map",
+                                  "merchantCaption":  "Winkel / Titel",
+                                  "merchantCaptionPlaceholder":  "bijv. Albert Heijn",
+                                  "category":  "Categorie",
+                                  "categoryPlaceholder":  "Kies...",
+                                  "totalAmount":  "Totaalbedrag",
+                                  "tax":  "BTW",
+                                  "date":  "Datum",
+                                  "paymentMethod":  "Betaalmethode",
+                                  "paymentMethodPlaceholder":  "bijv. Visa 4821",
+                                  "receiptNumber":  "Bonnummer",
+                                  "receiptNumberPlaceholder":  "bijv. INV-001",
+                                  "note":  "Notitie",
+                                  "notePlaceholder":  "Optionele notitie...",
+                                  "cancel":  "Annuleren",
+                                  "submit":  "Wijzigingen opslaan",
+                                  "submitting":  "Opslaan...",
+                                  "saveFailed":  "Opslaan mislukt. Probeer het opnieuw."
+                              },
+                     "detail":  {
+                                    "closeAria":  "Venster sluiten",
+                                    "aria":  "Bon van {{name}}",
+                                    "items":  "Artikelen",
+                                    "payment":  "Betaling",
+                                    "tax":  "BTW",
+                                    "subtotal":  "Subtotaal",
+                                    "total":  "Totaal",
+                                    "note":  "Notitie",
+                                    "edit":  "Bewerken",
+                                    "delete":  "Verwijderen",
+                                    "download":  "Downloaden",
+                                    "receiptAlt":  "Bon",
+                                    "receiptPdfTitle":  "Bon PDF"
+                                }
+                 },
+    "profile":  {
+                    "pageTitle":  "Profiel | Dibby",
+                    "pageDescription":  "Beheer je Dibby-profiel",
+                    "loading":  "Profiel laden...",
+                    "loadFailed":  "Profiel laden mislukt. Probeer het opnieuw.",
+                    "notFound":  "Profiel niet gevonden.",
+                    "retry":  "Opnieuw proberen",
+                    "saveError":  {
+                                      "personal":  "Persoonsgegevens opslaan mislukt.",
+                                      "preferences":  "Voorkeuren opslaan mislukt."
+                                  },
+                    "tabs":  {
+                                 "personal":  "Persoonsgegevens",
+                                 "addresses":  "Adressen",
+                                 "payments":  "Betaalmethoden",
+                                 "preferences":  "Voorkeuren",
+                                 "security":  "Beveiliging",
+                                 "emailImport":  "E-mailimport"
+                             },
+                    "sectionHeader":  {
+                                          "cancel":  "Annuleren",
+                                          "save":  "Opslaan",
+                                          "edit":  "Bewerken"
+                                      },
+                    "personal":  {
+                                     "title":  "Persoonsgegevens",
+                                     "firstName":  "Voornaam",
+                                     "lastName":  "Achternaam",
+                                     "email":  "E-mailadres",
+                                     "phone":  "Telefoonnummer"
+                                 },
+                    "addresses":  {
+                                      "heading":  "Adressen",
+                                      "add":  "+ Adres toevoegen",
+                                      "addModalTitle":  "Adres toevoegen",
+                                      "editModalTitle":  "Adres bewerken",
+                                      "fields":  {
+                                                     "label":  "Label",
+                                                     "street":  "Straat",
+                                                     "city":  "Stad",
+                                                     "state":  "Provincie / Staat",
+                                                     "zip":  "Postcode",
+                                                     "country":  "Land"
+                                                 },
+                                      "placeholders":  {
+                                                           "label":  "bijv. Thuis, Kantoor",
+                                                           "street":  "Straatadres",
+                                                           "city":  "Stad",
+                                                           "state":  "Provincie of staat",
+                                                           "zip":  "Postcode",
+                                                           "country":  "Land"
+                                                       },
+                                      "defaultShipping":  "Standaard verzendadres",
+                                      "defaultBilling":  "Standaard factuuradres",
+                                      "shippingTag":  "Verzending",
+                                      "billingTag":  "Facturering",
+                                      "addButton":  "Adres toevoegen",
+                                      "saveChanges":  "Wijzigingen opslaan",
+                                      "saving":  "Opslaan...",
+                                      "cancel":  "Annuleren",
+                                      "edit":  "Bewerken",
+                                      "delete":  "Verwijderen",
+                                      "deleteConfirm":  "Dit adres verwijderen?",
+                                      "errors":  {
+                                                     "add":  "Adres toevoegen mislukt.",
+                                                     "update":  "Adres bijwerken mislukt.",
+                                                     "delete":  "Adres verwijderen mislukt."
+                                                 },
+                                      "empty":  "Nog geen adressen. Voeg er een toe om te beginnen."
+                                  },
+                    "payments":  {
+                                     "heading":  "Betaalmethoden",
+                                     "add":  "+ Betaalmethode toevoegen",
+                                     "addModalTitle":  "Betaalmethode toevoegen",
+                                     "changeType":  "Type wijzigen",
+                                     "types":  {
+                                                   "CreditCard":  "Creditcard",
+                                                   "PayPal":  "PayPal",
+                                                   "ApplePay":  "Apple Pay",
+                                                   "Wero":  "Wero"
+                                               },
+                                     "labelField":  "Label",
+                                     "labelPlaceholderCard":  "bijv. Mijn Visa",
+                                     "labelPlaceholderGeneric":  "bijv. Mijn {{type}}",
+                                     "defaultCheckbox":  "Instellen als standaard betaalmethode",
+                                     "cardholderName":  "Naam kaarthouder",
+                                     "cardholderPlaceholder":  "Naam op kaart",
+                                     "cardNumber":  "Kaartnummer",
+                                     "expiryDate":  "Vervaldatum",
+                                     "cvc":  "CVC",
+                                     "addCard":  "Kaart toevoegen",
+                                     "addNonCard":  "Toevoegen",
+                                     "saving":  "Opslaan...",
+                                     "cancel":  "Annuleren",
+                                     "payPalEmail":  "PayPal-e-mailadres",
+                                     "payPalEmailPlaceholder":  "jouw@email.com",
+                                     "bank":  "Bank",
+                                     "bankPlaceholder":  "Kies je bank...",
+                                     "defaultBadge":  "Standaard",
+                                     "setDefault":  "Als standaard instellen",
+                                     "delete":  "Verwijderen",
+                                     "expires":  "Verloopt",
+                                     "deleteConfirm":  "Deze betaalmethode verwijderen?",
+                                     "empty":  "Nog geen betaalmethoden. Voeg er een toe om te beginnen.",
+                                     "errors":  {
+                                                    "cardSetup":  "Kaartinstelling mislukt.",
+                                                    "addCard":  "Kaart toevoegen mislukt.",
+                                                    "add":  "Betaalmethode toevoegen mislukt.",
+                                                    "delete":  "Betaalmethode verwijderen mislukt.",
+                                                    "setDefault":  "Betaalmethode bijwerken mislukt."
+                                                }
+                                 },
+                    "preferences":  {
+                                        "title":  "Voorkeuren",
+                                        "currency":  "Valuta",
+                                        "currencyOptions":  {
+                                                                "USD":  "USD â€” Amerikaanse dollar",
+                                                                "EUR":  "EUR â€” Euro",
+                                                                "GBP":  "GBP â€” Britse pond",
+                                                                "CAD":  "CAD â€” Canadese dollar"
+                                                            },
+                                        "pushNotifications":  "Pushmeldingen",
+                                        "emailNotifications":  "E-mailmeldingen",
+                                        "monthlyReport":  "Maandrapport"
+                                    },
+                    "emailImport":  {
+                                        "title":  "E-mail bondoorsturen",
+                                        "description":  "Stuur bon-e-mails door naar een uniek adres om ze automatisch in je account vast te leggen.",
+                                        "loading":  "Laden...",
+                                        "forwardingToggle":  "E-mail doorsturen",
+                                        "forwardingAddress":  "Je doorstuuradres",
+                                        "copy":  "KopiÃ«ren",
+                                        "copied":  "Gekopieerd",
+                                        "instructions":  "Stuur bon-e-mails naar dit adres. Bijlagen (PDF, afbeeldingen) worden automatisch als bonnen opgeslagen.",
+                                        "lastReceived":  "Laatst ontvangen:",
+                                        "totalProcessed":  "Totaal verwerkt:",
+                                        "never":  "Nooit",
+                                        "justNow":  "Zojuist",
+                                        "minutesAgo":  "{{count}}m geleden",
+                                        "hoursAgo":  "{{count}}u geleden",
+                                        "daysAgo":  "{{count}}d geleden"
+                                    },
+                    "twoFactor":  {
+                                      "title":  "Tweefactorauthenticatie",
+                                      "description":  "Voeg een extra beveiligingslaag toe aan je account met een TOTP-authenticator-app.",
+                                      "loading":  "Laden...",
+                                      "notEnabled":  "Niet ingeschakeld",
+                                      "enable":  "2FA inschakelen",
+                                      "enabling":  "Instellen...",
+                                      "enabledBadge":  "Ingeschakeld",
+                                      "recoveryCodesLeft":  "{{count}} herstelcodes over",
+                                      "regenerateCodes":  "Codes vernieuwen",
+                                      "disable":  "2FA uitschakelen",
+                                      "qrDescription":  "Scan deze QR-code met je authenticator-app (Google Authenticator, Authy, enz.)",
+                                      "qrAlt":  "QR-code",
+                                      "manualKey":  "Of voer deze sleutel handmatig in",
+                                      "next":  "Volgende â€” Verificatiecode invoeren",
+                                      "verifyDescription":  "Voer de 6-cijferige code uit je authenticator-app in om de installatie te voltooien.",
+                                      "back":  "Terug",
+                                      "verify":  "VerifiÃ«ren \u0026 inschakelen",
+                                      "verifying":  "VerifiÃ«ren...",
+                                      "recoveryDescription":  "Bewaar deze herstelcodes op een veilige plek. Elke code kan slechts Ã©Ã©n keer worden gebruikt om in te loggen als je geen toegang meer hebt tot je authenticator.",
+                                      "copyAll":  "Alles kopiÃ«ren",
+                                      "copiedAll":  "Gekopieerd!",
+                                      "download":  "Downloaden",
+                                      "done":  "Klaar",
+                                      "promptDisable":  "Voer je authenticator-code in om 2FA uit te schakelen.",
+                                      "promptRegenerate":  "Voer je authenticator-code in om herstelcodes te vernieuwen.",
+                                      "processing":  "Bezig...",
+                                      "disableAction":  "Uitschakelen",
+                                      "regenerateAction":  "Vernieuwen",
+                                      "cancel":  "Annuleren",
+                                      "errors":  {
+                                                     "setupFailed":  "Instellen starten mislukt.",
+                                                     "invalidCode":  "Ongeldige code. Probeer het opnieuw."
+                                                 }
+                                  }
+                }
+}

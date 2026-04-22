@@ -1,0 +1,45 @@
+﻿{
+    "brand":  {
+                  "name":  "Dibby",
+                  "tagline":  "Nothing slips through"
+              },
+    "nav":  {
+                "dashboard":  "Dashboard",
+                "receipts":  "Receipts",
+                "profile":  "Profile",
+                "developerConsole":  "Developer Console"
+            },
+    "languages":  {
+                      "en":  "English",
+                      "nl":  "Dutch"
+                  },
+    "actions":  {
+                    "save":  "Save",
+                    "cancel":  "Cancel",
+                    "delete":  "Delete",
+                    "edit":  "Edit",
+                    "create":  "Create",
+                    "close":  "Close",
+                    "confirm":  "Confirm",
+                    "language":  "Language"
+                },
+    "states":  {
+                   "loading":  "Loadingâ€¦",
+                   "saving":  "Savingâ€¦",
+                   "error":  "Something went wrong"
+               },
+    "categories":  {
+                       "Groceries":  "Groceries",
+                       "Transport":  "Transport",
+                       "Software":  "Software",
+                       "Dining":  "Dining",
+                       "Shopping":  "Shopping",
+                       "Entertainment":  "Entertainment",
+                       "Other":  "Other"
+                   },
+    "statuses":  {
+                     "verified":  "verified",
+                     "pending":  "pending",
+                     "flagged":  "flagged"
+                 }
+}

@@ -1,0 +1,45 @@
+﻿{
+    "brand":  {
+                  "name":  "Dibby",
+                  "tagline":  "Niets ontgaat je"
+              },
+    "nav":  {
+                "dashboard":  "Dashboard",
+                "receipts":  "Bonnen",
+                "profile":  "Profiel",
+                "developerConsole":  "Ontwikkelaarsconsole"
+            },
+    "languages":  {
+                      "en":  "Engels",
+                      "nl":  "Nederlands"
+                  },
+    "actions":  {
+                    "save":  "Opslaan",
+                    "cancel":  "Annuleren",
+                    "delete":  "Verwijderen",
+                    "edit":  "Bewerken",
+                    "create":  "Aanmaken",
+                    "close":  "Sluiten",
+                    "confirm":  "Bevestigen",
+                    "language":  "Taal"
+                },
+    "states":  {
+                   "loading":  "Ladenâ€¦",
+                   "saving":  "Opslaanâ€¦",
+                   "error":  "Er is iets misgegaan"
+               },
+    "categories":  {
+                       "Groceries":  "Boodschappen",
+                       "Transport":  "Vervoer",
+                       "Software":  "Software",
+                       "Dining":  "Uit eten",
+                       "Shopping":  "Winkelen",
+                       "Entertainment":  "Entertainment",
+                       "Other":  "Overig"
+                   },
+    "statuses":  {
+                     "verified":  "geverifieerd",
+                     "pending":  "in afwachting",
+                     "flagged":  "gemarkeerd"
+                 }
+}

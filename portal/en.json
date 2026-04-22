@@ -1,0 +1,349 @@
+﻿{
+    "sidebar":  {
+                    "quickScan":  "Quick Scan",
+                    "quickScanDescription":  "Snap a photo to auto-capture receipt data",
+                    "scanReceipt":  "+ Scan Receipt",
+                    "toggleSidebar":  "Toggle Sidebar"
+                },
+    "header":  {
+                   "overview":  "Overview",
+                   "allReceipts":  "All Receipts",
+                   "shoppingProfile":  "Shopping Profile",
+                   "page":  "Page",
+                   "profileSubtitle":  "Manage your personal info, addresses, and payment methods"
+               },
+    "user":  {
+                 "menu":  "User menu",
+                 "defaultName":  "User",
+                 "editProfile":  "Edit profile",
+                 "signIn":  "Sign In",
+                 "signOut":  "Sign out",
+                 "logOut":  "Log out"
+             },
+    "welcome":  {
+                    "heading":  "Welcome to Dibby",
+                    "description":  "Sign in to manage your receipts and binders."
+                },
+    "auth":  {
+                 "completingSignIn":  "Completing sign-inâ€¦"
+             },
+    "errors":  {
+                   "notFoundTitle":  "Page not found",
+                   "notFoundDescription":  "We can\u0027t seem to find the page you are looking for!",
+                   "backToHome":  "Back to Home Page"
+               },
+    "dashboard":  {
+                      "pageTitle":  "Dashboard | Dibby",
+                      "pageDescription":  "Dibby receipt management dashboard",
+                      "monthlyTrend":  "Monthly Trend",
+                      "byCategory":  "By Category",
+                      "total":  "total",
+                      "noDataYet":  "No data yet",
+                      "stats":  {
+                                    "totalSpent":  "Total Spent",
+                                    "allTime":  "all time",
+                                    "receipts":  "Receipts",
+                                    "verifiedSuffix":  "{{count}} verified",
+                                    "pending":  "Pending",
+                                    "needsReview":  "needs review",
+                                    "avgTransaction":  "Avg Transaction",
+                                    "perReceipt":  "per receipt"
+                                },
+                      "recent":  {
+                                     "heading":  "Recent Transactions",
+                                     "itemsCount":  "{{count}} items",
+                                     "empty":  "No receipts yet",
+                                     "receiptFallback":  "Receipt"
+                                 }
+                  },
+    "receipts":  {
+                     "pageTitle":  "Receipts | Dibby",
+                     "pageDescription":  "Manage your receipts in binders",
+                     "sidebarMode":  {
+                                         "binders":  "Binders",
+                                         "merchants":  "Merchants"
+                                     },
+                     "binders":  {
+                                     "heading":  "Binders",
+                                     "allReceipts":  "All Receipts",
+                                     "unfiled":  "Unfiled",
+                                     "newBinder":  "New Binder",
+                                     "namePlaceholder":  "Binder name...",
+                                     "add":  "Add",
+                                     "delete":  "Delete",
+                                     "cancel":  "Cancel",
+                                     "deleteConfirm":  "Delete \"{{title}}\"?",
+                                     "deleteTooltip":  "Delete binder"
+                                 },
+                     "merchantsPanel":  {
+                                            "heading":  "Merchants",
+                                            "allReceipts":  "All Receipts",
+                                            "unmatched":  "Unmatched",
+                                            "empty":  "No merchant data yet"
+                                        },
+                     "toolbar":  {
+                                     "filterPlaceholder":  "Filter...",
+                                     "count_one":  "{{count}} receipt",
+                                     "count_other":  "{{count}} receipts"
+                                 },
+                     "states":  {
+                                    "loading":  "Loading receipts...",
+                                    "empty":  "No receipts yet. Upload one to get started!",
+                                    "noMatches":  "No receipts match your filter."
+                                },
+                     "listHeader":  {
+                                        "merchant":  "Merchant",
+                                        "category":  "Category",
+                                        "date":  "Date",
+                                        "amount":  "Amount",
+                                        "status":  "Status"
+                                    },
+                     "items_one":  "{{count}} item",
+                     "items_other":  "{{count}} items",
+                     "receiptFallback":  "Receipt",
+                     "upload":  {
+                                    "title":  "Upload Receipt",
+                                    "close":  "Close",
+                                    "prompt":  "Drop a file or click to browse",
+                                    "fileTypes":  "JPEG, PNG, WebP, GIF, or PDF Â· Max 10 MB",
+                                    "previewAlt":  "Preview",
+                                    "binder":  "Binder",
+                                    "binderPlaceholder":  "Select a binder...",
+                                    "merchantCaption":  "Merchant / Caption",
+                                    "merchantCaptionPlaceholder":  "e.g. Whole Foods",
+                                    "category":  "Category",
+                                    "categoryPlaceholder":  "Select...",
+                                    "totalAmount":  "Total Amount",
+                                    "tax":  "Tax",
+                                    "date":  "Date",
+                                    "paymentMethod":  "Payment Method",
+                                    "paymentMethodPlaceholder":  "e.g. Visa 4821",
+                                    "note":  "Note",
+                                    "notePlaceholder":  "Optional note...",
+                                    "cancel":  "Cancel",
+                                    "submit":  "Upload Receipt",
+                                    "submitting":  "Uploading...",
+                                    "errors":  {
+                                                   "fileType":  "Only JPEG, PNG, GIF, WebP, or PDF files are allowed.",
+                                                   "fileSize":  "File must be under 10 MB.",
+                                                   "fileRequired":  "Please select a file.",
+                                                   "uploadFailed":  "Upload failed. Please try again."
+                                               }
+                                },
+                     "edit":  {
+                                  "title":  "Edit Receipt",
+                                  "close":  "Close",
+                                  "binder":  "Binder",
+                                  "merchantCaption":  "Merchant / Caption",
+                                  "merchantCaptionPlaceholder":  "e.g. Whole Foods",
+                                  "category":  "Category",
+                                  "categoryPlaceholder":  "Select...",
+                                  "totalAmount":  "Total Amount",
+                                  "tax":  "Tax",
+                                  "date":  "Date",
+                                  "paymentMethod":  "Payment Method",
+                                  "paymentMethodPlaceholder":  "e.g. Visa 4821",
+                                  "receiptNumber":  "Receipt Number",
+                                  "receiptNumberPlaceholder":  "e.g. INV-001",
+                                  "note":  "Note",
+                                  "notePlaceholder":  "Optional note...",
+                                  "cancel":  "Cancel",
+                                  "submit":  "Save Changes",
+                                  "submitting":  "Saving...",
+                                  "saveFailed":  "Failed to save changes. Please try again."
+                              },
+                     "detail":  {
+                                    "closeAria":  "Close modal",
+                                    "aria":  "Receipt from {{name}}",
+                                    "items":  "Items",
+                                    "payment":  "Payment",
+                                    "tax":  "Tax",
+                                    "subtotal":  "Subtotal",
+                                    "total":  "Total",
+                                    "note":  "Note",
+                                    "edit":  "Edit",
+                                    "delete":  "Delete",
+                                    "download":  "Download",
+                                    "receiptAlt":  "Receipt",
+                                    "receiptPdfTitle":  "Receipt PDF"
+                                }
+                 },
+    "profile":  {
+                    "pageTitle":  "Profile | Dibby",
+                    "pageDescription":  "Manage your Dibby profile",
+                    "loading":  "Loading profile...",
+                    "loadFailed":  "Failed to load profile. Please try again.",
+                    "notFound":  "Profile not found.",
+                    "retry":  "Retry",
+                    "saveError":  {
+                                      "personal":  "Failed to save personal info.",
+                                      "preferences":  "Failed to save preferences."
+                                  },
+                    "tabs":  {
+                                 "personal":  "Personal Info",
+                                 "addresses":  "Addresses",
+                                 "payments":  "Payment Methods",
+                                 "preferences":  "Preferences",
+                                 "security":  "Security",
+                                 "emailImport":  "Email Import"
+                             },
+                    "sectionHeader":  {
+                                          "cancel":  "Cancel",
+                                          "save":  "Save",
+                                          "edit":  "Edit"
+                                      },
+                    "personal":  {
+                                     "title":  "Personal Information",
+                                     "firstName":  "First Name",
+                                     "lastName":  "Last Name",
+                                     "email":  "Email Address",
+                                     "phone":  "Phone Number"
+                                 },
+                    "addresses":  {
+                                      "heading":  "Addresses",
+                                      "add":  "+ Add Address",
+                                      "addModalTitle":  "Add Address",
+                                      "editModalTitle":  "Edit Address",
+                                      "fields":  {
+                                                     "label":  "Label",
+                                                     "street":  "Street",
+                                                     "city":  "City",
+                                                     "state":  "State / Province",
+                                                     "zip":  "Postal Code",
+                                                     "country":  "Country"
+                                                 },
+                                      "placeholders":  {
+                                                           "label":  "e.g. Home, Office",
+                                                           "street":  "Street address",
+                                                           "city":  "City",
+                                                           "state":  "State or province",
+                                                           "zip":  "Postal code",
+                                                           "country":  "Country"
+                                                       },
+                                      "defaultShipping":  "Default shipping address",
+                                      "defaultBilling":  "Default billing address",
+                                      "shippingTag":  "Shipping",
+                                      "billingTag":  "Billing",
+                                      "addButton":  "Add Address",
+                                      "saveChanges":  "Save Changes",
+                                      "saving":  "Saving...",
+                                      "cancel":  "Cancel",
+                                      "edit":  "Edit",
+                                      "delete":  "Delete",
+                                      "deleteConfirm":  "Delete this address?",
+                                      "errors":  {
+                                                     "add":  "Failed to add address.",
+                                                     "update":  "Failed to update address.",
+                                                     "delete":  "Failed to delete address."
+                                                 },
+                                      "empty":  "No addresses yet. Add one to get started."
+                                  },
+                    "payments":  {
+                                     "heading":  "Payment Methods",
+                                     "add":  "+ Add Payment",
+                                     "addModalTitle":  "Add Payment Method",
+                                     "changeType":  "Change type",
+                                     "types":  {
+                                                   "CreditCard":  "Credit Card",
+                                                   "PayPal":  "PayPal",
+                                                   "ApplePay":  "Apple Pay",
+                                                   "Wero":  "Wero"
+                                               },
+                                     "labelField":  "Label",
+                                     "labelPlaceholderCard":  "e.g. My Visa",
+                                     "labelPlaceholderGeneric":  "e.g. My {{type}}",
+                                     "defaultCheckbox":  "Set as default payment method",
+                                     "cardholderName":  "Cardholder Name",
+                                     "cardholderPlaceholder":  "Name on card",
+                                     "cardNumber":  "Card Number",
+                                     "expiryDate":  "Expiry Date",
+                                     "cvc":  "CVC",
+                                     "addCard":  "Add Card",
+                                     "addNonCard":  "Add",
+                                     "saving":  "Saving...",
+                                     "cancel":  "Cancel",
+                                     "payPalEmail":  "PayPal Email",
+                                     "payPalEmailPlaceholder":  "your@email.com",
+                                     "bank":  "Bank",
+                                     "bankPlaceholder":  "Select your bank...",
+                                     "defaultBadge":  "Default",
+                                     "setDefault":  "Set Default",
+                                     "delete":  "Delete",
+                                     "expires":  "Expires",
+                                     "deleteConfirm":  "Delete this payment method?",
+                                     "empty":  "No payment methods yet. Add one to get started.",
+                                     "errors":  {
+                                                    "cardSetup":  "Card setup failed.",
+                                                    "addCard":  "Failed to add card.",
+                                                    "add":  "Failed to add payment method.",
+                                                    "delete":  "Failed to delete payment method.",
+                                                    "setDefault":  "Failed to update payment method."
+                                                }
+                                 },
+                    "preferences":  {
+                                        "title":  "Preferences",
+                                        "currency":  "Currency",
+                                        "currencyOptions":  {
+                                                                "USD":  "USD â€” US Dollar",
+                                                                "EUR":  "EUR â€” Euro",
+                                                                "GBP":  "GBP â€” British Pound",
+                                                                "CAD":  "CAD â€” Canadian Dollar"
+                                                            },
+                                        "pushNotifications":  "Push Notifications",
+                                        "emailNotifications":  "Email Notifications",
+                                        "monthlyReport":  "Monthly Report"
+                                    },
+                    "emailImport":  {
+                                        "title":  "Email Receipt Forwarding",
+                                        "description":  "Forward receipt emails to a unique address to automatically capture them in your account.",
+                                        "loading":  "Loading...",
+                                        "forwardingToggle":  "Email Forwarding",
+                                        "forwardingAddress":  "Your Forwarding Address",
+                                        "copy":  "Copy",
+                                        "copied":  "Copied",
+                                        "instructions":  "Forward receipt emails to this address. Attachments (PDF, images) will be saved as receipts automatically.",
+                                        "lastReceived":  "Last received:",
+                                        "totalProcessed":  "Total processed:",
+                                        "never":  "Never",
+                                        "justNow":  "Just now",
+                                        "minutesAgo":  "{{count}}m ago",
+                                        "hoursAgo":  "{{count}}h ago",
+                                        "daysAgo":  "{{count}}d ago"
+                                    },
+                    "twoFactor":  {
+                                      "title":  "Two-Factor Authentication",
+                                      "description":  "Add an extra layer of security to your account with a TOTP authenticator app.",
+                                      "loading":  "Loading...",
+                                      "notEnabled":  "Not enabled",
+                                      "enable":  "Enable 2FA",
+                                      "enabling":  "Setting up...",
+                                      "enabledBadge":  "Enabled",
+                                      "recoveryCodesLeft":  "{{count}} recovery codes remaining",
+                                      "regenerateCodes":  "Regenerate Codes",
+                                      "disable":  "Disable 2FA",
+                                      "qrDescription":  "Scan this QR code with your authenticator app (Google Authenticator, Authy, etc.)",
+                                      "qrAlt":  "QR Code",
+                                      "manualKey":  "Or enter this key manually",
+                                      "next":  "Next â€” Enter Verification Code",
+                                      "verifyDescription":  "Enter the 6-digit code from your authenticator app to complete setup.",
+                                      "back":  "Back",
+                                      "verify":  "Verify \u0026 Enable",
+                                      "verifying":  "Verifying...",
+                                      "recoveryDescription":  "Save these recovery codes in a secure location. Each code can only be used once to sign in if you lose access to your authenticator.",
+                                      "copyAll":  "Copy All",
+                                      "copiedAll":  "Copied!",
+                                      "download":  "Download",
+                                      "done":  "Done",
+                                      "promptDisable":  "Enter your authenticator code to disable 2FA.",
+                                      "promptRegenerate":  "Enter your authenticator code to regenerate recovery codes.",
+                                      "processing":  "Processing...",
+                                      "disableAction":  "Disable",
+                                      "regenerateAction":  "Regenerate",
+                                      "cancel":  "Cancel",
+                                      "errors":  {
+                                                     "setupFailed":  "Failed to start setup.",
+                                                     "invalidCode":  "Invalid code. Please try again."
+                                                 }
+                                  }
+                }
+}
