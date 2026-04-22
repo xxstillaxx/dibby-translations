@@ -1,5 +1,11 @@
 {
   "account": {
+    "common": {
+      "togglePassword": "Toggle password visibility",
+      "backToSignIn": "Back to Sign In",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com"
+    },
     "login": {
       "title": "Sign In",
       "heading": "Welcome back",
@@ -18,6 +24,196 @@
       "or": "or",
       "developerConsole": "Developer Console",
       "developerConsoleSuffix": "Register your app for OAuth 2.0"
+    },
+    "register": {
+      "title": "Register",
+      "heading": "Create account",
+      "subtitle": "Get started with DibbyIAM",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign In"
+    },
+    "registerConfirmation": {
+      "title": "Check Your Email",
+      "heading": "Check your email",
+      "subtitleBefore": "We've sent a confirmation link to",
+      "instruction": "Click the link in the email to activate your account. If you don't see it, check your spam folder.",
+      "didntReceive": "Didn't receive it?",
+      "resend": "Resend confirmation email"
+    },
+    "confirmEmail": {
+      "successTitle": "Confirm Email",
+      "successHeading": "Email confirmed",
+      "successSubtitle": "Your email has been verified successfully",
+      "successSignIn": "Sign in to your account",
+      "failTitle": "Confirm Email",
+      "failHeading": "Confirmation failed",
+      "failSubtitle": "The confirmation link is invalid or has expired",
+      "failResend": "Resend confirmation email"
+    },
+    "resendConfirmation": {
+      "sentTitle": "Resend Confirmation",
+      "sentHeading": "Email sent",
+      "sentSubtitle": "If an account exists for that email, we've sent a new confirmation link",
+      "formTitle": "Resend Confirmation",
+      "formHeading": "Resend confirmation",
+      "formSubtitle": "Enter your email to receive a new confirmation link",
+      "submit": "Resend"
+    },
+    "forgotPassword": {
+      "sentTitle": "Forgot Password",
+      "sentHeading": "Check your email",
+      "sentSubtitle": "If an account exists for that email, we've sent a password reset link",
+      "formTitle": "Forgot Password",
+      "formHeading": "Forgot password?",
+      "formSubtitle": "Enter your email and we'll send you a reset link",
+      "submit": "Send Reset Link"
+    },
+    "resetPassword": {
+      "successTitle": "Reset Password",
+      "successHeading": "Password reset",
+      "successSubtitle": "Your password has been changed successfully",
+      "successSignIn": "Sign in with your new password",
+      "formTitle": "Reset Password",
+      "formHeading": "Set new password",
+      "formSubtitle": "Enter your new password below",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "submit": "Reset Password"
+    },
+    "logout": {
+      "title": "Logged Out",
+      "heading": "You have been signed out.",
+      "returnHome": "Return to home"
+    },
+    "loginWith2fa": {
+      "title": "Two-Factor Authentication",
+      "heading": "Two-factor authentication",
+      "subtitle": "Enter the code from your authenticator app",
+      "code": "Authenticator Code",
+      "codePlaceholder": "000000",
+      "rememberDevice": "Remember this device",
+      "submit": "Verify",
+      "cantAccess": "Can't access your authenticator?",
+      "useRecoveryCode": "Use a recovery code"
+    },
+    "loginWithRecoveryCode": {
+      "title": "Recovery Code",
+      "heading": "Recovery code",
+      "subtitle": "Enter one of your recovery codes to sign in",
+      "code": "Recovery Code",
+      "codePlaceholder": "xxxxx-xxxxx",
+      "submit": "Sign In",
+      "backToAuthenticator": "Back to authenticator code"
+    }
+  },
+  "consent": {
+    "title": "Authorize Application",
+    "heading": "Authorize access",
+    "subtitleSuffix": "would like permission to access your account.",
+    "permissions": "Permissions requested",
+    "allow": "Allow",
+    "deny": "Deny",
+    "revokeNote": "You can revoke this access at any time.",
+    "scopes": {
+      "openid": "Verify your identity",
+      "profile": "Access your name and profile information",
+      "email": "Access your email address",
+      "api": "Access API resources on your behalf",
+      "payment": "Process payments using your saved payment methods"
+    }
+  },
+  "developer": {
+    "common": {
+      "cancel": "Cancel",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "signOut": "Sign Out",
+      "dibbyPortal": "Dibby Portal"
+    },
+    "layout": {
+      "brand": "Developer Console",
+      "navMyApps": "My Apps",
+      "navDocs": "Docs",
+      "titleSuffix": "DibbyIAM Developer"
+    },
+    "index": {
+      "title": "My Applications",
+      "headingWithCount": "My Applications ({{count}})",
+      "registerNew": "+ Register New App",
+      "emptyPrompt": "You haven't registered any applications yet.",
+      "emptyCta": "Register Your First App",
+      "active": "Active",
+      "inactive": "Inactive",
+      "documentation": "Documentation",
+      "gettingStarted": "Getting Started",
+      "apiReference": "API Reference",
+      "codeExamples": "Code Examples"
+    },
+    "register": {
+      "title": "Register Application",
+      "heading": "Register New Application",
+      "subtitle": "Create OAuth 2.0 credentials for your application",
+      "appName": "Application Name",
+      "appNamePlaceholder": "My Store",
+      "websiteUrl": "Website URL",
+      "websiteUrlPlaceholder": "https://mystore.com",
+      "redirectUri": "Authorized Redirect URI",
+      "redirectUriPlaceholder": "https://mystore.com/callback",
+      "redirectUriHint": "The URI your app redirects to after authorization",
+      "postLogoutUri": "Post-Logout Redirect URI",
+      "postLogoutUriPlaceholder": "https://mystore.com",
+      "postLogoutUriHint": "Optional. Where to redirect after sign-out",
+      "logoUrl": "Logo URL",
+      "logoUrlPlaceholder": "https://mystore.com/logo.png",
+      "description": "Description",
+      "descriptionPlaceholder": "A brief description of your application...",
+      "submit": "Register Application"
+    },
+    "created": {
+      "title": "Application Created",
+      "heading": "Application Registered",
+      "subtitleSuffix": "has been created successfully.",
+      "clientSecret": "Client Secret",
+      "clientId": "Client ID",
+      "secretWarning": "Copy your client secret now. You will not be able to see it again.",
+      "goToApps": "I've copied my secret — Go to My Apps",
+      "nextIntegrate": "Next: integrate your app →"
+    },
+    "edit": {
+      "title": "Edit Application",
+      "heading": "Edit Application",
+      "subtitle": "Manage your OAuth 2.0 application settings",
+      "clientId": "Client ID",
+      "appName": "Application Name",
+      "websiteUrl": "Website URL",
+      "redirectUri": "Authorized Redirect URI",
+      "postLogoutUri": "Post-Logout Redirect URI",
+      "logoUrl": "Logo URL",
+      "description": "Description",
+      "save": "Save Changes",
+      "clientSecretTitle": "Client Secret",
+      "clientSecretDescription": "Generate a new secret. The old secret will stop working immediately.",
+      "regenerate": "Regenerate Secret",
+      "regenerateConfirm": "Are you sure? The current client secret will be permanently invalidated.",
+      "stripeTitle": "Stripe Connect",
+      "stripeConnectedPrefix": "Connected:",
+      "stripeNotConnected": "Connect your Stripe account to accept payments via Dibby.",
+      "connect": "Connect Stripe",
+      "disconnect": "Disconnect",
+      "disconnectConfirm": "Disconnect Stripe account? Users will no longer be able to pay with saved cards.",
+      "deleteTitle": "Delete Application",
+      "deleteDescription": "This will permanently revoke all tokens and remove the OAuth client.",
+      "delete": "Delete",
+      "deleteConfirm": "Are you sure you want to delete this application? This action cannot be undone."
+    },
+    "connectStripe": {
+      "title": "Connect Stripe",
+      "heading": "Connecting to Stripe...",
+      "redirecting": "You are being redirected to Stripe to connect your account.",
+      "backToApps": "Back to Apps"
     }
   }
 }
