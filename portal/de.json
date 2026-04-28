@@ -72,7 +72,7 @@
       "add": "Hinzufügen",
       "delete": "Löschen",
       "cancel": "Abbrechen",
-      "deleteConfirm": "„{{title}}" löschen?",
+      "deleteConfirm": "\"{{title}}\" löschen?",
       "deleteTooltip": "Ordner löschen"
     },
     "merchantsPanel": {
