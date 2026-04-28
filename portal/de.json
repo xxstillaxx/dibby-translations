@@ -1,0 +1,349 @@
+{
+  "sidebar": {
+    "quickScan": "Schnellscan",
+    "quickScanDescription": "Foto aufnehmen, um Belegdaten automatisch zu erfassen",
+    "scanReceipt": "+ Beleg scannen",
+    "toggleSidebar": "Seitenleiste ein-/ausblenden"
+  },
+  "header": {
+    "overview": "Übersicht",
+    "allReceipts": "Alle Belege",
+    "shoppingProfile": "Einkaufsprofil",
+    "page": "Seite",
+    "profileSubtitle": "Verwalten Sie Ihre persönlichen Daten, Adressen und Zahlungsmethoden"
+  },
+  "user": {
+    "menu": "Benutzermenü",
+    "defaultName": "Benutzer",
+    "editProfile": "Profil bearbeiten",
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "logOut": "Abmelden"
+  },
+  "welcome": {
+    "heading": "Willkommen bei Dibby",
+    "description": "Melden Sie sich an, um Ihre Belege und Ordner zu verwalten."
+  },
+  "auth": {
+    "completingSignIn": "Anmeldung wird abgeschlossen…"
+  },
+  "errors": {
+    "notFoundTitle": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite konnte nicht gefunden werden!",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "dashboard": {
+    "pageTitle": "Dashboard | Dibby",
+    "pageDescription": "Dibby Belegverwaltungs-Dashboard",
+    "monthlyTrend": "Monatlicher Trend",
+    "byCategory": "Nach Kategorie",
+    "total": "gesamt",
+    "noDataYet": "Noch keine Daten",
+    "stats": {
+      "totalSpent": "Gesamtausgaben",
+      "allTime": "gesamt",
+      "receipts": "Belege",
+      "verifiedSuffix": "{{count}} verifiziert",
+      "pending": "Ausstehend",
+      "needsReview": "zu prüfen",
+      "avgTransaction": "Ø Transaktion",
+      "perReceipt": "pro Beleg"
+    },
+    "recent": {
+      "heading": "Letzte Transaktionen",
+      "itemsCount": "{{count}} Artikel",
+      "empty": "Noch keine Belege",
+      "receiptFallback": "Beleg"
+    }
+  },
+  "receipts": {
+    "pageTitle": "Belege | Dibby",
+    "pageDescription": "Belege in Ordnern verwalten",
+    "sidebarMode": {
+      "binders": "Ordner",
+      "merchants": "Händler"
+    },
+    "binders": {
+      "heading": "Ordner",
+      "allReceipts": "Alle Belege",
+      "unfiled": "Nicht abgelegt",
+      "newBinder": "Neuer Ordner",
+      "namePlaceholder": "Ordnername...",
+      "add": "Hinzufügen",
+      "delete": "Löschen",
+      "cancel": "Abbrechen",
+      "deleteConfirm": "„{{title}}" löschen?",
+      "deleteTooltip": "Ordner löschen"
+    },
+    "merchantsPanel": {
+      "heading": "Händler",
+      "allReceipts": "Alle Belege",
+      "unmatched": "Nicht zugeordnet",
+      "empty": "Noch keine Händlerdaten"
+    },
+    "toolbar": {
+      "filterPlaceholder": "Filtern...",
+      "count_one": "{{count}} Beleg",
+      "count_other": "{{count}} Belege"
+    },
+    "states": {
+      "loading": "Belege werden geladen...",
+      "empty": "Noch keine Belege. Laden Sie einen hoch, um zu beginnen!",
+      "noMatches": "Keine Belege entsprechen Ihrem Filter."
+    },
+    "listHeader": {
+      "merchant": "Händler",
+      "category": "Kategorie",
+      "date": "Datum",
+      "amount": "Betrag",
+      "status": "Status"
+    },
+    "items_one": "{{count}} Artikel",
+    "items_other": "{{count}} Artikel",
+    "receiptFallback": "Beleg",
+    "upload": {
+      "title": "Beleg hochladen",
+      "close": "Schließen",
+      "prompt": "Datei ablegen oder zum Durchsuchen klicken",
+      "fileTypes": "JPEG, PNG, WebP, GIF oder PDF · Max. 10 MB",
+      "previewAlt": "Vorschau",
+      "binder": "Ordner",
+      "binderPlaceholder": "Ordner auswählen...",
+      "merchantCaption": "Händler / Beschreibung",
+      "merchantCaptionPlaceholder": "z. B. Rewe",
+      "category": "Kategorie",
+      "categoryPlaceholder": "Auswählen...",
+      "totalAmount": "Gesamtbetrag",
+      "tax": "MwSt.",
+      "date": "Datum",
+      "paymentMethod": "Zahlungsmethode",
+      "paymentMethodPlaceholder": "z. B. Visa 4821",
+      "note": "Notiz",
+      "notePlaceholder": "Optionale Notiz...",
+      "cancel": "Abbrechen",
+      "submit": "Beleg hochladen",
+      "submitting": "Wird hochgeladen...",
+      "errors": {
+        "fileType": "Nur JPEG-, PNG-, GIF-, WebP- oder PDF-Dateien sind erlaubt.",
+        "fileSize": "Die Datei muss kleiner als 10 MB sein.",
+        "fileRequired": "Bitte wählen Sie eine Datei aus.",
+        "uploadFailed": "Upload fehlgeschlagen. Bitte versuchen Sie es erneut."
+      }
+    },
+    "edit": {
+      "title": "Beleg bearbeiten",
+      "close": "Schließen",
+      "binder": "Ordner",
+      "merchantCaption": "Händler / Beschreibung",
+      "merchantCaptionPlaceholder": "z. B. Rewe",
+      "category": "Kategorie",
+      "categoryPlaceholder": "Auswählen...",
+      "totalAmount": "Gesamtbetrag",
+      "tax": "MwSt.",
+      "date": "Datum",
+      "paymentMethod": "Zahlungsmethode",
+      "paymentMethodPlaceholder": "z. B. Visa 4821",
+      "receiptNumber": "Belegnummer",
+      "receiptNumberPlaceholder": "z. B. RE-001",
+      "note": "Notiz",
+      "notePlaceholder": "Optionale Notiz...",
+      "cancel": "Abbrechen",
+      "submit": "Änderungen speichern",
+      "submitting": "Wird gespeichert...",
+      "saveFailed": "Änderungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut."
+    },
+    "detail": {
+      "closeAria": "Fenster schließen",
+      "aria": "Beleg von {{name}}",
+      "items": "Artikel",
+      "payment": "Zahlung",
+      "tax": "MwSt.",
+      "subtotal": "Zwischensumme",
+      "total": "Gesamt",
+      "note": "Notiz",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "download": "Herunterladen",
+      "receiptAlt": "Beleg",
+      "receiptPdfTitle": "Beleg-PDF"
+    }
+  },
+  "profile": {
+    "pageTitle": "Profil | Dibby",
+    "pageDescription": "Ihr Dibby-Profil verwalten",
+    "loading": "Profil wird geladen...",
+    "loadFailed": "Profil konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "notFound": "Profil nicht gefunden.",
+    "retry": "Erneut versuchen",
+    "saveError": {
+      "personal": "Persönliche Daten konnten nicht gespeichert werden.",
+      "preferences": "Einstellungen konnten nicht gespeichert werden."
+    },
+    "tabs": {
+      "personal": "Persönliche Daten",
+      "addresses": "Adressen",
+      "payments": "Zahlungsmethoden",
+      "preferences": "Einstellungen",
+      "security": "Sicherheit",
+      "emailImport": "E-Mail-Import"
+    },
+    "sectionHeader": {
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "edit": "Bearbeiten"
+    },
+    "personal": {
+      "title": "Persönliche Daten",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer"
+    },
+    "addresses": {
+      "heading": "Adressen",
+      "add": "+ Adresse hinzufügen",
+      "addModalTitle": "Adresse hinzufügen",
+      "editModalTitle": "Adresse bearbeiten",
+      "fields": {
+        "label": "Bezeichnung",
+        "street": "Straße",
+        "city": "Stadt",
+        "state": "Bundesland / Kanton",
+        "zip": "Postleitzahl",
+        "country": "Land"
+      },
+      "placeholders": {
+        "label": "z. B. Zuhause, Büro",
+        "street": "Straße und Hausnummer",
+        "city": "Stadt",
+        "state": "Bundesland oder Kanton",
+        "zip": "Postleitzahl",
+        "country": "Land"
+      },
+      "defaultShipping": "Standard-Lieferadresse",
+      "defaultBilling": "Standard-Rechnungsadresse",
+      "shippingTag": "Lieferung",
+      "billingTag": "Rechnung",
+      "addButton": "Adresse hinzufügen",
+      "saveChanges": "Änderungen speichern",
+      "saving": "Wird gespeichert...",
+      "cancel": "Abbrechen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "deleteConfirm": "Diese Adresse löschen?",
+      "errors": {
+        "add": "Adresse konnte nicht hinzugefügt werden.",
+        "update": "Adresse konnte nicht aktualisiert werden.",
+        "delete": "Adresse konnte nicht gelöscht werden."
+      },
+      "empty": "Noch keine Adressen. Fügen Sie eine hinzu, um zu beginnen."
+    },
+    "payments": {
+      "heading": "Zahlungsmethoden",
+      "add": "+ Zahlung hinzufügen",
+      "addModalTitle": "Zahlungsmethode hinzufügen",
+      "changeType": "Typ ändern",
+      "types": {
+        "CreditCard": "Kreditkarte",
+        "PayPal": "PayPal",
+        "ApplePay": "Apple Pay",
+        "Wero": "Wero"
+      },
+      "labelField": "Bezeichnung",
+      "labelPlaceholderCard": "z. B. Meine Visa",
+      "labelPlaceholderGeneric": "z. B. Mein {{type}}",
+      "defaultCheckbox": "Als Standard-Zahlungsmethode festlegen",
+      "cardholderName": "Name des Karteninhabers",
+      "cardholderPlaceholder": "Name auf der Karte",
+      "cardNumber": "Kartennummer",
+      "expiryDate": "Ablaufdatum",
+      "cvc": "CVC",
+      "addCard": "Karte hinzufügen",
+      "addNonCard": "Hinzufügen",
+      "saving": "Wird gespeichert...",
+      "cancel": "Abbrechen",
+      "payPalEmail": "PayPal-E-Mail",
+      "payPalEmailPlaceholder": "ihre@email.com",
+      "bank": "Bank",
+      "bankPlaceholder": "Bank auswählen...",
+      "defaultBadge": "Standard",
+      "setDefault": "Als Standard festlegen",
+      "delete": "Löschen",
+      "expires": "Läuft ab",
+      "deleteConfirm": "Diese Zahlungsmethode löschen?",
+      "empty": "Noch keine Zahlungsmethoden. Fügen Sie eine hinzu, um zu beginnen.",
+      "errors": {
+        "cardSetup": "Karteneinrichtung fehlgeschlagen.",
+        "addCard": "Karte konnte nicht hinzugefügt werden.",
+        "add": "Zahlungsmethode konnte nicht hinzugefügt werden.",
+        "delete": "Zahlungsmethode konnte nicht gelöscht werden.",
+        "setDefault": "Zahlungsmethode konnte nicht aktualisiert werden."
+      }
+    },
+    "preferences": {
+      "title": "Einstellungen",
+      "currency": "Währung",
+      "currencyOptions": {
+        "USD": "USD — US-Dollar",
+        "EUR": "EUR — Euro",
+        "GBP": "GBP — Britisches Pfund",
+        "CAD": "CAD — Kanadischer Dollar"
+      },
+      "pushNotifications": "Push-Benachrichtigungen",
+      "emailNotifications": "E-Mail-Benachrichtigungen",
+      "monthlyReport": "Monatsbericht"
+    },
+    "emailImport": {
+      "title": "E-Mail-Belegweiterleitung",
+      "description": "Leiten Sie Belegmails an eine eindeutige Adresse weiter, um sie automatisch in Ihrem Konto zu erfassen.",
+      "loading": "Wird geladen...",
+      "forwardingToggle": "E-Mail-Weiterleitung",
+      "forwardingAddress": "Ihre Weiterleitungsadresse",
+      "copy": "Kopieren",
+      "copied": "Kopiert",
+      "instructions": "Leiten Sie Belegmails an diese Adresse weiter. Anhänge (PDF, Bilder) werden automatisch als Belege gespeichert.",
+      "lastReceived": "Zuletzt erhalten:",
+      "totalProcessed": "Insgesamt verarbeitet:",
+      "never": "Nie",
+      "justNow": "Gerade eben",
+      "minutesAgo": "vor {{count}} Min.",
+      "hoursAgo": "vor {{count}} Std.",
+      "daysAgo": "vor {{count}} Tag(en)"
+    },
+    "twoFactor": {
+      "title": "Zwei-Faktor-Authentifizierung",
+      "description": "Fügen Sie Ihrem Konto mit einer TOTP-Authentifikator-App eine zusätzliche Sicherheitsebene hinzu.",
+      "loading": "Wird geladen...",
+      "notEnabled": "Nicht aktiviert",
+      "enable": "2FA aktivieren",
+      "enabling": "Wird eingerichtet...",
+      "enabledBadge": "Aktiviert",
+      "recoveryCodesLeft": "{{count}} Wiederherstellungscode(s) verbleibend",
+      "regenerateCodes": "Codes neu generieren",
+      "disable": "2FA deaktivieren",
+      "qrDescription": "Scannen Sie diesen QR-Code mit Ihrer Authentifikator-App (Google Authenticator, Authy usw.)",
+      "qrAlt": "QR-Code",
+      "manualKey": "Oder geben Sie diesen Schlüssel manuell ein",
+      "next": "Weiter — Verifizierungscode eingeben",
+      "verifyDescription": "Geben Sie den 6-stelligen Code aus Ihrer Authentifikator-App ein, um die Einrichtung abzuschließen.",
+      "back": "Zurück",
+      "verify": "Bestätigen und aktivieren",
+      "verifying": "Wird verifiziert...",
+      "recoveryDescription": "Bewahren Sie diese Wiederherstellungscodes an einem sicheren Ort auf. Jeder Code kann nur einmal verwendet werden, um sich anzumelden, falls Sie keinen Zugriff mehr auf Ihren Authentifikator haben.",
+      "copyAll": "Alle kopieren",
+      "copiedAll": "Kopiert!",
+      "download": "Herunterladen",
+      "done": "Fertig",
+      "promptDisable": "Geben Sie Ihren Authentifikator-Code ein, um die 2FA zu deaktivieren.",
+      "promptRegenerate": "Geben Sie Ihren Authentifikator-Code ein, um die Wiederherstellungscodes neu zu generieren.",
+      "processing": "Wird verarbeitet...",
+      "disableAction": "Deaktivieren",
+      "regenerateAction": "Neu generieren",
+      "cancel": "Abbrechen",
+      "errors": {
+        "setupFailed": "Einrichtung konnte nicht gestartet werden.",
+        "invalidCode": "Ungültiger Code. Bitte versuchen Sie es erneut."
+      }
+    }
+  }
+}

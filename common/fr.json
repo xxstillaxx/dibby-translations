@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Dibby",
+    "tagline": "Rien ne vous échappe"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "receipts": "Reçus",
+    "profile": "Profil",
+    "developerConsole": "Console développeur"
+  },
+  "languages": {
+    "en": "Anglais",
+    "nl": "Néerlandais",
+    "fr": "Français",
+    "de": "Allemand",
+    "es": "Espagnol"
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "language": "Langue"
+  },
+  "states": {
+    "loading": "Chargement…",
+    "saving": "Enregistrement…",
+    "error": "Une erreur est survenue"
+  },
+  "categories": {
+    "Groceries": "Courses",
+    "Transport": "Transport",
+    "Software": "Logiciels",
+    "Dining": "Restauration",
+    "Shopping": "Shopping",
+    "Entertainment": "Divertissement",
+    "Other": "Autre"
+  },
+  "statuses": {
+    "verified": "vérifié",
+    "pending": "en attente",
+    "flagged": "signalé"
+  }
+}

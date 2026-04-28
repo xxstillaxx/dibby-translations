@@ -1,0 +1,21 @@
+{
+  "common": {
+    "copyLink": "Oder kopieren Sie diesen Link:"
+  },
+  "confirm": {
+    "subject": "Bestätigen Sie Ihr Dibby-Konto",
+    "preheader": "E-Mail bestätigen",
+    "heading": "Willkommen bei Dibby",
+    "body": "Vielen Dank für Ihre Registrierung! Bitte bestätigen Sie Ihre E-Mail-Adresse, um zu beginnen.",
+    "button": "E-Mail bestätigen",
+    "footer": "Falls Sie kein Konto erstellt haben, können Sie diese E-Mail ignorieren."
+  },
+  "reset": {
+    "subject": "Setzen Sie Ihr Dibby-Passwort zurück",
+    "preheader": "Passwort zurücksetzen",
+    "heading": "Passwort zurücksetzen",
+    "body": "Sie haben eine Passwortzurücksetzung angefordert. Klicken Sie auf den Button unten, um ein neues Passwort festzulegen.",
+    "button": "Passwort zurücksetzen",
+    "footer": "Falls Sie dies nicht angefordert haben, können Sie diese E-Mail ignorieren. Ihr Passwort bleibt unverändert."
+  }
+}

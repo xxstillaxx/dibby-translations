@@ -1,0 +1,125 @@
+{
+  "account": {
+    "login": {
+      "title": "Anmelden",
+      "heading": "Willkommen zurück",
+      "subtitle": "Melden Sie sich bei Ihrem DibbyIAM-Konto an",
+      "email": "E-Mail",
+      "emailPlaceholder": "sie@beispiel.com",
+      "password": "Passwort",
+      "togglePassword": "Passwort ein-/ausblenden",
+      "rememberMe": "Angemeldet bleiben",
+      "submit": "Anmelden",
+      "forgotPassword": "Passwort vergessen?",
+      "registerPrompt": "Noch kein Konto?",
+      "register": "Registrieren",
+      "resendPrompt": "E-Mail noch nicht bestätigt?",
+      "resend": "Bestätigung erneut senden",
+      "or": "oder",
+      "developerConsole": "Entwicklerkonsole",
+      "developerConsoleSuffix": "App für OAuth 2.0 registrieren"
+    },
+    "register": {
+      "title": "Registrieren",
+      "heading": "Konto erstellen",
+      "subtitle": "Starten Sie mit DibbyIAM",
+      "email": "E-Mail",
+      "emailPlaceholder": "sie@beispiel.com",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "togglePassword": "Passwort ein-/ausblenden",
+      "submit": "Registrieren",
+      "signInPrompt": "Haben Sie bereits ein Konto?",
+      "signIn": "Anmelden"
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen",
+      "heading": "Passwort vergessen?",
+      "subtitle": "Geben Sie Ihre E-Mail ein und wir senden Ihnen einen Zurücksetz-Link",
+      "email": "E-Mail",
+      "emailPlaceholder": "sie@beispiel.com",
+      "submit": "Link senden",
+      "backToSignIn": "Zurück zur Anmeldung",
+      "sentHeading": "E-Mail prüfen",
+      "sentSubtitle": "Falls ein Konto für diese E-Mail existiert, haben wir einen Passwort-Zurücksetz-Link gesendet"
+    },
+    "resetPassword": {
+      "title": "Passwort zurücksetzen",
+      "heading": "Neues Passwort festlegen",
+      "subtitle": "Geben Sie unten Ihr neues Passwort ein",
+      "password": "Neues Passwort",
+      "confirmPassword": "Neues Passwort bestätigen",
+      "togglePassword": "Passwort ein-/ausblenden",
+      "submit": "Passwort zurücksetzen",
+      "backToSignIn": "Zurück zur Anmeldung",
+      "succeededHeading": "Passwort zurückgesetzt",
+      "succeededSubtitle": "Ihr Passwort wurde erfolgreich geändert",
+      "succeededSignIn": "Mit neuem Passwort anmelden"
+    },
+    "confirmEmail": {
+      "title": "E-Mail bestätigen",
+      "succeededHeading": "E-Mail bestätigt",
+      "succeededSubtitle": "Ihre E-Mail wurde erfolgreich verifiziert",
+      "succeededSignIn": "Bei Ihrem Konto anmelden",
+      "failedHeading": "Bestätigung fehlgeschlagen",
+      "failedSubtitle": "Der Bestätigungslink ist ungültig oder abgelaufen",
+      "failedResend": "Bestätigungs-E-Mail erneut senden"
+    },
+    "registerConfirmation": {
+      "title": "E-Mail prüfen",
+      "heading": "E-Mail prüfen",
+      "subtitlePrefix": "Wir haben einen Bestätigungslink gesendet an",
+      "note": "Klicken Sie auf den Link in der E-Mail, um Ihr Konto zu aktivieren. Falls Sie ihn nicht sehen, prüfen Sie Ihren Spam-Ordner.",
+      "resendPrompt": "Nicht erhalten?",
+      "resend": "Bestätigungs-E-Mail erneut senden",
+      "backToSignIn": "Zurück zur Anmeldung"
+    },
+    "resendConfirmation": {
+      "title": "Bestätigung erneut senden",
+      "heading": "Bestätigung erneut senden",
+      "subtitle": "Geben Sie Ihre E-Mail ein, um einen neuen Bestätigungslink zu erhalten",
+      "email": "E-Mail",
+      "emailPlaceholder": "sie@beispiel.com",
+      "submit": "Erneut senden",
+      "backToSignIn": "Zurück zur Anmeldung",
+      "sentHeading": "E-Mail gesendet",
+      "sentSubtitle": "Falls ein Konto für diese E-Mail existiert, haben wir einen neuen Bestätigungslink gesendet"
+    },
+    "loginWith2fa": {
+      "title": "Zwei-Faktor-Authentifizierung",
+      "heading": "Zwei-Faktor-Authentifizierung",
+      "subtitle": "Geben Sie den Code aus Ihrer Authentifikator-App ein",
+      "code": "Authentifikator-Code",
+      "codePlaceholder": "000000",
+      "rememberClient": "Dieses Gerät merken",
+      "submit": "Bestätigen",
+      "recoveryPrompt": "Keinen Zugriff auf Ihren Authentifikator?",
+      "recovery": "Wiederherstellungscode verwenden"
+    },
+    "loginWithRecoveryCode": {
+      "title": "Wiederherstellungscode",
+      "heading": "Wiederherstellungscode",
+      "subtitle": "Geben Sie einen Ihrer Wiederherstellungscodes zum Anmelden ein",
+      "recoveryCode": "Wiederherstellungscode",
+      "recoveryCodePlaceholder": "xxxxx-xxxxx",
+      "submit": "Anmelden",
+      "backTo2fa": "Zurück zum Authentifikator-Code"
+    }
+  },
+  "consent": {
+    "title": "Anwendung autorisieren",
+    "heading": "Zugriff erlauben",
+    "subtitleSuffix": " möchte auf Ihr Konto zugreifen.",
+    "permissionsLabel": "Angeforderte Berechtigungen",
+    "allow": "Erlauben",
+    "deny": "Ablehnen",
+    "revokeNote": "Sie können diesen Zugriff jederzeit widerrufen.",
+    "scopes": {
+      "openid": "Ihre Identität bestätigen",
+      "profile": "Auf Ihren Namen und Profilinformationen zugreifen",
+      "email": "Auf Ihre E-Mail-Adresse zugreifen",
+      "api": "Im Namen Ihrer Person auf API-Ressourcen zugreifen",
+      "payment": "Zahlungen mit Ihren gespeicherten Zahlungsmethoden verarbeiten"
+    }
+  }
+}

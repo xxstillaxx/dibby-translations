@@ -1,0 +1,349 @@
+{
+  "sidebar": {
+    "quickScan": "Scan rapide",
+    "quickScanDescription": "Prenez une photo pour capturer automatiquement les données du reçu",
+    "scanReceipt": "+ Scanner un reçu",
+    "toggleSidebar": "Afficher/masquer la barre latérale"
+  },
+  "header": {
+    "overview": "Aperçu",
+    "allReceipts": "Tous les reçus",
+    "shoppingProfile": "Profil d'achat",
+    "page": "Page",
+    "profileSubtitle": "Gérez vos informations personnelles, adresses et moyens de paiement"
+  },
+  "user": {
+    "menu": "Menu utilisateur",
+    "defaultName": "Utilisateur",
+    "editProfile": "Modifier le profil",
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "logOut": "Se déconnecter"
+  },
+  "welcome": {
+    "heading": "Bienvenue sur Dibby",
+    "description": "Connectez-vous pour gérer vos reçus et classeurs."
+  },
+  "auth": {
+    "completingSignIn": "Connexion en cours…"
+  },
+  "errors": {
+    "notFoundTitle": "Page introuvable",
+    "notFoundDescription": "Nous ne trouvons pas la page que vous recherchez !",
+    "backToHome": "Retour à l'accueil"
+  },
+  "dashboard": {
+    "pageTitle": "Tableau de bord | Dibby",
+    "pageDescription": "Tableau de bord de gestion des reçus Dibby",
+    "monthlyTrend": "Tendance mensuelle",
+    "byCategory": "Par catégorie",
+    "total": "total",
+    "noDataYet": "Pas encore de données",
+    "stats": {
+      "totalSpent": "Total dépensé",
+      "allTime": "depuis toujours",
+      "receipts": "Reçus",
+      "verifiedSuffix": "{{count}} vérifié(s)",
+      "pending": "En attente",
+      "needsReview": "à vérifier",
+      "avgTransaction": "Transaction moy.",
+      "perReceipt": "par reçu"
+    },
+    "recent": {
+      "heading": "Transactions récentes",
+      "itemsCount": "{{count}} article(s)",
+      "empty": "Aucun reçu pour l'instant",
+      "receiptFallback": "Reçu"
+    }
+  },
+  "receipts": {
+    "pageTitle": "Reçus | Dibby",
+    "pageDescription": "Gérez vos reçus dans des classeurs",
+    "sidebarMode": {
+      "binders": "Classeurs",
+      "merchants": "Commerçants"
+    },
+    "binders": {
+      "heading": "Classeurs",
+      "allReceipts": "Tous les reçus",
+      "unfiled": "Non classés",
+      "newBinder": "Nouveau classeur",
+      "namePlaceholder": "Nom du classeur...",
+      "add": "Ajouter",
+      "delete": "Supprimer",
+      "cancel": "Annuler",
+      "deleteConfirm": "Supprimer « {{title}} » ?",
+      "deleteTooltip": "Supprimer le classeur"
+    },
+    "merchantsPanel": {
+      "heading": "Commerçants",
+      "allReceipts": "Tous les reçus",
+      "unmatched": "Non associés",
+      "empty": "Aucune donnée commerçant pour l'instant"
+    },
+    "toolbar": {
+      "filterPlaceholder": "Filtrer...",
+      "count_one": "{{count}} reçu",
+      "count_other": "{{count}} reçus"
+    },
+    "states": {
+      "loading": "Chargement des reçus...",
+      "empty": "Aucun reçu pour l'instant. Téléchargez-en un pour commencer !",
+      "noMatches": "Aucun reçu ne correspond à votre filtre."
+    },
+    "listHeader": {
+      "merchant": "Commerçant",
+      "category": "Catégorie",
+      "date": "Date",
+      "amount": "Montant",
+      "status": "Statut"
+    },
+    "items_one": "{{count}} article",
+    "items_other": "{{count}} articles",
+    "receiptFallback": "Reçu",
+    "upload": {
+      "title": "Télécharger un reçu",
+      "close": "Fermer",
+      "prompt": "Déposez un fichier ou cliquez pour parcourir",
+      "fileTypes": "JPEG, PNG, WebP, GIF ou PDF · Max 10 Mo",
+      "previewAlt": "Aperçu",
+      "binder": "Classeur",
+      "binderPlaceholder": "Sélectionnez un classeur...",
+      "merchantCaption": "Commerçant / Légende",
+      "merchantCaptionPlaceholder": "ex. Carrefour",
+      "category": "Catégorie",
+      "categoryPlaceholder": "Sélectionner...",
+      "totalAmount": "Montant total",
+      "tax": "TVA",
+      "date": "Date",
+      "paymentMethod": "Moyen de paiement",
+      "paymentMethodPlaceholder": "ex. Visa 4821",
+      "note": "Note",
+      "notePlaceholder": "Note facultative...",
+      "cancel": "Annuler",
+      "submit": "Télécharger le reçu",
+      "submitting": "Téléchargement...",
+      "errors": {
+        "fileType": "Seuls les fichiers JPEG, PNG, GIF, WebP ou PDF sont autorisés.",
+        "fileSize": "Le fichier doit faire moins de 10 Mo.",
+        "fileRequired": "Veuillez sélectionner un fichier.",
+        "uploadFailed": "Échec du téléchargement. Veuillez réessayer."
+      }
+    },
+    "edit": {
+      "title": "Modifier le reçu",
+      "close": "Fermer",
+      "binder": "Classeur",
+      "merchantCaption": "Commerçant / Légende",
+      "merchantCaptionPlaceholder": "ex. Carrefour",
+      "category": "Catégorie",
+      "categoryPlaceholder": "Sélectionner...",
+      "totalAmount": "Montant total",
+      "tax": "TVA",
+      "date": "Date",
+      "paymentMethod": "Moyen de paiement",
+      "paymentMethodPlaceholder": "ex. Visa 4821",
+      "receiptNumber": "Numéro de reçu",
+      "receiptNumberPlaceholder": "ex. FAC-001",
+      "note": "Note",
+      "notePlaceholder": "Note facultative...",
+      "cancel": "Annuler",
+      "submit": "Enregistrer les modifications",
+      "submitting": "Enregistrement...",
+      "saveFailed": "Échec de l'enregistrement. Veuillez réessayer."
+    },
+    "detail": {
+      "closeAria": "Fermer la fenêtre",
+      "aria": "Reçu de {{name}}",
+      "items": "Articles",
+      "payment": "Paiement",
+      "tax": "TVA",
+      "subtotal": "Sous-total",
+      "total": "Total",
+      "note": "Note",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "download": "Télécharger",
+      "receiptAlt": "Reçu",
+      "receiptPdfTitle": "PDF du reçu"
+    }
+  },
+  "profile": {
+    "pageTitle": "Profil | Dibby",
+    "pageDescription": "Gérez votre profil Dibby",
+    "loading": "Chargement du profil...",
+    "loadFailed": "Échec du chargement du profil. Veuillez réessayer.",
+    "notFound": "Profil introuvable.",
+    "retry": "Réessayer",
+    "saveError": {
+      "personal": "Échec de l'enregistrement des informations personnelles.",
+      "preferences": "Échec de l'enregistrement des préférences."
+    },
+    "tabs": {
+      "personal": "Informations personnelles",
+      "addresses": "Adresses",
+      "payments": "Moyens de paiement",
+      "preferences": "Préférences",
+      "security": "Sécurité",
+      "emailImport": "Import par e-mail"
+    },
+    "sectionHeader": {
+      "cancel": "Annuler",
+      "save": "Enregistrer",
+      "edit": "Modifier"
+    },
+    "personal": {
+      "title": "Informations personnelles",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone"
+    },
+    "addresses": {
+      "heading": "Adresses",
+      "add": "+ Ajouter une adresse",
+      "addModalTitle": "Ajouter une adresse",
+      "editModalTitle": "Modifier l'adresse",
+      "fields": {
+        "label": "Étiquette",
+        "street": "Rue",
+        "city": "Ville",
+        "state": "Région / Province",
+        "zip": "Code postal",
+        "country": "Pays"
+      },
+      "placeholders": {
+        "label": "ex. Domicile, Bureau",
+        "street": "Adresse",
+        "city": "Ville",
+        "state": "Région ou province",
+        "zip": "Code postal",
+        "country": "Pays"
+      },
+      "defaultShipping": "Adresse de livraison par défaut",
+      "defaultBilling": "Adresse de facturation par défaut",
+      "shippingTag": "Livraison",
+      "billingTag": "Facturation",
+      "addButton": "Ajouter une adresse",
+      "saveChanges": "Enregistrer les modifications",
+      "saving": "Enregistrement...",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "deleteConfirm": "Supprimer cette adresse ?",
+      "errors": {
+        "add": "Échec de l'ajout de l'adresse.",
+        "update": "Échec de la mise à jour de l'adresse.",
+        "delete": "Échec de la suppression de l'adresse."
+      },
+      "empty": "Aucune adresse pour l'instant. Ajoutez-en une pour commencer."
+    },
+    "payments": {
+      "heading": "Moyens de paiement",
+      "add": "+ Ajouter un paiement",
+      "addModalTitle": "Ajouter un moyen de paiement",
+      "changeType": "Changer le type",
+      "types": {
+        "CreditCard": "Carte de crédit",
+        "PayPal": "PayPal",
+        "ApplePay": "Apple Pay",
+        "Wero": "Wero"
+      },
+      "labelField": "Étiquette",
+      "labelPlaceholderCard": "ex. Ma Visa",
+      "labelPlaceholderGeneric": "ex. Mon {{type}}",
+      "defaultCheckbox": "Définir comme moyen de paiement par défaut",
+      "cardholderName": "Nom du titulaire",
+      "cardholderPlaceholder": "Nom sur la carte",
+      "cardNumber": "Numéro de carte",
+      "expiryDate": "Date d'expiration",
+      "cvc": "CVC",
+      "addCard": "Ajouter la carte",
+      "addNonCard": "Ajouter",
+      "saving": "Enregistrement...",
+      "cancel": "Annuler",
+      "payPalEmail": "E-mail PayPal",
+      "payPalEmailPlaceholder": "votre@email.com",
+      "bank": "Banque",
+      "bankPlaceholder": "Sélectionnez votre banque...",
+      "defaultBadge": "Par défaut",
+      "setDefault": "Définir par défaut",
+      "delete": "Supprimer",
+      "expires": "Expire",
+      "deleteConfirm": "Supprimer ce moyen de paiement ?",
+      "empty": "Aucun moyen de paiement pour l'instant. Ajoutez-en un pour commencer.",
+      "errors": {
+        "cardSetup": "La configuration de la carte a échoué.",
+        "addCard": "Échec de l'ajout de la carte.",
+        "add": "Échec de l'ajout du moyen de paiement.",
+        "delete": "Échec de la suppression du moyen de paiement.",
+        "setDefault": "Échec de la mise à jour du moyen de paiement."
+      }
+    },
+    "preferences": {
+      "title": "Préférences",
+      "currency": "Devise",
+      "currencyOptions": {
+        "USD": "USD — Dollar américain",
+        "EUR": "EUR — Euro",
+        "GBP": "GBP — Livre sterling",
+        "CAD": "CAD — Dollar canadien"
+      },
+      "pushNotifications": "Notifications push",
+      "emailNotifications": "Notifications par e-mail",
+      "monthlyReport": "Rapport mensuel"
+    },
+    "emailImport": {
+      "title": "Transfert de reçus par e-mail",
+      "description": "Transférez vos reçus par e-mail à une adresse unique pour les capturer automatiquement dans votre compte.",
+      "loading": "Chargement...",
+      "forwardingToggle": "Transfert par e-mail",
+      "forwardingAddress": "Votre adresse de transfert",
+      "copy": "Copier",
+      "copied": "Copié",
+      "instructions": "Transférez vos reçus à cette adresse. Les pièces jointes (PDF, images) seront enregistrées automatiquement comme reçus.",
+      "lastReceived": "Dernier reçu :",
+      "totalProcessed": "Total traité :",
+      "never": "Jamais",
+      "justNow": "À l'instant",
+      "minutesAgo": "Il y a {{count}} min",
+      "hoursAgo": "Il y a {{count}} h",
+      "daysAgo": "Il y a {{count}} j"
+    },
+    "twoFactor": {
+      "title": "Authentification à deux facteurs",
+      "description": "Ajoutez une couche de sécurité supplémentaire à votre compte avec une application d'authentification TOTP.",
+      "loading": "Chargement...",
+      "notEnabled": "Non activée",
+      "enable": "Activer la 2FA",
+      "enabling": "Configuration...",
+      "enabledBadge": "Activée",
+      "recoveryCodesLeft": "{{count}} code(s) de récupération restant(s)",
+      "regenerateCodes": "Régénérer les codes",
+      "disable": "Désactiver la 2FA",
+      "qrDescription": "Scannez ce QR code avec votre application d'authentification (Google Authenticator, Authy, etc.)",
+      "qrAlt": "QR Code",
+      "manualKey": "Ou saisissez cette clé manuellement",
+      "next": "Suivant — Saisir le code de vérification",
+      "verifyDescription": "Saisissez le code à 6 chiffres de votre application d'authentification pour terminer la configuration.",
+      "back": "Retour",
+      "verify": "Vérifier et activer",
+      "verifying": "Vérification...",
+      "recoveryDescription": "Enregistrez ces codes de récupération dans un endroit sûr. Chaque code ne peut être utilisé qu'une seule fois pour vous connecter si vous perdez l'accès à votre application.",
+      "copyAll": "Tout copier",
+      "copiedAll": "Copié !",
+      "download": "Télécharger",
+      "done": "Terminé",
+      "promptDisable": "Saisissez votre code d'authentification pour désactiver la 2FA.",
+      "promptRegenerate": "Saisissez votre code d'authentification pour régénérer les codes de récupération.",
+      "processing": "Traitement...",
+      "disableAction": "Désactiver",
+      "regenerateAction": "Régénérer",
+      "cancel": "Annuler",
+      "errors": {
+        "setupFailed": "Échec du démarrage de la configuration.",
+        "invalidCode": "Code invalide. Veuillez réessayer."
+      }
+    }
+  }
+}

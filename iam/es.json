@@ -1,0 +1,125 @@
+{
+  "account": {
+    "login": {
+      "title": "Iniciar sesión",
+      "heading": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión en tu cuenta de DibbyIAM",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "password": "Contraseña",
+      "togglePassword": "Mostrar u ocultar contraseña",
+      "rememberMe": "Recordarme",
+      "submit": "Iniciar sesión",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "registerPrompt": "¿No tienes una cuenta?",
+      "register": "Registrarse",
+      "resendPrompt": "¿Necesitas verificar tu correo?",
+      "resend": "Reenviar confirmación",
+      "or": "o",
+      "developerConsole": "Consola de desarrollador",
+      "developerConsoleSuffix": "Registra tu app para OAuth 2.0"
+    },
+    "register": {
+      "title": "Registrarse",
+      "heading": "Crear cuenta",
+      "subtitle": "Comienza con DibbyIAM",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "togglePassword": "Mostrar u ocultar contraseña",
+      "submit": "Registrarse",
+      "signInPrompt": "¿Ya tienes una cuenta?",
+      "signIn": "Iniciar sesión"
+    },
+    "forgotPassword": {
+      "title": "Contraseña olvidada",
+      "heading": "¿Olvidaste tu contraseña?",
+      "subtitle": "Ingresa tu correo y te enviaremos un enlace de restablecimiento",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "submit": "Enviar enlace",
+      "backToSignIn": "Volver al inicio de sesión",
+      "sentHeading": "Revisa tu correo",
+      "sentSubtitle": "Si existe una cuenta para ese correo, hemos enviado un enlace de restablecimiento"
+    },
+    "resetPassword": {
+      "title": "Restablecer contraseña",
+      "heading": "Establecer nueva contraseña",
+      "subtitle": "Ingresa tu nueva contraseña a continuación",
+      "password": "Nueva contraseña",
+      "confirmPassword": "Confirmar nueva contraseña",
+      "togglePassword": "Mostrar u ocultar contraseña",
+      "submit": "Restablecer contraseña",
+      "backToSignIn": "Volver al inicio de sesión",
+      "succeededHeading": "Contraseña restablecida",
+      "succeededSubtitle": "Tu contraseña ha sido cambiada exitosamente",
+      "succeededSignIn": "Inicia sesión con tu nueva contraseña"
+    },
+    "confirmEmail": {
+      "title": "Confirmar correo",
+      "succeededHeading": "Correo confirmado",
+      "succeededSubtitle": "Tu correo ha sido verificado exitosamente",
+      "succeededSignIn": "Inicia sesión en tu cuenta",
+      "failedHeading": "Confirmación fallida",
+      "failedSubtitle": "El enlace de confirmación es inválido o ha expirado",
+      "failedResend": "Reenviar correo de confirmación"
+    },
+    "registerConfirmation": {
+      "title": "Revisa tu correo",
+      "heading": "Revisa tu correo",
+      "subtitlePrefix": "Hemos enviado un enlace de confirmación a",
+      "note": "Haz clic en el enlace del correo para activar tu cuenta. Si no lo ves, revisa tu carpeta de spam.",
+      "resendPrompt": "¿No lo recibiste?",
+      "resend": "Reenviar correo de confirmación",
+      "backToSignIn": "Volver al inicio de sesión"
+    },
+    "resendConfirmation": {
+      "title": "Reenviar confirmación",
+      "heading": "Reenviar confirmación",
+      "subtitle": "Ingresa tu correo para recibir un nuevo enlace de confirmación",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "submit": "Reenviar",
+      "backToSignIn": "Volver al inicio de sesión",
+      "sentHeading": "Correo enviado",
+      "sentSubtitle": "Si existe una cuenta para ese correo, hemos enviado un nuevo enlace de confirmación"
+    },
+    "loginWith2fa": {
+      "title": "Autenticación de dos factores",
+      "heading": "Autenticación de dos factores",
+      "subtitle": "Ingresa el código de tu aplicación autenticadora",
+      "code": "Código de autenticación",
+      "codePlaceholder": "000000",
+      "rememberClient": "Recordar este dispositivo",
+      "submit": "Verificar",
+      "recoveryPrompt": "¿No puedes acceder a tu autenticador?",
+      "recovery": "Usar un código de recuperación"
+    },
+    "loginWithRecoveryCode": {
+      "title": "Código de recuperación",
+      "heading": "Código de recuperación",
+      "subtitle": "Ingresa uno de tus códigos de recuperación para iniciar sesión",
+      "recoveryCode": "Código de recuperación",
+      "recoveryCodePlaceholder": "xxxxx-xxxxx",
+      "submit": "Iniciar sesión",
+      "backTo2fa": "Volver al código de autenticación"
+    }
+  },
+  "consent": {
+    "title": "Autorizar aplicación",
+    "heading": "Autorizar acceso",
+    "subtitleSuffix": " quisiera acceder a tu cuenta.",
+    "permissionsLabel": "Permisos solicitados",
+    "allow": "Permitir",
+    "deny": "Denegar",
+    "revokeNote": "Puedes revocar este acceso en cualquier momento.",
+    "scopes": {
+      "openid": "Verificar tu identidad",
+      "profile": "Acceder a tu nombre e información de perfil",
+      "email": "Acceder a tu dirección de correo electrónico",
+      "api": "Acceder a recursos de la API en tu nombre",
+      "payment": "Procesar pagos con tus métodos de pago guardados"
+    }
+  }
+}

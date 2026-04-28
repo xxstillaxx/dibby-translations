@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Dibby",
+    "tagline": "Nada se escapa"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "receipts": "Recibos",
+    "profile": "Perfil",
+    "developerConsole": "Consola de desarrollador"
+  },
+  "languages": {
+    "en": "Inglés",
+    "nl": "Neerlandés",
+    "fr": "Francés",
+    "de": "Alemán",
+    "es": "Español"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "language": "Idioma"
+  },
+  "states": {
+    "loading": "Cargando…",
+    "saving": "Guardando…",
+    "error": "Algo salió mal"
+  },
+  "categories": {
+    "Groceries": "Supermercado",
+    "Transport": "Transporte",
+    "Software": "Software",
+    "Dining": "Restauración",
+    "Shopping": "Compras",
+    "Entertainment": "Entretenimiento",
+    "Other": "Otro"
+  },
+  "statuses": {
+    "verified": "verificado",
+    "pending": "pendiente",
+    "flagged": "marcado"
+  }
+}

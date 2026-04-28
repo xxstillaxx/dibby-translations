@@ -1,11 +1,5 @@
 {
   "account": {
-    "common": {
-      "togglePassword": "Wachtwoord zichtbaarheid wisselen",
-      "backToSignIn": "Terug naar inloggen",
-      "email": "E-mail",
-      "emailPlaceholder": "jij@example.com"
-    },
     "login": {
       "title": "Inloggen",
       "heading": "Welkom terug",
@@ -29,191 +23,103 @@
       "title": "Registreren",
       "heading": "Account aanmaken",
       "subtitle": "Begin met DibbyIAM",
+      "email": "E-mail",
+      "emailPlaceholder": "jij@example.com",
       "password": "Wachtwoord",
-      "confirmPassword": "Bevestig wachtwoord",
+      "confirmPassword": "Wachtwoord bevestigen",
+      "togglePassword": "Wachtwoord zichtbaarheid wisselen",
       "submit": "Registreren",
-      "alreadyHaveAccount": "Heb je al een account?",
+      "signInPrompt": "Heb je al een account?",
       "signIn": "Inloggen"
+    },
+    "forgotPassword": {
+      "title": "Wachtwoord vergeten",
+      "heading": "Wachtwoord vergeten?",
+      "subtitle": "Voer je e-mail in en we sturen je een resetlink",
+      "email": "E-mail",
+      "emailPlaceholder": "jij@example.com",
+      "submit": "Resetlink versturen",
+      "backToSignIn": "Terug naar inloggen",
+      "sentHeading": "Controleer je e-mail",
+      "sentSubtitle": "Als er een account bestaat voor dat e-mailadres, hebben we een wachtwoord-resetlink verzonden"
+    },
+    "resetPassword": {
+      "title": "Wachtwoord opnieuw instellen",
+      "heading": "Nieuw wachtwoord instellen",
+      "subtitle": "Voer hieronder je nieuwe wachtwoord in",
+      "password": "Nieuw wachtwoord",
+      "confirmPassword": "Nieuw wachtwoord bevestigen",
+      "togglePassword": "Wachtwoord zichtbaarheid wisselen",
+      "submit": "Wachtwoord opnieuw instellen",
+      "backToSignIn": "Terug naar inloggen",
+      "succeededHeading": "Wachtwoord opnieuw ingesteld",
+      "succeededSubtitle": "Je wachtwoord is succesvol gewijzigd",
+      "succeededSignIn": "Inloggen met je nieuwe wachtwoord"
+    },
+    "confirmEmail": {
+      "title": "E-mail bevestigen",
+      "succeededHeading": "E-mail bevestigd",
+      "succeededSubtitle": "Je e-mail is succesvol geverifieerd",
+      "succeededSignIn": "Inloggen bij je account",
+      "failedHeading": "Bevestiging mislukt",
+      "failedSubtitle": "De bevestigingslink is ongeldig of verlopen",
+      "failedResend": "Bevestigingsmail opnieuw verzenden"
     },
     "registerConfirmation": {
       "title": "Controleer je e-mail",
       "heading": "Controleer je e-mail",
-      "subtitleBefore": "We hebben een bevestigingslink gestuurd naar",
-      "instruction": "Klik op de link in de e-mail om je account te activeren. Zie je het niet? Controleer je spam-map.",
-      "didntReceive": "Niet ontvangen?",
-      "resend": "Bevestigingsmail opnieuw verzenden"
-    },
-    "confirmEmail": {
-      "successTitle": "E-mail bevestigen",
-      "successHeading": "E-mail bevestigd",
-      "successSubtitle": "Je e-mail is succesvol geverifieerd",
-      "successSignIn": "Log in op je account",
-      "failTitle": "E-mail bevestigen",
-      "failHeading": "Bevestiging mislukt",
-      "failSubtitle": "De bevestigingslink is ongeldig of verlopen",
-      "failResend": "Bevestigingsmail opnieuw verzenden"
+      "subtitlePrefix": "We hebben een bevestigingslink gestuurd naar",
+      "note": "Klik op de link in de e-mail om je account te activeren. Als je hem niet ziet, controleer dan je spammap.",
+      "resendPrompt": "Niet ontvangen?",
+      "resend": "Bevestigingsmail opnieuw verzenden",
+      "backToSignIn": "Terug naar inloggen"
     },
     "resendConfirmation": {
-      "sentTitle": "Bevestiging opnieuw verzenden",
+      "title": "Bevestiging opnieuw verzenden",
+      "heading": "Bevestiging opnieuw verzenden",
+      "subtitle": "Voer je e-mail in om een nieuwe bevestigingslink te ontvangen",
+      "email": "E-mail",
+      "emailPlaceholder": "jij@example.com",
+      "submit": "Opnieuw verzenden",
+      "backToSignIn": "Terug naar inloggen",
       "sentHeading": "E-mail verzonden",
-      "sentSubtitle": "Als er een account bestaat voor dat e-mailadres, hebben we een nieuwe bevestigingslink gestuurd",
-      "formTitle": "Bevestiging opnieuw verzenden",
-      "formHeading": "Bevestiging opnieuw verzenden",
-      "formSubtitle": "Vul je e-mailadres in om een nieuwe bevestigingslink te ontvangen",
-      "submit": "Opnieuw verzenden"
-    },
-    "forgotPassword": {
-      "sentTitle": "Wachtwoord vergeten",
-      "sentHeading": "Controleer je e-mail",
-      "sentSubtitle": "Als er een account bestaat voor dat e-mailadres, hebben we een link voor wachtwoordherstel gestuurd",
-      "formTitle": "Wachtwoord vergeten",
-      "formHeading": "Wachtwoord vergeten?",
-      "formSubtitle": "Vul je e-mailadres in en we sturen je een herstellink",
-      "submit": "Herstellink versturen"
-    },
-    "resetPassword": {
-      "successTitle": "Wachtwoord herstellen",
-      "successHeading": "Wachtwoord hersteld",
-      "successSubtitle": "Je wachtwoord is succesvol gewijzigd",
-      "successSignIn": "Log in met je nieuwe wachtwoord",
-      "formTitle": "Wachtwoord herstellen",
-      "formHeading": "Nieuw wachtwoord instellen",
-      "formSubtitle": "Vul hieronder je nieuwe wachtwoord in",
-      "newPassword": "Nieuw wachtwoord",
-      "confirmNewPassword": "Bevestig nieuw wachtwoord",
-      "submit": "Wachtwoord herstellen"
-    },
-    "logout": {
-      "title": "Uitgelogd",
-      "heading": "Je bent uitgelogd.",
-      "returnHome": "Terug naar home"
+      "sentSubtitle": "Als er een account bestaat voor dat e-mailadres, hebben we een nieuwe bevestigingslink verzonden"
     },
     "loginWith2fa": {
       "title": "Tweestapsverificatie",
       "heading": "Tweestapsverificatie",
-      "subtitle": "Vul de code in uit je authenticator-app",
-      "code": "Authenticator-code",
+      "subtitle": "Voer de code in uit je authenticator-app",
+      "code": "Authenticatorcode",
       "codePlaceholder": "000000",
-      "rememberDevice": "Dit apparaat onthouden",
+      "rememberClient": "Dit apparaat onthouden",
       "submit": "Verifiëren",
-      "cantAccess": "Geen toegang tot je authenticator?",
-      "useRecoveryCode": "Gebruik een herstelcode"
+      "recoveryPrompt": "Geen toegang tot je authenticator?",
+      "recovery": "Gebruik een herstelcode"
     },
     "loginWithRecoveryCode": {
       "title": "Herstelcode",
       "heading": "Herstelcode",
-      "subtitle": "Vul een van je herstelcodes in om in te loggen",
-      "code": "Herstelcode",
-      "codePlaceholder": "xxxxx-xxxxx",
+      "subtitle": "Voer een van je herstelcodes in om in te loggen",
+      "recoveryCode": "Herstelcode",
+      "recoveryCodePlaceholder": "xxxxx-xxxxx",
       "submit": "Inloggen",
-      "backToAuthenticator": "Terug naar authenticator-code"
+      "backTo2fa": "Terug naar authenticatorcode"
     }
   },
   "consent": {
-    "title": "App autoriseren",
-    "heading": "Toegang autoriseren",
-    "subtitleSuffix": "wil toestemming om toegang te krijgen tot je account.",
-    "permissions": "Gevraagde rechten",
+    "title": "Applicatie autoriseren",
+    "heading": "Toegang verlenen",
+    "subtitleSuffix": " wil graag toegang tot je account.",
+    "permissionsLabel": "Gevraagde machtigingen",
     "allow": "Toestaan",
     "deny": "Weigeren",
     "revokeNote": "Je kunt deze toegang op elk moment intrekken.",
     "scopes": {
-      "openid": "Je identiteit verifiëren",
-      "profile": "Toegang tot je naam en profielgegevens",
+      "openid": "Jouw identiteit verifiëren",
+      "profile": "Toegang tot je naam en profielinformatie",
       "email": "Toegang tot je e-mailadres",
-      "api": "Toegang tot API-bronnen namens jou",
+      "api": "Toegang tot API-resources namens jou",
       "payment": "Betalingen verwerken met je opgeslagen betaalmethoden"
-    }
-  },
-  "developer": {
-    "common": {
-      "cancel": "Annuleren",
-      "copy": "Kopiëren",
-      "copied": "Gekopieerd!",
-      "signOut": "Uitloggen",
-      "dibbyPortal": "Dibby Portal"
-    },
-    "layout": {
-      "brand": "Ontwikkelaarsconsole",
-      "navMyApps": "Mijn apps",
-      "navDocs": "Documentatie",
-      "titleSuffix": "DibbyIAM ontwikkelaar"
-    },
-    "index": {
-      "title": "Mijn applicaties",
-      "headingWithCount": "Mijn applicaties ({{count}})",
-      "registerNew": "+ Nieuwe app registreren",
-      "emptyPrompt": "Je hebt nog geen applicaties geregistreerd.",
-      "emptyCta": "Registreer je eerste app",
-      "active": "Actief",
-      "inactive": "Inactief",
-      "documentation": "Documentatie",
-      "gettingStarted": "Aan de slag",
-      "apiReference": "API-referentie",
-      "codeExamples": "Codevoorbeelden"
-    },
-    "register": {
-      "title": "Applicatie registreren",
-      "heading": "Nieuwe applicatie registreren",
-      "subtitle": "Maak OAuth 2.0-gegevens aan voor je applicatie",
-      "appName": "Naam van applicatie",
-      "appNamePlaceholder": "Mijn winkel",
-      "websiteUrl": "Website-URL",
-      "websiteUrlPlaceholder": "https://mijnwinkel.nl",
-      "redirectUri": "Toegestane redirect-URI",
-      "redirectUriPlaceholder": "https://mijnwinkel.nl/callback",
-      "redirectUriHint": "De URI waarnaar je app verwijst na autorisatie",
-      "postLogoutUri": "Redirect-URI na uitloggen",
-      "postLogoutUriPlaceholder": "https://mijnwinkel.nl",
-      "postLogoutUriHint": "Optioneel. Waar naartoe doorsturen na uitloggen",
-      "logoUrl": "Logo-URL",
-      "logoUrlPlaceholder": "https://mijnwinkel.nl/logo.png",
-      "description": "Beschrijving",
-      "descriptionPlaceholder": "Een korte beschrijving van je applicatie...",
-      "submit": "Applicatie registreren"
-    },
-    "created": {
-      "title": "Applicatie aangemaakt",
-      "heading": "Applicatie geregistreerd",
-      "subtitleSuffix": "is succesvol aangemaakt.",
-      "clientSecret": "Client secret",
-      "clientId": "Client ID",
-      "secretWarning": "Kopieer je client secret nu. Je kunt deze later niet meer bekijken.",
-      "goToApps": "Ik heb mijn secret gekopieerd — Ga naar mijn apps",
-      "nextIntegrate": "Volgende: integreer je app →"
-    },
-    "edit": {
-      "title": "Applicatie bewerken",
-      "heading": "Applicatie bewerken",
-      "subtitle": "Beheer je OAuth 2.0-applicatie-instellingen",
-      "clientId": "Client ID",
-      "appName": "Naam van applicatie",
-      "websiteUrl": "Website-URL",
-      "redirectUri": "Toegestane redirect-URI",
-      "postLogoutUri": "Redirect-URI na uitloggen",
-      "logoUrl": "Logo-URL",
-      "description": "Beschrijving",
-      "save": "Wijzigingen opslaan",
-      "clientSecretTitle": "Client secret",
-      "clientSecretDescription": "Genereer een nieuwe secret. De oude secret werkt direct niet meer.",
-      "regenerate": "Secret opnieuw genereren",
-      "regenerateConfirm": "Weet je het zeker? De huidige client secret wordt permanent ongeldig gemaakt.",
-      "stripeTitle": "Stripe Connect",
-      "stripeConnectedPrefix": "Gekoppeld:",
-      "stripeNotConnected": "Koppel je Stripe-account om betalingen via Dibby te accepteren.",
-      "connect": "Stripe koppelen",
-      "disconnect": "Ontkoppelen",
-      "disconnectConfirm": "Stripe-account ontkoppelen? Gebruikers kunnen dan niet meer betalen met opgeslagen kaarten.",
-      "deleteTitle": "Applicatie verwijderen",
-      "deleteDescription": "Hiermee worden alle tokens permanent ingetrokken en de OAuth-client verwijderd.",
-      "delete": "Verwijderen",
-      "deleteConfirm": "Weet je zeker dat je deze applicatie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
-    },
-    "connectStripe": {
-      "title": "Stripe koppelen",
-      "heading": "Verbinding maken met Stripe...",
-      "redirecting": "Je wordt doorgestuurd naar Stripe om je account te koppelen.",
-      "backToApps": "Terug naar apps"
     }
   }
 }

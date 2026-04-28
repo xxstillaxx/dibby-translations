@@ -1,0 +1,349 @@
+{
+  "sidebar": {
+    "quickScan": "Escaneo rápido",
+    "quickScanDescription": "Toma una foto para capturar automáticamente los datos del recibo",
+    "scanReceipt": "+ Escanear recibo",
+    "toggleSidebar": "Mostrar/ocultar barra lateral"
+  },
+  "header": {
+    "overview": "Resumen",
+    "allReceipts": "Todos los recibos",
+    "shoppingProfile": "Perfil de compras",
+    "page": "Página",
+    "profileSubtitle": "Gestiona tu información personal, direcciones y métodos de pago"
+  },
+  "user": {
+    "menu": "Menú de usuario",
+    "defaultName": "Usuario",
+    "editProfile": "Editar perfil",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "logOut": "Cerrar sesión"
+  },
+  "welcome": {
+    "heading": "Bienvenido a Dibby",
+    "description": "Inicia sesión para gestionar tus recibos y carpetas."
+  },
+  "auth": {
+    "completingSignIn": "Completando inicio de sesión…"
+  },
+  "errors": {
+    "notFoundTitle": "Página no encontrada",
+    "notFoundDescription": "¡No encontramos la página que estás buscando!",
+    "backToHome": "Volver al inicio"
+  },
+  "dashboard": {
+    "pageTitle": "Panel | Dibby",
+    "pageDescription": "Panel de gestión de recibos de Dibby",
+    "monthlyTrend": "Tendencia mensual",
+    "byCategory": "Por categoría",
+    "total": "total",
+    "noDataYet": "Sin datos aún",
+    "stats": {
+      "totalSpent": "Total gastado",
+      "allTime": "de todos los tiempos",
+      "receipts": "Recibos",
+      "verifiedSuffix": "{{count}} verificado(s)",
+      "pending": "Pendiente",
+      "needsReview": "requiere revisión",
+      "avgTransaction": "Transacción prom.",
+      "perReceipt": "por recibo"
+    },
+    "recent": {
+      "heading": "Transacciones recientes",
+      "itemsCount": "{{count}} artículo(s)",
+      "empty": "Sin recibos aún",
+      "receiptFallback": "Recibo"
+    }
+  },
+  "receipts": {
+    "pageTitle": "Recibos | Dibby",
+    "pageDescription": "Gestiona tus recibos en carpetas",
+    "sidebarMode": {
+      "binders": "Carpetas",
+      "merchants": "Comerciantes"
+    },
+    "binders": {
+      "heading": "Carpetas",
+      "allReceipts": "Todos los recibos",
+      "unfiled": "Sin clasificar",
+      "newBinder": "Nueva carpeta",
+      "namePlaceholder": "Nombre de la carpeta...",
+      "add": "Añadir",
+      "delete": "Eliminar",
+      "cancel": "Cancelar",
+      "deleteConfirm": "¿Eliminar «{{title}}»?",
+      "deleteTooltip": "Eliminar carpeta"
+    },
+    "merchantsPanel": {
+      "heading": "Comerciantes",
+      "allReceipts": "Todos los recibos",
+      "unmatched": "Sin asociar",
+      "empty": "Sin datos de comerciantes aún"
+    },
+    "toolbar": {
+      "filterPlaceholder": "Filtrar...",
+      "count_one": "{{count}} recibo",
+      "count_other": "{{count}} recibos"
+    },
+    "states": {
+      "loading": "Cargando recibos...",
+      "empty": "Sin recibos aún. ¡Sube uno para comenzar!",
+      "noMatches": "Ningún recibo coincide con tu filtro."
+    },
+    "listHeader": {
+      "merchant": "Comerciante",
+      "category": "Categoría",
+      "date": "Fecha",
+      "amount": "Importe",
+      "status": "Estado"
+    },
+    "items_one": "{{count}} artículo",
+    "items_other": "{{count}} artículos",
+    "receiptFallback": "Recibo",
+    "upload": {
+      "title": "Subir recibo",
+      "close": "Cerrar",
+      "prompt": "Suelta un archivo o haz clic para buscar",
+      "fileTypes": "JPEG, PNG, WebP, GIF o PDF · Máx. 10 MB",
+      "previewAlt": "Vista previa",
+      "binder": "Carpeta",
+      "binderPlaceholder": "Selecciona una carpeta...",
+      "merchantCaption": "Comerciante / Descripción",
+      "merchantCaptionPlaceholder": "ej. Mercadona",
+      "category": "Categoría",
+      "categoryPlaceholder": "Seleccionar...",
+      "totalAmount": "Importe total",
+      "tax": "IVA",
+      "date": "Fecha",
+      "paymentMethod": "Método de pago",
+      "paymentMethodPlaceholder": "ej. Visa 4821",
+      "note": "Nota",
+      "notePlaceholder": "Nota opcional...",
+      "cancel": "Cancelar",
+      "submit": "Subir recibo",
+      "submitting": "Subiendo...",
+      "errors": {
+        "fileType": "Solo se permiten archivos JPEG, PNG, GIF, WebP o PDF.",
+        "fileSize": "El archivo debe ser menor de 10 MB.",
+        "fileRequired": "Por favor selecciona un archivo.",
+        "uploadFailed": "Error al subir. Por favor inténtalo de nuevo."
+      }
+    },
+    "edit": {
+      "title": "Editar recibo",
+      "close": "Cerrar",
+      "binder": "Carpeta",
+      "merchantCaption": "Comerciante / Descripción",
+      "merchantCaptionPlaceholder": "ej. Mercadona",
+      "category": "Categoría",
+      "categoryPlaceholder": "Seleccionar...",
+      "totalAmount": "Importe total",
+      "tax": "IVA",
+      "date": "Fecha",
+      "paymentMethod": "Método de pago",
+      "paymentMethodPlaceholder": "ej. Visa 4821",
+      "receiptNumber": "Número de recibo",
+      "receiptNumberPlaceholder": "ej. FAC-001",
+      "note": "Nota",
+      "notePlaceholder": "Nota opcional...",
+      "cancel": "Cancelar",
+      "submit": "Guardar cambios",
+      "submitting": "Guardando...",
+      "saveFailed": "Error al guardar los cambios. Por favor inténtalo de nuevo."
+    },
+    "detail": {
+      "closeAria": "Cerrar modal",
+      "aria": "Recibo de {{name}}",
+      "items": "Artículos",
+      "payment": "Pago",
+      "tax": "IVA",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "note": "Nota",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "download": "Descargar",
+      "receiptAlt": "Recibo",
+      "receiptPdfTitle": "PDF del recibo"
+    }
+  },
+  "profile": {
+    "pageTitle": "Perfil | Dibby",
+    "pageDescription": "Gestiona tu perfil de Dibby",
+    "loading": "Cargando perfil...",
+    "loadFailed": "Error al cargar el perfil. Por favor inténtalo de nuevo.",
+    "notFound": "Perfil no encontrado.",
+    "retry": "Reintentar",
+    "saveError": {
+      "personal": "Error al guardar la información personal.",
+      "preferences": "Error al guardar las preferencias."
+    },
+    "tabs": {
+      "personal": "Información personal",
+      "addresses": "Direcciones",
+      "payments": "Métodos de pago",
+      "preferences": "Preferencias",
+      "security": "Seguridad",
+      "emailImport": "Importar por correo"
+    },
+    "sectionHeader": {
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "edit": "Editar"
+    },
+    "personal": {
+      "title": "Información personal",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Dirección de correo",
+      "phone": "Número de teléfono"
+    },
+    "addresses": {
+      "heading": "Direcciones",
+      "add": "+ Añadir dirección",
+      "addModalTitle": "Añadir dirección",
+      "editModalTitle": "Editar dirección",
+      "fields": {
+        "label": "Etiqueta",
+        "street": "Calle",
+        "city": "Ciudad",
+        "state": "Estado / Provincia",
+        "zip": "Código postal",
+        "country": "País"
+      },
+      "placeholders": {
+        "label": "ej. Casa, Oficina",
+        "street": "Dirección",
+        "city": "Ciudad",
+        "state": "Estado o provincia",
+        "zip": "Código postal",
+        "country": "País"
+      },
+      "defaultShipping": "Dirección de envío predeterminada",
+      "defaultBilling": "Dirección de facturación predeterminada",
+      "shippingTag": "Envío",
+      "billingTag": "Facturación",
+      "addButton": "Añadir dirección",
+      "saveChanges": "Guardar cambios",
+      "saving": "Guardando...",
+      "cancel": "Cancelar",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "deleteConfirm": "¿Eliminar esta dirección?",
+      "errors": {
+        "add": "Error al añadir la dirección.",
+        "update": "Error al actualizar la dirección.",
+        "delete": "Error al eliminar la dirección."
+      },
+      "empty": "Sin direcciones aún. Añade una para comenzar."
+    },
+    "payments": {
+      "heading": "Métodos de pago",
+      "add": "+ Añadir pago",
+      "addModalTitle": "Añadir método de pago",
+      "changeType": "Cambiar tipo",
+      "types": {
+        "CreditCard": "Tarjeta de crédito",
+        "PayPal": "PayPal",
+        "ApplePay": "Apple Pay",
+        "Wero": "Wero"
+      },
+      "labelField": "Etiqueta",
+      "labelPlaceholderCard": "ej. Mi Visa",
+      "labelPlaceholderGeneric": "ej. Mi {{type}}",
+      "defaultCheckbox": "Establecer como método de pago predeterminado",
+      "cardholderName": "Nombre del titular",
+      "cardholderPlaceholder": "Nombre en la tarjeta",
+      "cardNumber": "Número de tarjeta",
+      "expiryDate": "Fecha de vencimiento",
+      "cvc": "CVC",
+      "addCard": "Añadir tarjeta",
+      "addNonCard": "Añadir",
+      "saving": "Guardando...",
+      "cancel": "Cancelar",
+      "payPalEmail": "Correo de PayPal",
+      "payPalEmailPlaceholder": "tu@correo.com",
+      "bank": "Banco",
+      "bankPlaceholder": "Selecciona tu banco...",
+      "defaultBadge": "Predeterminado",
+      "setDefault": "Establecer como predeterminado",
+      "delete": "Eliminar",
+      "expires": "Vence",
+      "deleteConfirm": "¿Eliminar este método de pago?",
+      "empty": "Sin métodos de pago aún. Añade uno para comenzar.",
+      "errors": {
+        "cardSetup": "Error al configurar la tarjeta.",
+        "addCard": "Error al añadir la tarjeta.",
+        "add": "Error al añadir el método de pago.",
+        "delete": "Error al eliminar el método de pago.",
+        "setDefault": "Error al actualizar el método de pago."
+      }
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "currency": "Moneda",
+      "currencyOptions": {
+        "USD": "USD — Dólar estadounidense",
+        "EUR": "EUR — Euro",
+        "GBP": "GBP — Libra esterlina",
+        "CAD": "CAD — Dólar canadiense"
+      },
+      "pushNotifications": "Notificaciones push",
+      "emailNotifications": "Notificaciones por correo",
+      "monthlyReport": "Informe mensual"
+    },
+    "emailImport": {
+      "title": "Reenvío de recibos por correo",
+      "description": "Reenvía correos de recibos a una dirección única para capturarlos automáticamente en tu cuenta.",
+      "loading": "Cargando...",
+      "forwardingToggle": "Reenvío por correo",
+      "forwardingAddress": "Tu dirección de reenvío",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "instructions": "Reenvía correos de recibos a esta dirección. Los archivos adjuntos (PDF, imágenes) se guardarán automáticamente como recibos.",
+      "lastReceived": "Último recibido:",
+      "totalProcessed": "Total procesado:",
+      "never": "Nunca",
+      "justNow": "Ahora mismo",
+      "minutesAgo": "hace {{count}} min",
+      "hoursAgo": "hace {{count}} h",
+      "daysAgo": "hace {{count}} d"
+    },
+    "twoFactor": {
+      "title": "Autenticación de dos factores",
+      "description": "Añade una capa adicional de seguridad a tu cuenta con una aplicación autenticadora TOTP.",
+      "loading": "Cargando...",
+      "notEnabled": "No habilitada",
+      "enable": "Habilitar 2FA",
+      "enabling": "Configurando...",
+      "enabledBadge": "Habilitada",
+      "recoveryCodesLeft": "{{count}} código(s) de recuperación restante(s)",
+      "regenerateCodes": "Regenerar códigos",
+      "disable": "Deshabilitar 2FA",
+      "qrDescription": "Escanea este código QR con tu aplicación autenticadora (Google Authenticator, Authy, etc.)",
+      "qrAlt": "Código QR",
+      "manualKey": "O introduce esta clave manualmente",
+      "next": "Siguiente — Introducir código de verificación",
+      "verifyDescription": "Introduce el código de 6 dígitos de tu aplicación autenticadora para completar la configuración.",
+      "back": "Volver",
+      "verify": "Verificar y habilitar",
+      "verifying": "Verificando...",
+      "recoveryDescription": "Guarda estos códigos de recuperación en un lugar seguro. Cada código solo puede usarse una vez para iniciar sesión si pierdes acceso a tu autenticador.",
+      "copyAll": "Copiar todo",
+      "copiedAll": "¡Copiado!",
+      "download": "Descargar",
+      "done": "Hecho",
+      "promptDisable": "Introduce tu código de autenticación para deshabilitar la 2FA.",
+      "promptRegenerate": "Introduce tu código de autenticación para regenerar los códigos de recuperación.",
+      "processing": "Procesando...",
+      "disableAction": "Deshabilitar",
+      "regenerateAction": "Regenerar",
+      "cancel": "Cancelar",
+      "errors": {
+        "setupFailed": "Error al iniciar la configuración.",
+        "invalidCode": "Código inválido. Por favor inténtalo de nuevo."
+      }
+    }
+  }
+}

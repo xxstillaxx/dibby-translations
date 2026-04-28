@@ -1,0 +1,21 @@
+{
+  "common": {
+    "copyLink": "O copia este enlace:"
+  },
+  "confirm": {
+    "subject": "Confirma tu cuenta de Dibby",
+    "preheader": "Confirma tu correo electrónico",
+    "heading": "Bienvenido a Dibby",
+    "body": "¡Gracias por registrarte! Por favor confirma tu dirección de correo electrónico para comenzar.",
+    "button": "Confirmar correo",
+    "footer": "Si no creaste una cuenta, puedes ignorar este correo."
+  },
+  "reset": {
+    "subject": "Restablece tu contraseña de Dibby",
+    "preheader": "Restablece tu contraseña",
+    "heading": "Restablecimiento de contraseña",
+    "body": "Solicitaste un restablecimiento de contraseña. Haz clic en el botón de abajo para establecer una nueva contraseña.",
+    "button": "Restablecer contraseña",
+    "footer": "Si no solicitaste esto, puedes ignorar este correo. Tu contraseña permanecerá sin cambios."
+  }
+}

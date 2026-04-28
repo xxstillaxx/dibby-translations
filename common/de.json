@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Dibby",
+    "tagline": "Nichts geht verloren"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "receipts": "Belege",
+    "profile": "Profil",
+    "developerConsole": "Entwicklerkonsole"
+  },
+  "languages": {
+    "en": "Englisch",
+    "nl": "Niederländisch",
+    "fr": "Französisch",
+    "de": "Deutsch",
+    "es": "Spanisch"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "language": "Sprache"
+  },
+  "states": {
+    "loading": "Wird geladen…",
+    "saving": "Wird gespeichert…",
+    "error": "Etwas ist schiefgelaufen"
+  },
+  "categories": {
+    "Groceries": "Lebensmittel",
+    "Transport": "Transport",
+    "Software": "Software",
+    "Dining": "Gastronomie",
+    "Shopping": "Einkaufen",
+    "Entertainment": "Unterhaltung",
+    "Other": "Sonstiges"
+  },
+  "statuses": {
+    "verified": "verifiziert",
+    "pending": "ausstehend",
+    "flagged": "markiert"
+  }
+}
