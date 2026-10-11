@@ -93,6 +93,7 @@
     },
     "listHeader": {
       "merchant": "Händler",
+      "receiptNumber": "Belegnr.",
       "category": "Kategorie",
       "date": "Datum",
       "amount": "Betrag",
