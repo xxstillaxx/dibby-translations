@@ -362,5 +362,24 @@
         "invalidCode": "Code invalide. Veuillez réessayer."
       }
     }
+  },
+  "review": {
+    "approve": "C'est correct",
+    "fix": "Corriger",
+    "reject": "Pas un justificatif",
+    "rejectConfirm": "Supprimer ce justificatif ?",
+    "confirmDelete": "Supprimer",
+    "cancel": "Annuler",
+    "candidateTitle": "Vérifiez ce justificatif",
+    "candidateHint": "Ces informations ont été lues automatiquement. Confirmez-les ou corrigez ce qui ne va pas.",
+    "approveFailed": "Enregistrement impossible. Veuillez réessayer.",
+    "filter": "À vérifier ({{count}})"
+  },
+  "statuses": {
+    "verified": "Vérifié",
+    "pending": "En attente",
+    "flagged": "Signalé",
+    "needs_review": "À vérifier",
+    "verified-candidate": "À confirmer"
   }
 }

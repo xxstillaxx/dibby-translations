@@ -362,5 +362,24 @@
                                                      "invalidCode":  "Ongeldige code. Probeer het opnieuw."
                                                  }
                                   }
-                }
+                },
+  "review": {
+    "approve": "Klopt",
+    "fix": "Gegevens aanpassen",
+    "reject": "Geen bon",
+    "rejectConfirm": "Deze bon verwijderen?",
+    "confirmDelete": "Verwijderen",
+    "cancel": "Annuleren",
+    "candidateTitle": "Controleer deze bon",
+    "candidateHint": "Deze gegevens zijn automatisch gelezen. Bevestig ze of pas aan wat niet klopt.",
+    "approveFailed": "Opslaan mislukt. Probeer het opnieuw.",
+    "filter": "Te controleren ({{count}})"
+  },
+  "statuses": {
+    "verified": "Geverifieerd",
+    "pending": "In behandeling",
+    "flagged": "Gemarkeerd",
+    "needs_review": "Controle nodig",
+    "verified-candidate": "Te bevestigen"
+  }
 }
