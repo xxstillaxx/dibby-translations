@@ -9,6 +9,9 @@
     "overview": "Übersicht",
     "allReceipts": "Alle Belege",
     "shoppingProfile": "Einkaufsprofil",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "settingsSubtitle": "Einstellungen, Sicherheit und E-Mail-Weiterleitung verwalten",
     "page": "Seite",
     "profileSubtitle": "Verwalten Sie Ihre persönlichen Daten, Adressen und Zahlungsmethoden"
   },
@@ -328,6 +331,8 @@
       "reasons": {"shipping": "Sieht nach einer Versandbenachrichtigung aus, nicht nach einem Beleg.", "marketing": "Sieht nach einem Newsletter oder Werbung aus.", "other": "In dieser E-Mail wurde kein Beleg und keine Bestellung gefunden.", "duplicateOrder": "Diese Bestellung wurde bereits importiert.", "duplicateEmail": "Diese E-Mail wurde bereits empfangen.", "failed": "Beim Verarbeiten dieser E-Mail ist ein Fehler aufgetreten."},
       "receiptState": {"reading": "Beleg wird gelesen...", "ready": "Beleg bereit", "failed": "Beleg konnte nicht gelesen werden"}
     },
+    "settingsPage": {"pageTitle": "Einstellungen | Dibby", "pageDescription": "Ihre Dibby-Einstellungen, Sicherheit und E-Mail-Weiterleitung"},
+    "password": {"title": "Passwort", "description": "Ändern Sie das Passwort, mit dem Sie sich bei Dibby anmelden.", "current": "Aktuelles Passwort", "new": "Neues Passwort", "confirm": "Neues Passwort bestätigen", "hint": "Mindestens 8 Zeichen, mit Groß- und Kleinbuchstaben, einer Ziffer und einem Sonderzeichen.", "save": "Passwort ändern", "saving": "Wird geändert...", "success": "Ihr Passwort wurde geändert.", "errors": {"PasswordMismatch": "Ihr aktuelles Passwort ist falsch.", "noMatch": "Die neuen Passwörter stimmen nicht überein.", "sameAsCurrent": "Wählen Sie ein anderes Passwort als Ihr aktuelles.", "PasswordTooShort": "Das neue Passwort muss mindestens 8 Zeichen lang sein.", "PasswordRequiresDigit": "Das neue Passwort braucht eine Ziffer.", "PasswordRequiresLower": "Das neue Passwort braucht einen Kleinbuchstaben.", "PasswordRequiresUpper": "Das neue Passwort braucht einen Großbuchstaben.", "PasswordRequiresNonAlphanumeric": "Das neue Passwort braucht ein Sonderzeichen (z. B. ! oder #).", "LockedOut": "Zu viele falsche Versuche. Versuchen Sie es in 15 Minuten erneut.", "failed": "Das Passwort konnte nicht geändert werden. Bitte versuchen Sie es erneut."}},
     "twoFactor": {
       "title": "Zwei-Faktor-Authentifizierung",
       "description": "Fügen Sie Ihrem Konto mit einer TOTP-Authentifikator-App eine zusätzliche Sicherheitsebene hinzu.",

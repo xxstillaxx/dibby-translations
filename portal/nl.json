@@ -9,6 +9,9 @@
                    "overview":  "Overzicht",
                    "allReceipts":  "Alle bonnen",
                    "shoppingProfile":  "Winkelprofiel",
+                   "profile":  "Profiel",
+                   "settings":  "Instellingen",
+                   "settingsSubtitle":  "Beheer voorkeuren, beveiliging en e-mail doorsturen",
                    "page":  "Pagina",
                    "profileSubtitle":  "Beheer je persoonsgegevens, adressen en betaalmethoden"
                },
@@ -328,6 +331,8 @@
                                         "reasons":  {"shipping": "Lijkt een verzendupdate, geen bon.", "marketing": "Lijkt een nieuwsbrief of aanbieding.", "other": "Geen bon of bestelling gevonden in deze e-mail.", "duplicateOrder": "Deze bestelling is al geïmporteerd.", "duplicateEmail": "Deze e-mail is al ontvangen.", "failed": "Er ging iets mis bij het verwerken van deze e-mail."},
                                         "receiptState":  {"reading": "Bon wordt gelezen...", "ready": "Bon klaar", "failed": "Bon kon niet gelezen worden"}
                                     },
+                    "settingsPage":  {"pageTitle": "Instellingen | Dibby", "pageDescription": "Je Dibby-voorkeuren, beveiliging en e-mail doorsturen"},
+                    "password":  {"title": "Wachtwoord", "description": "Wijzig het wachtwoord waarmee je inlogt bij Dibby.", "current": "Huidig wachtwoord", "new": "Nieuw wachtwoord", "confirm": "Bevestig nieuw wachtwoord", "hint": "Minimaal 8 tekens, met een hoofdletter, een kleine letter, een cijfer en een symbool.", "save": "Wachtwoord wijzigen", "saving": "Wijzigen...", "success": "Je wachtwoord is gewijzigd.", "errors": {"PasswordMismatch": "Je huidige wachtwoord is onjuist.", "noMatch": "De nieuwe wachtwoorden komen niet overeen.", "sameAsCurrent": "Kies een ander wachtwoord dan je huidige.", "PasswordTooShort": "Het nieuwe wachtwoord moet minimaal 8 tekens hebben.", "PasswordRequiresDigit": "Het nieuwe wachtwoord heeft een cijfer nodig.", "PasswordRequiresLower": "Het nieuwe wachtwoord heeft een kleine letter nodig.", "PasswordRequiresUpper": "Het nieuwe wachtwoord heeft een hoofdletter nodig.", "PasswordRequiresNonAlphanumeric": "Het nieuwe wachtwoord heeft een symbool nodig (bijv. ! of #).", "LockedOut": "Te veel onjuiste pogingen. Probeer het over 15 minuten opnieuw.", "failed": "Wachtwoord wijzigen is niet gelukt. Probeer het opnieuw."}},
                     "twoFactor":  {
                                       "title":  "Tweefactorauthenticatie",
                                       "description":  "Voeg een extra beveiligingslaag toe aan je account met een TOTP-authenticator-app.",
