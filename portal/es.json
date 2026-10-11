@@ -362,5 +362,24 @@
         "invalidCode": "Código inválido. Por favor inténtalo de nuevo."
       }
     }
+  },
+  "review": {
+    "approve": "Es correcto",
+    "fix": "Corregir datos",
+    "reject": "No es un recibo",
+    "rejectConfirm": "¿Eliminar este recibo?",
+    "confirmDelete": "Eliminar",
+    "cancel": "Cancelar",
+    "candidateTitle": "Revisa este recibo",
+    "candidateHint": "Estos datos se leyeron automáticamente. Confírmalos o corrige lo que esté mal.",
+    "approveFailed": "No se pudo guardar. Inténtalo de nuevo.",
+    "filter": "Por revisar ({{count}})"
+  },
+  "statuses": {
+    "verified": "Verificado",
+    "pending": "Pendiente",
+    "flagged": "Marcado",
+    "needs_review": "Requiere revisión",
+    "verified-candidate": "Por confirmar"
   }
 }

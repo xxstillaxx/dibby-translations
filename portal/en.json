@@ -362,5 +362,24 @@
                                                      "invalidCode":  "Invalid code. Please try again."
                                                  }
                                   }
-                }
+                },
+  "review": {
+    "approve": "Looks right",
+    "fix": "Fix details",
+    "reject": "Not a receipt",
+    "rejectConfirm": "Delete this receipt?",
+    "confirmDelete": "Delete",
+    "cancel": "Cancel",
+    "candidateTitle": "Check this receipt",
+    "candidateHint": "These details were read automatically. Confirm them or fix what's wrong.",
+    "approveFailed": "Couldn't save. Please try again.",
+    "filter": "To review ({{count}})"
+  },
+  "statuses": {
+    "verified": "Verified",
+    "pending": "Pending",
+    "flagged": "Flagged",
+    "needs_review": "Needs review",
+    "verified-candidate": "To confirm"
+  }
 }

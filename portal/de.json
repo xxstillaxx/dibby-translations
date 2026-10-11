@@ -362,5 +362,24 @@
         "invalidCode": "Ungültiger Code. Bitte versuchen Sie es erneut."
       }
     }
+  },
+  "review": {
+    "approve": "Stimmt",
+    "fix": "Angaben korrigieren",
+    "reject": "Kein Beleg",
+    "rejectConfirm": "Diesen Beleg löschen?",
+    "confirmDelete": "Löschen",
+    "cancel": "Abbrechen",
+    "candidateTitle": "Diesen Beleg prüfen",
+    "candidateHint": "Diese Angaben wurden automatisch erkannt. Bestätigen Sie sie oder korrigieren Sie Fehler.",
+    "approveFailed": "Speichern fehlgeschlagen. Bitte erneut versuchen.",
+    "filter": "Zu prüfen ({{count}})"
+  },
+  "statuses": {
+    "verified": "Verifiziert",
+    "pending": "Ausstehend",
+    "flagged": "Markiert",
+    "needs_review": "Prüfung nötig",
+    "verified-candidate": "Zu bestätigen"
   }
 }
