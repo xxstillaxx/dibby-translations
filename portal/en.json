@@ -93,6 +93,7 @@
                                 },
                      "listHeader":  {
                                         "merchant":  "Merchant",
+                                        "receiptNumber":  "Receipt no.",
                                         "category":  "Category",
                                         "date":  "Date",
                                         "amount":  "Amount",

@@ -93,6 +93,7 @@
                                 },
                      "listHeader":  {
                                         "merchant":  "Winkel",
+                                        "receiptNumber":  "Bonnummer",
                                         "category":  "Categorie",
                                         "date":  "Datum",
                                         "amount":  "Bedrag",

@@ -93,6 +93,7 @@
     },
     "listHeader": {
       "merchant": "Comerciante",
+      "receiptNumber": "N.º de recibo",
       "category": "Categoría",
       "date": "Fecha",
       "amount": "Importe",
