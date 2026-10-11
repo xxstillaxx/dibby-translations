@@ -9,6 +9,9 @@
     "overview": "Resumen",
     "allReceipts": "Todos los recibos",
     "shoppingProfile": "Perfil de compras",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "settingsSubtitle": "Gestiona preferencias, seguridad y reenvío de correo",
     "page": "Página",
     "profileSubtitle": "Gestiona tu información personal, direcciones y métodos de pago"
   },
@@ -328,6 +331,8 @@
       "reasons": {"shipping": "Parece una actualización de envío, no un recibo.", "marketing": "Parece un boletín o una promoción.", "other": "No se encontró ningún recibo ni pedido en este correo.", "duplicateOrder": "Este pedido ya se importó.", "duplicateEmail": "Este correo ya se recibió.", "failed": "Algo salió mal al procesar este correo."},
       "receiptState": {"reading": "Leyendo recibo...", "ready": "Recibo listo", "failed": "No se pudo leer el recibo"}
     },
+    "settingsPage": {"pageTitle": "Configuración | Dibby", "pageDescription": "Tus preferencias de Dibby, seguridad y reenvío de correo"},
+    "password": {"title": "Contraseña", "description": "Cambia la contraseña con la que inicias sesión en Dibby.", "current": "Contraseña actual", "new": "Nueva contraseña", "confirm": "Confirma la nueva contraseña", "hint": "Al menos 8 caracteres, con una mayúscula, una minúscula, un número y un símbolo.", "save": "Cambiar contraseña", "saving": "Cambiando...", "success": "Tu contraseña se ha cambiado.", "errors": {"PasswordMismatch": "Tu contraseña actual es incorrecta.", "noMatch": "Las nuevas contraseñas no coinciden.", "sameAsCurrent": "Elige una contraseña distinta de la actual.", "PasswordTooShort": "La nueva contraseña debe tener al menos 8 caracteres.", "PasswordRequiresDigit": "La nueva contraseña necesita un número.", "PasswordRequiresLower": "La nueva contraseña necesita una minúscula.", "PasswordRequiresUpper": "La nueva contraseña necesita una mayúscula.", "PasswordRequiresNonAlphanumeric": "La nueva contraseña necesita un símbolo (p. ej. ! o #).", "LockedOut": "Demasiados intentos incorrectos. Inténtalo de nuevo en 15 minutos.", "failed": "No se pudo cambiar la contraseña. Inténtalo de nuevo."}},
     "twoFactor": {
       "title": "Autenticación de dos factores",
       "description": "Añade una capa adicional de seguridad a tu cuenta con una aplicación autenticadora TOTP.",

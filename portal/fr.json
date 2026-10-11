@@ -9,6 +9,9 @@
     "overview": "Aperçu",
     "allReceipts": "Tous les reçus",
     "shoppingProfile": "Profil d'achat",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "settingsSubtitle": "Gérez vos préférences, la sécurité et le transfert d'e-mails",
     "page": "Page",
     "profileSubtitle": "Gérez vos informations personnelles, adresses et moyens de paiement"
   },
@@ -328,6 +331,8 @@
       "reasons": {"shipping": "Ressemble à une notification d'expédition, pas à un justificatif.", "marketing": "Ressemble à une newsletter ou une promotion.", "other": "Aucun justificatif ni commande trouvé dans cet e-mail.", "duplicateOrder": "Cette commande a déjà été importée.", "duplicateEmail": "Cet e-mail a déjà été reçu.", "failed": "Une erreur s'est produite lors du traitement de cet e-mail."},
       "receiptState": {"reading": "Lecture du justificatif...", "ready": "Justificatif prêt", "failed": "Impossible de lire le justificatif"}
     },
+    "settingsPage": {"pageTitle": "Paramètres | Dibby", "pageDescription": "Vos préférences Dibby, la sécurité et le transfert d'e-mails"},
+    "password": {"title": "Mot de passe", "description": "Modifiez le mot de passe que vous utilisez pour vous connecter à Dibby.", "current": "Mot de passe actuel", "new": "Nouveau mot de passe", "confirm": "Confirmez le nouveau mot de passe", "hint": "Au moins 8 caractères, avec une majuscule, une minuscule, un chiffre et un symbole.", "save": "Changer le mot de passe", "saving": "Modification...", "success": "Votre mot de passe a été modifié.", "errors": {"PasswordMismatch": "Votre mot de passe actuel est incorrect.", "noMatch": "Les nouveaux mots de passe ne correspondent pas.", "sameAsCurrent": "Choisissez un mot de passe différent de l'actuel.", "PasswordTooShort": "Le nouveau mot de passe doit comporter au moins 8 caractères.", "PasswordRequiresDigit": "Le nouveau mot de passe doit contenir un chiffre.", "PasswordRequiresLower": "Le nouveau mot de passe doit contenir une minuscule.", "PasswordRequiresUpper": "Le nouveau mot de passe doit contenir une majuscule.", "PasswordRequiresNonAlphanumeric": "Le nouveau mot de passe doit contenir un symbole (ex. ! ou #).", "LockedOut": "Trop de tentatives incorrectes. Réessayez dans 15 minutes.", "failed": "Impossible de changer votre mot de passe. Veuillez réessayer."}},
     "twoFactor": {
       "title": "Authentification à deux facteurs",
       "description": "Ajoutez une couche de sécurité supplémentaire à votre compte avec une application d'authentification TOTP.",

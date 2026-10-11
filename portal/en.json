@@ -9,6 +9,9 @@
                    "overview":  "Overview",
                    "allReceipts":  "All Receipts",
                    "shoppingProfile":  "Shopping Profile",
+                   "profile":  "Profile",
+                   "settings":  "Settings",
+                   "settingsSubtitle":  "Manage preferences, security and email forwarding",
                    "page":  "Page",
                    "profileSubtitle":  "Manage your personal info, addresses, and payment methods"
                },
@@ -328,6 +331,8 @@
                                         "reasons":  {"shipping": "Looks like a shipping update, not a receipt.", "marketing": "Looks like a newsletter or promotion.", "other": "No receipt or order found in this email.", "duplicateOrder": "This order was already imported.", "duplicateEmail": "This email was already received.", "failed": "Something went wrong while processing this email."},
                                         "receiptState":  {"reading": "Reading receipt...", "ready": "Receipt ready", "failed": "Couldn't read the receipt"}
                                     },
+                    "settingsPage":  {"pageTitle": "Settings | Dibby", "pageDescription": "Your Dibby preferences, security and email forwarding"},
+                    "password":  {"title": "Password", "description": "Change the password you use to sign in to Dibby.", "current": "Current password", "new": "New password", "confirm": "Confirm new password", "hint": "At least 8 characters, with an uppercase letter, a lowercase letter, a number and a symbol.", "save": "Change password", "saving": "Changing...", "success": "Your password has been changed.", "errors": {"PasswordMismatch": "Your current password is incorrect.", "noMatch": "The new passwords don't match.", "sameAsCurrent": "Choose a password that differs from your current one.", "PasswordTooShort": "The new password must be at least 8 characters.", "PasswordRequiresDigit": "The new password needs a number.", "PasswordRequiresLower": "The new password needs a lowercase letter.", "PasswordRequiresUpper": "The new password needs an uppercase letter.", "PasswordRequiresNonAlphanumeric": "The new password needs a symbol (e.g. ! or #).", "LockedOut": "Too many wrong attempts. Try again in 15 minutes.", "failed": "Couldn't change your password. Please try again."}},
                     "twoFactor":  {
                                       "title":  "Two-Factor Authentication",
                                       "description":  "Add an extra layer of security to your account with a TOTP authenticator app.",
