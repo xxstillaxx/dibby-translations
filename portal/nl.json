@@ -184,6 +184,7 @@
                                   "submitting":  "Opslaan...",
                                   "saveFailed":  "Opslaan mislukt. Probeer het opnieuw."
                               },
+                     "readAgain":  {"open": "Klopt er nog iets niet? Lees de bon opnieuw", "title": "Opnieuw lezen", "noteLabel": "Wat klopt er niet? (optioneel, helpt bij het lezen)", "notePlaceholder": "bijv. de Bonus-regels zijn korting, het totaal is 42,10", "start": "Opnieuw lezen", "startFailed": "Opnieuw lezen kon niet starten. Probeer het opnieuw.", "discardFailed": "De nieuwe lezing kon niet worden verwijderd. Probeer het opnieuw.", "reading": "De bon wordt opnieuw gelezen... dit kan een minuut duren.", "failed": "Opnieuw lezen is niet gelukt. Je kunt het nog eens proberen.", "noChanges": "De nieuwe lezing is gelijk aan wat in het formulier staat.", "current": "Nu", "suggested": "Nieuwe lezing", "useField": "Nieuwe {{field}} gebruiken", "apply": "Selectie gebruiken", "applyHint": "Geselecteerde waarden komen in het formulier; ze worden bewaard als je opslaat.", "applied": "Overgenomen in het formulier. Controleer het en sla op.", "discard": "Verwijderen", "itemsSummary": "{{count}} regels, {{sum}}"},
                      "discountTypes":  {"promotion": "Actie", "coupon": "Kortingsbon", "loyalty": "Klantenkaart", "other": "Korting"},
                      "detail":  {
                                     "closeAria":  "Venster sluiten",

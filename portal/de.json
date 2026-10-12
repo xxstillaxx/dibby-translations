@@ -184,6 +184,7 @@
       "submitting": "Wird gespeichert...",
       "saveFailed": "Änderungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut."
     },
+    "readAgain": {"open": "Stimmt noch etwas nicht? Beleg erneut lesen", "title": "Erneut lesen", "noteLabel": "Was stimmt nicht? (optional, hilft beim Lesen)", "notePlaceholder": "z. B. die Bonus-Zeilen sind Rabatte, die Summe ist 42,10", "start": "Erneut lesen", "startFailed": "Erneutes Lesen konnte nicht gestartet werden. Bitte versuchen Sie es erneut.", "discardFailed": "Das neue Ergebnis konnte nicht verworfen werden. Bitte versuchen Sie es erneut.", "reading": "Der Beleg wird erneut gelesen... das kann eine Minute dauern.", "failed": "Erneutes Lesen hat nicht funktioniert. Sie können es noch einmal versuchen.", "noChanges": "Das neue Ergebnis entspricht dem Formular.", "current": "Jetzt", "suggested": "Neues Ergebnis", "useField": "Neuen Wert für {{field}} verwenden", "apply": "Auswahl übernehmen", "applyHint": "Ausgewählte Werte kommen ins Formular und werden beim Speichern übernommen.", "applied": "Ins Formular übernommen. Prüfen und speichern.", "discard": "Verwerfen", "itemsSummary": "{{count}} Positionen, {{sum}}"},
     "discountTypes": {"promotion": "Aktion", "coupon": "Gutschein", "loyalty": "Kundenkarte", "other": "Rabatt"},
     "detail": {
       "closeAria": "Fenster schließen",

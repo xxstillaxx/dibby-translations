@@ -184,6 +184,7 @@
                                   "submitting":  "Saving...",
                                   "saveFailed":  "Failed to save changes. Please try again."
                               },
+                     "readAgain":  {"open": "Something still wrong? Read the receipt again", "title": "Read again", "noteLabel": "What is wrong? (optional, helps the reader)", "notePlaceholder": "e.g. the Bonus lines are discounts, the total is 42,10", "start": "Read again", "startFailed": "Couldn't start reading again. Please try again.", "discardFailed": "Couldn't discard the new reading. Please try again.", "reading": "Reading the receipt again... this can take a minute.", "failed": "Reading again didn't work. You can try again.", "noChanges": "The new reading matches what is in the form.", "current": "Now", "suggested": "New reading", "useField": "Use the new {{field}}", "apply": "Use selected", "applyHint": "Selected values go into the form; they are saved when you save.", "applied": "Taken over into the form. Check it and save.", "discard": "Discard", "itemsSummary": "{{count}} lines, {{sum}}"},
                      "discountTypes":  {"promotion": "Promotion", "coupon": "Coupon", "loyalty": "Loyalty card", "other": "Discount"},
                      "detail":  {
                                     "closeAria":  "Close modal",

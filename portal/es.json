@@ -184,6 +184,7 @@
       "submitting": "Guardando...",
       "saveFailed": "Error al guardar los cambios. Por favor inténtalo de nuevo."
     },
+    "readAgain": {"open": "¿Algo sigue mal? Volver a leer el recibo", "title": "Volver a leer", "noteLabel": "¿Qué está mal? (opcional, ayuda a leerlo)", "notePlaceholder": "p. ej. las líneas Bonus son descuentos, el total es 42,10", "start": "Volver a leer", "startFailed": "No se pudo volver a leer. Inténtalo de nuevo.", "discardFailed": "No se pudo descartar la nueva lectura. Inténtalo de nuevo.", "reading": "Volviendo a leer el recibo... puede tardar un minuto.", "failed": "No se pudo volver a leer. Puedes intentarlo otra vez.", "noChanges": "La nueva lectura coincide con el formulario.", "current": "Ahora", "suggested": "Nueva lectura", "useField": "Usar el nuevo valor de {{field}}", "apply": "Usar selección", "applyHint": "Los valores elegidos pasan al formulario y se guardan al guardar.", "applied": "Pasado al formulario. Revísalo y guarda.", "discard": "Descartar", "itemsSummary": "{{count}} líneas, {{sum}}"},
     "discountTypes": {"promotion": "Promoción", "coupon": "Cupón", "loyalty": "Tarjeta de cliente", "other": "Descuento"},
     "detail": {
       "closeAria": "Cerrar modal",
