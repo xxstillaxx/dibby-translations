@@ -184,6 +184,7 @@
       "submitting": "Enregistrement...",
       "saveFailed": "Échec de l'enregistrement. Veuillez réessayer."
     },
+    "readAgain": {"open": "Encore une erreur ? Relire le reçu", "title": "Relire", "noteLabel": "Qu'est-ce qui ne va pas ? (facultatif, aide la lecture)", "notePlaceholder": "ex. les lignes Bonus sont des remises, le total est 42,10", "start": "Relire", "startFailed": "Impossible de lancer la relecture. Veuillez réessayer.", "discardFailed": "Impossible d'écarter la nouvelle lecture. Veuillez réessayer.", "reading": "Relecture du reçu... cela peut prendre une minute.", "failed": "La relecture n'a pas fonctionné. Vous pouvez réessayer.", "noChanges": "La nouvelle lecture correspond au formulaire.", "current": "Actuel", "suggested": "Nouvelle lecture", "useField": "Utiliser la nouvelle valeur : {{field}}", "apply": "Utiliser la sélection", "applyHint": "Les valeurs sélectionnées vont dans le formulaire et sont enregistrées avec lui.", "applied": "Repris dans le formulaire. Vérifiez puis enregistrez.", "discard": "Écarter", "itemsSummary": "{{count}} lignes, {{sum}}"},
     "discountTypes": {"promotion": "Promotion", "coupon": "Bon de réduction", "loyalty": "Carte de fidélité", "other": "Remise"},
     "detail": {
       "closeAria": "Fermer la fenêtre",
