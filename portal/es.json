@@ -489,7 +489,12 @@
             "sendFailed": "No se pudo enviar el código. Inténtalo más tarde.",
             "codeInvalid": "El código no es correcto o ha caducado. Compruébalo o solicita uno nuevo.",
             "generic": "Algo salió mal. Inténtalo de nuevo."
-        }
+        },
+        "autoSendIntro":  "Elige qué recibos envía Dibby por su cuenta a tu programa de contabilidad.",
+        "autoSendOff":  "Desactivado: envío los recibos yo mismo",
+        "autoSendAll":  "Todos los recibos nuevos",
+        "autoSendAllHint":  "Cada recibo que añadas a partir de ahora, esté en una carpeta o no. Los recibos que ya tienes no cambian.",
+        "autoSendBinders":  "Solo los recibos de estas carpetas"
     }
   },
   "review": {

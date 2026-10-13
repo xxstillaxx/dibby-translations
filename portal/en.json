@@ -489,7 +489,12 @@
                             "sendFailed": "We couldn't send the code. Try again later.",
                             "codeInvalid": "That code is not correct or has expired. Check it or send a new code.",
                             "generic": "Something went wrong. Try again."
-                        }
+                        },
+                        "autoSendIntro":  "Choose which receipts Dibby sends to your accounting package on its own.",
+                        "autoSendOff":  "Off: I send receipts myself",
+                        "autoSendAll":  "All new receipts",
+                        "autoSendAllHint":  "Every receipt you add from now on, in a binder or not. Receipts you already have stay as they are.",
+                        "autoSendBinders":  "Only receipts in these binders"
                     }
                 },
   "review": {

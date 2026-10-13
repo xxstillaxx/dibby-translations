@@ -489,7 +489,12 @@
             "sendFailed": "Impossible d'envoyer le code. Réessayez plus tard.",
             "codeInvalid": "Ce code est incorrect ou a expiré. Vérifiez-le ou demandez-en un nouveau.",
             "generic": "Une erreur s'est produite. Réessayez."
-        }
+        },
+        "autoSendIntro":  "Choisissez les reçus que Dibby envoie de lui-même à votre logiciel comptable.",
+        "autoSendOff":  "Désactivé : j'envoie mes reçus moi-même",
+        "autoSendAll":  "Tous les nouveaux reçus",
+        "autoSendAllHint":  "Chaque reçu ajouté à partir de maintenant, dans un classeur ou non. Les reçus existants ne sont pas modifiés.",
+        "autoSendBinders":  "Uniquement les reçus de ces classeurs"
     }
   },
   "review": {
