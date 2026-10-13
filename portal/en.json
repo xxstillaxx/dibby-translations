@@ -442,7 +442,7 @@
                         "loadFailed": "Could not load your accounting connection.",
                         "retry": "Try again",
                         "chooseProvider": "Choose your accounting package",
-                        "comingSoon": "More packages are coming: e-Boekhouden, Exact Online, SnelStart and Jortt.",
+                        "comingSoon": "More packages are coming: e-Boekhouden, Exact Online and SnelStart.",
                         "addressLabel": "Your {{provider}} inbox address",
                         "connect": "Connect",
                         "connecting": "Connecting...",
@@ -477,6 +477,10 @@
                             "moneybird": {
                                 "help": "In Moneybird, open your administration, go to the Inkomend tab and click the @ button. Copy the address shown there.",
                                 "example": "yourcompany-1234abcd@inkomend.moneybird.nl"
+                            },
+                            "jortt":  {
+                                "help": "In Jortt, go to Settings > jortt Inbox. Your address is the name you chose there followed by @inbox.jortt.nl.",
+                                "example": "yourcompany@inbox.jortt.nl"
                             }
                         },
                         "errors": {

@@ -442,7 +442,7 @@
         "loadFailed": "No se pudo cargar tu conexión contable.",
         "retry": "Reintentar",
         "chooseProvider": "Elige tu programa de contabilidad",
-        "comingSoon": "Llegarán más programas: e-Boekhouden, Exact Online, SnelStart y Jortt.",
+        "comingSoon": "Llegarán más programas: e-Boekhouden, Exact Online y SnelStart.",
         "addressLabel": "Tu dirección de entrada de {{provider}}",
         "connect": "Conectar",
         "connecting": "Conectando...",
@@ -477,6 +477,10 @@
             "moneybird": {
                 "help": "En Moneybird, abre tu administración, ve a la pestaña Inkomend y haz clic en el botón @. Copia la dirección que aparece.",
                 "example": "tuempresa-1234abcd@inkomend.moneybird.nl"
+            },
+            "jortt":  {
+                "help": "En Jortt, ve a Ajustes > jortt Inbox. Tu dirección es el nombre que elegiste allí seguido de @inbox.jortt.nl.",
+                "example": "tuempresa@inbox.jortt.nl"
             }
         },
         "errors": {
