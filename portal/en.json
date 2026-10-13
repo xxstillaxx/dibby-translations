@@ -203,7 +203,40 @@
                                     "download":  "Download",
                                     "receiptAlt":  "Receipt",
                                     "receiptPdfTitle":  "Receipt PDF"
-                                }
+                                },
+                     "accounting":  {
+                         "send": "Send to {{provider}}",
+                         "sendAgain": "Send again",
+                         "sendAgainConfirm": "This receipt was already sent to {{provider}}. Send it again?",
+                         "sending": "Sending...",
+                         "status": {
+                             "queued": "On its way to {{provider}}",
+                             "sent": "Sent to {{provider}} on {{date}}",
+                             "failed": "Sending to {{provider}} failed",
+                             "bounced": "{{provider}} rejected this receipt"
+                         },
+                         "badge": {
+                             "queued": "Sending",
+                             "sent": "Sent",
+                             "failed": "Failed",
+                             "bounced": "Rejected"
+                         },
+                         "unsupported": "Only PDFs and photos can be sent to {{provider}}.",
+                         "sendFailed": "Sending didn't work. Try again.",
+                         "dailyLimit": "You've reached today's limit of 200 receipts. Try again tomorrow.",
+                         "bulk_one": "Send {{count}} to {{provider}}",
+                         "bulk_other": "Send {{count}} to {{provider}}",
+                         "bulkConfirm_one": "Send {{count}} receipt to {{provider}}?",
+                         "bulkConfirm_other": "Send {{count}} receipts to {{provider}}?",
+                         "bulkYes": "Send",
+                         "bulkCancel": "Cancel",
+                         "bulkQueued_one": "{{count}} receipt is on its way to {{provider}}.",
+                         "bulkQueued_other": "{{count}} receipts are on their way to {{provider}}.",
+                         "bulkSkipped_one": "{{count}} skipped: only PDFs and photos can be sent.",
+                         "bulkSkipped_other": "{{count}} skipped: only PDFs and photos can be sent.",
+                         "needsUpdate": "{{provider}} rejected a receipt. Check your inbox address in Settings.",
+                         "openSettings": "Open settings"
+                     }
                  },
     "profile":  {
                     "pageTitle":  "Profile | Dibby",
@@ -222,7 +255,8 @@
                                  "payments":  "Payment Methods",
                                  "preferences":  "Preferences",
                                  "security":  "Security",
-                                 "emailImport":  "Email Import"
+                                 "emailImport":  "Email Import",
+                                 "integrations":  "Accounting"
                              },
                     "sectionHeader":  {
                                           "cancel":  "Cancel",
@@ -400,7 +434,59 @@
                                                      "setupFailed":  "Failed to start setup.",
                                                      "invalidCode":  "Invalid code. Please try again."
                                                  }
-                                  }
+                                  },
+                    "integrations":  {
+                        "title": "Accounting package",
+                        "description": "Send your receipts straight to your accounting package. Dibby emails each receipt to your package's own inbox address, where it shows up as a new document.",
+                        "loading": "Loading...",
+                        "loadFailed": "Could not load your accounting connection.",
+                        "retry": "Try again",
+                        "chooseProvider": "Choose your accounting package",
+                        "comingSoon": "More packages are coming: e-Boekhouden, Exact Online, SnelStart and Jortt.",
+                        "addressLabel": "Your {{provider}} inbox address",
+                        "connect": "Connect",
+                        "connecting": "Connecting...",
+                        "cancel": "Cancel",
+                        "status": {
+                            "unverified": "Waiting for the code",
+                            "active": "Connected",
+                            "needs_update": "Address no longer works"
+                        },
+                        "verifyTitle": "Enter the verification code",
+                        "verifyHint": "We sent a document with a 6-digit code to {{address}}. Open it in {{provider}} and enter the code below. You can delete that document afterwards.",
+                        "codeLabel": "Verification code",
+                        "verify": "Verify",
+                        "verifying": "Checking...",
+                        "resend": "Send a new code",
+                        "resent": "A new code is on its way.",
+                        "connectedHint": "Receipts you send from Dibby arrive in {{provider}} as new documents.",
+                        "lastSent": "Last receipt sent: {{date}}",
+                        "neverSent": "No receipts sent yet.",
+                        "changeAddress": "Change address",
+                        "newAddressHint": "Generated a new address in {{provider}}? Enter it here and we'll send a new code to check it.",
+                        "needsUpdateHint": "{{provider}} rejected the last receipt. If you generated a new inbox address, enter it here.",
+                        "autoSendTitle": "Send automatically",
+                        "autoSendHint": "Receipts that are added to, or moved into, these binders are sent automatically.",
+                        "autoSendNone": "You don't have any binders yet. Create one on the Receipts page, for example \"Business\".",
+                        "save": "Save",
+                        "saved": "Saved",
+                        "disconnect": "Disconnect",
+                        "disconnectConfirm": "Disconnect {{provider}}? Receipts will no longer be sent.",
+                        "disconnectYes": "Yes, disconnect",
+                        "providers": {
+                            "moneybird": {
+                                "help": "In Moneybird, open your administration, go to the Inkomend tab and click the @ button. Copy the address shown there.",
+                                "example": "yourcompany-1234abcd@inkomend.moneybird.nl"
+                            }
+                        },
+                        "errors": {
+                            "invalidAddress": "This isn't a {{provider}} inbox address. It looks like {{example}}.",
+                            "tooManyEmails": "Too many codes sent. Try again in an hour.",
+                            "sendFailed": "We couldn't send the code. Try again later.",
+                            "codeInvalid": "That code is not correct or has expired. Check it or send a new code.",
+                            "generic": "Something went wrong. Try again."
+                        }
+                    }
                 },
   "review": {
     "approve": "Looks right",

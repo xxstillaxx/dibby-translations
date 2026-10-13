@@ -203,6 +203,39 @@
       "download": "Télécharger",
       "receiptAlt": "Reçu",
       "receiptPdfTitle": "PDF du reçu"
+    },
+    "accounting":  {
+        "send": "Envoyer à {{provider}}",
+        "sendAgain": "Renvoyer",
+        "sendAgainConfirm": "Ce reçu a déjà été envoyé à {{provider}}. Le renvoyer ?",
+        "sending": "Envoi...",
+        "status": {
+            "queued": "En route vers {{provider}}",
+            "sent": "Envoyé à {{provider}} le {{date}}",
+            "failed": "Échec de l'envoi à {{provider}}",
+            "bounced": "{{provider}} a refusé ce reçu"
+        },
+        "badge": {
+            "queued": "Envoi",
+            "sent": "Envoyé",
+            "failed": "Échec",
+            "bounced": "Refusé"
+        },
+        "unsupported": "Seuls les PDF et les photos peuvent être envoyés à {{provider}}.",
+        "sendFailed": "L'envoi n'a pas fonctionné. Réessayez.",
+        "dailyLimit": "Vous avez atteint la limite de 200 reçus pour aujourd'hui. Réessayez demain.",
+        "bulk_one": "Envoyer {{count}} à {{provider}}",
+        "bulk_other": "Envoyer {{count}} à {{provider}}",
+        "bulkConfirm_one": "Envoyer {{count}} reçu à {{provider}} ?",
+        "bulkConfirm_other": "Envoyer {{count}} reçus à {{provider}} ?",
+        "bulkYes": "Envoyer",
+        "bulkCancel": "Annuler",
+        "bulkQueued_one": "{{count}} reçu est en route vers {{provider}}.",
+        "bulkQueued_other": "{{count}} reçus sont en route vers {{provider}}.",
+        "bulkSkipped_one": "{{count}} ignoré : seuls les PDF et les photos peuvent être envoyés.",
+        "bulkSkipped_other": "{{count}} ignorés : seuls les PDF et les photos peuvent être envoyés.",
+        "needsUpdate": "{{provider}} a refusé un reçu. Vérifiez votre adresse de réception dans les paramètres.",
+        "openSettings": "Ouvrir les paramètres"
     }
   },
   "profile": {
@@ -222,7 +255,8 @@
       "payments": "Moyens de paiement",
       "preferences": "Préférences",
       "security": "Sécurité",
-      "emailImport": "Import par e-mail"
+      "emailImport": "Import par e-mail",
+      "integrations":  "Comptabilité"
     },
     "sectionHeader": {
       "cancel": "Annuler",
@@ -400,6 +434,58 @@
         "setupFailed": "Échec du démarrage de la configuration.",
         "invalidCode": "Code invalide. Veuillez réessayer."
       }
+    },
+    "integrations":  {
+        "title": "Logiciel de comptabilité",
+        "description": "Envoyez vos reçus directement à votre logiciel de comptabilité. Dibby envoie chaque reçu par e-mail à l'adresse de réception de votre logiciel, où il apparaît comme un nouveau document.",
+        "loading": "Chargement...",
+        "loadFailed": "Impossible de charger votre connexion comptable.",
+        "retry": "Réessayer",
+        "chooseProvider": "Choisissez votre logiciel de comptabilité",
+        "comingSoon": "D'autres logiciels arrivent : e-Boekhouden, Exact Online, SnelStart et Jortt.",
+        "addressLabel": "Votre adresse de réception {{provider}}",
+        "connect": "Connecter",
+        "connecting": "Connexion...",
+        "cancel": "Annuler",
+        "status": {
+            "unverified": "En attente du code",
+            "active": "Connecté",
+            "needs_update": "L'adresse ne fonctionne plus"
+        },
+        "verifyTitle": "Saisissez le code de vérification",
+        "verifyHint": "Nous avons envoyé un document avec un code à 6 chiffres à {{address}}. Ouvrez-le dans {{provider}} et saisissez le code ci-dessous. Vous pourrez ensuite supprimer ce document.",
+        "codeLabel": "Code de vérification",
+        "verify": "Vérifier",
+        "verifying": "Vérification...",
+        "resend": "Envoyer un nouveau code",
+        "resent": "Un nouveau code est en route.",
+        "connectedHint": "Les reçus que vous envoyez depuis Dibby arrivent dans {{provider}} comme nouveaux documents.",
+        "lastSent": "Dernier reçu envoyé : {{date}}",
+        "neverSent": "Aucun reçu envoyé pour l'instant.",
+        "changeAddress": "Modifier l'adresse",
+        "newAddressHint": "Vous avez créé une nouvelle adresse dans {{provider}} ? Saisissez-la ici et nous enverrons un nouveau code pour la vérifier.",
+        "needsUpdateHint": "{{provider}} a refusé le dernier reçu. Si vous avez créé une nouvelle adresse de réception, saisissez-la ici.",
+        "autoSendTitle": "Envoyer automatiquement",
+        "autoSendHint": "Les reçus ajoutés à ces classeurs, ou déplacés dedans, sont envoyés automatiquement.",
+        "autoSendNone": "Vous n'avez pas encore de classeur. Créez-en un sur la page Reçus, par exemple « Professionnel ».",
+        "save": "Enregistrer",
+        "saved": "Enregistré",
+        "disconnect": "Déconnecter",
+        "disconnectConfirm": "Déconnecter {{provider}} ? Les reçus ne seront plus envoyés.",
+        "disconnectYes": "Oui, déconnecter",
+        "providers": {
+            "moneybird": {
+                "help": "Dans Moneybird, ouvrez votre administration, allez dans l'onglet Inkomend et cliquez sur le bouton @. Copiez l'adresse affichée.",
+                "example": "votreentreprise-1234abcd@inkomend.moneybird.nl"
+            }
+        },
+        "errors": {
+            "invalidAddress": "Ce n'est pas une adresse de réception {{provider}}. Elle ressemble à {{example}}.",
+            "tooManyEmails": "Trop de codes envoyés. Réessayez dans une heure.",
+            "sendFailed": "Impossible d'envoyer le code. Réessayez plus tard.",
+            "codeInvalid": "Ce code est incorrect ou a expiré. Vérifiez-le ou demandez-en un nouveau.",
+            "generic": "Une erreur s'est produite. Réessayez."
+        }
     }
   },
   "review": {
