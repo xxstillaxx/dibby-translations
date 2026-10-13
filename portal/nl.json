@@ -213,13 +213,15 @@
                              "queued": "Onderweg naar {{provider}}",
                              "sent": "Naar {{provider}} gestuurd op {{date}}",
                              "failed": "Versturen naar {{provider}} mislukt",
-                             "bounced": "{{provider}} heeft deze bon geweigerd"
+                             "bounced": "{{provider}} heeft deze bon geweigerd",
+                             "booked":  "Geboekt in {{provider}} op {{date}}"
                          },
                          "badge": {
                              "queued": "Versturen",
                              "sent": "Verstuurd",
                              "failed": "Mislukt",
-                             "bounced": "Geweigerd"
+                             "bounced": "Geweigerd",
+                             "booked":  "Geboekt"
                          },
                          "unsupported": "Alleen pdf's en foto's kunnen naar {{provider}} worden gestuurd.",
                          "sendFailed": "Versturen lukte niet. Probeer het opnieuw.",
@@ -235,7 +237,10 @@
                          "bulkSkipped_one": "{{count}} overgeslagen: alleen pdf's en foto's kunnen worden verstuurd.",
                          "bulkSkipped_other": "{{count}} overgeslagen: alleen pdf's en foto's kunnen worden verstuurd.",
                          "needsUpdate": "{{provider}} heeft een bon geweigerd. Controleer je inbox-adres bij Instellingen.",
-                         "openSettings": "Instellingen openen"
+                         "openSettings": "Instellingen openen",
+                         "needsReconnect":  "Dibby heeft geen toegang meer tot {{provider}}. Koppel opnieuw via Instellingen.",
+                         "planRequired":  "Boeken in Moneybird hoort bij Dibby Pro.",
+                         "openIn":  "Openen in {{provider}}"
                      }
                  },
     "profile":  {
@@ -450,7 +455,8 @@
                         "status": {
                             "unverified": "Wacht op de code",
                             "active": "Gekoppeld",
-                            "needs_update": "Adres werkt niet meer"
+                            "needs_update": "Adres werkt niet meer",
+                            "setup":  "Instellen afronden"
                         },
                         "verifyTitle": "Vul de verificatiecode in",
                         "verifyHint": "We hebben een document met een 6-cijferige code naar {{address}} gestuurd. Open het in {{provider}} en vul de code hieronder in. Daarna kun je dat document verwijderen.",
@@ -494,7 +500,55 @@
                         "autoSendOff":  "Uit: ik verstuur bonnen zelf",
                         "autoSendAll":  "Alle nieuwe bonnen",
                         "autoSendAllHint":  "Elke bon die je vanaf nu toevoegt, in een map of niet. Bonnen die je al hebt blijven zoals ze zijn.",
-                        "autoSendBinders":  "Alleen bonnen in deze mappen"
+                        "autoSendBinders":  "Alleen bonnen in deze mappen",
+                        "api":  {
+                            "pro": "Pro",
+                            "offerTitle": "Bonnen direct boeken in Moneybird",
+                            "offerBody": "Dibby boekt elke bon voor je: leverancier, datum, bedrag, btw-tarief en grootboekrekening, met de foto of pdf als bijlage. Geen bonnen meer verwerken in je Moneybird-inbox.",
+                            "offerReplacesInbox": "Dit vervangt het versturen naar je inbox-adres.",
+                            "connect": "Koppelen met Moneybird",
+                            "proOnly": "Beschikbaar met Dibby Pro.",
+                            "redirecting": "Moneybird openen...",
+                            "reconnect": "Opnieuw koppelen",
+                            "reconnectHint": "Dibby heeft geen toegang meer tot Moneybird. Koppel opnieuw om bonnen te blijven boeken.",
+                            "administration": "Administratie: {{name}}",
+                            "changeAdministration": "Wijzigen",
+                            "chooseAdministration": "In welke administratie moeten bonnen worden geboekt?",
+                            "bookingTitle": "Zo worden bonnen geboekt",
+                            "bookingHint": "Elke bon wordt een bonnetje in Moneybird met één regel: het totaal inclusief btw. Kies per categorie de grootboekrekening; categorieën zonder keuze gebruiken de standaard.",
+                            "defaultLedger": "Standaard grootboekrekening",
+                            "chooseLedger": "Kies een grootboekrekening",
+                            "defaultTaxRate": "Standaard btw-tarief",
+                            "noTaxRate": "Geen",
+                            "taxRateHint": "Dibby leest het btw-tarief van de bon af. Dit tarief wordt gebruikt als dat niet lukt, bijvoorbeeld bij een bon met meerdere tarieven.",
+                            "perCategory": "Grootboekrekening per categorie",
+                            "useDefault": "Standaard gebruiken",
+                            "refreshOptions": "Opnieuw ophalen uit Moneybird",
+                            "bookingIn": "Boekt in {{name}}",
+                            "connectedByApi": "Gekoppeld met Moneybird",
+                            "activeHint": "Bonnen worden geboekt in {{provider}}.",
+                            "lastBooked": "Laatst geboekt: {{date}}.",
+                            "neverBooked": "Nog niets geboekt.",
+                            "setupHint": "Bijna klaar: kies de administratie en een standaard grootboekrekening om te beginnen met boeken.",
+                            "status": {
+                                "setup": "Instellen afronden",
+                                "active": "Gekoppeld",
+                                "needs_update": "Opnieuw koppelen"
+                            },
+                            "errors": {
+                                "planRequired": "Boeken in Moneybird hoort bij Dibby Pro.",
+                                "notConfigured": "Boeken in Moneybird is nog niet beschikbaar. Probeer het later opnieuw.",
+                                "unavailable": "Moneybird is nu niet bereikbaar. Probeer het zo opnieuw.",
+                                "optionsChanged": "Een grootboekrekening of btw-tarief bestaat niet meer in Moneybird. De lijst is opnieuw opgehaald; kies opnieuw."
+                            },
+                            "callback": {
+                                "connecting": "Moneybird koppelen...",
+                                "declined": "Moneybird is niet gekoppeld. Je kunt het opnieuw proberen via Instellingen.",
+                                "expired": "Deze link is verlopen. Begin opnieuw met koppelen via Instellingen.",
+                                "failed": "Moneybird koppelen is niet gelukt. Probeer het opnieuw via Instellingen.",
+                                "back": "Terug naar instellingen"
+                            }
+                        }
                     }
                 },
   "review": {

@@ -213,13 +213,15 @@
             "queued": "De camino a {{provider}}",
             "sent": "Enviado a {{provider}} el {{date}}",
             "failed": "Error al enviar a {{provider}}",
-            "bounced": "{{provider}} rechazó este recibo"
+            "bounced": "{{provider}} rechazó este recibo",
+            "booked":  "Contabilizado en {{provider}} el {{date}}"
         },
         "badge": {
             "queued": "Enviando",
             "sent": "Enviado",
             "failed": "Error",
-            "bounced": "Rechazado"
+            "bounced": "Rechazado",
+            "booked":  "Contabilizado"
         },
         "unsupported": "Solo se pueden enviar PDF y fotos a {{provider}}.",
         "sendFailed": "El envío no funcionó. Inténtalo de nuevo.",
@@ -235,7 +237,10 @@
         "bulkSkipped_one": "{{count}} omitido: solo se pueden enviar PDF y fotos.",
         "bulkSkipped_other": "{{count}} omitidos: solo se pueden enviar PDF y fotos.",
         "needsUpdate": "{{provider}} rechazó un recibo. Comprueba tu dirección de entrada en Ajustes.",
-        "openSettings": "Abrir ajustes"
+        "openSettings": "Abrir ajustes",
+        "needsReconnect":  "Dibby ya no tiene acceso a {{provider}}. Vuelve a conectarlo en Ajustes.",
+        "planRequired":  "Contabilizar en Moneybird forma parte de Dibby Pro.",
+        "openIn":  "Abrir en {{provider}}"
     }
   },
   "profile": {
@@ -450,7 +455,8 @@
         "status": {
             "unverified": "Esperando el código",
             "active": "Conectado",
-            "needs_update": "La dirección ya no funciona"
+            "needs_update": "La dirección ya no funciona",
+            "setup":  "Terminar la configuración"
         },
         "verifyTitle": "Introduce el código de verificación",
         "verifyHint": "Hemos enviado un documento con un código de 6 dígitos a {{address}}. Ábrelo en {{provider}} e introduce el código abajo. Después puedes eliminar ese documento.",
@@ -494,7 +500,55 @@
         "autoSendOff":  "Desactivado: envío los recibos yo mismo",
         "autoSendAll":  "Todos los recibos nuevos",
         "autoSendAllHint":  "Cada recibo que añadas a partir de ahora, esté en una carpeta o no. Los recibos que ya tienes no cambian.",
-        "autoSendBinders":  "Solo los recibos de estas carpetas"
+        "autoSendBinders":  "Solo los recibos de estas carpetas",
+        "api":  {
+            "pro": "Pro",
+            "offerTitle": "Contabiliza los recibos directamente en Moneybird",
+            "offerBody": "Dibby contabiliza cada recibo por ti: proveedor, fecha, importe, tipo de IVA y cuenta contable, con la foto o el PDF adjunto. Se acabó procesar recibos en tu bandeja de Moneybird.",
+            "offerReplacesInbox": "Esto sustituye el envío a tu dirección de entrada.",
+            "connect": "Conectar con Moneybird",
+            "proOnly": "Disponible con Dibby Pro.",
+            "redirecting": "Abriendo Moneybird...",
+            "reconnect": "Volver a conectar",
+            "reconnectHint": "Dibby ya no tiene acceso a Moneybird. Vuelve a conectarlo para seguir contabilizando recibos.",
+            "administration": "Administración: {{name}}",
+            "changeAdministration": "Cambiar",
+            "chooseAdministration": "¿En qué administración se deben contabilizar los recibos?",
+            "bookingTitle": "Cómo se contabilizan los recibos",
+            "bookingHint": "Cada recibo se convierte en un recibo en Moneybird con una línea: el total con IVA. Elige la cuenta contable por categoría; las categorías sin elección usan la predeterminada.",
+            "defaultLedger": "Cuenta contable predeterminada",
+            "chooseLedger": "Elige una cuenta contable",
+            "defaultTaxRate": "Tipo de IVA predeterminado",
+            "noTaxRate": "Ninguno",
+            "taxRateHint": "Dibby deduce el tipo de IVA del recibo. Este tipo se usa cuando no es posible, por ejemplo en un recibo con varios tipos.",
+            "perCategory": "Cuenta contable por categoría",
+            "useDefault": "Usar la predeterminada",
+            "refreshOptions": "Volver a cargar desde Moneybird",
+            "bookingIn": "Contabiliza en {{name}}",
+            "connectedByApi": "Conectado con Moneybird",
+            "activeHint": "Los recibos se contabilizan en {{provider}}.",
+            "lastBooked": "Última contabilización: {{date}}.",
+            "neverBooked": "Aún no se ha contabilizado nada.",
+            "setupHint": "Casi listo: elige la administración y una cuenta contable predeterminada para empezar.",
+            "status": {
+                "setup": "Terminar la configuración",
+                "active": "Conectado",
+                "needs_update": "Volver a conectar"
+            },
+            "errors": {
+                "planRequired": "Contabilizar en Moneybird forma parte de Dibby Pro.",
+                "notConfigured": "Contabilizar en Moneybird aún no está disponible. Inténtalo más tarde.",
+                "unavailable": "No se puede acceder a Moneybird ahora mismo. Inténtalo de nuevo en un momento.",
+                "optionsChanged": "Una cuenta contable o un tipo de IVA ya no existe en Moneybird. La lista se ha vuelto a cargar; elige de nuevo."
+            },
+            "callback": {
+                "connecting": "Conectando Moneybird...",
+                "declined": "Moneybird no se ha conectado. Puedes volver a intentarlo desde Ajustes.",
+                "expired": "Este enlace ha caducado. Vuelve a empezar la conexión desde Ajustes.",
+                "failed": "No se ha podido conectar Moneybird. Inténtalo de nuevo desde Ajustes.",
+                "back": "Volver a ajustes"
+            }
+        }
     }
   },
   "review": {
