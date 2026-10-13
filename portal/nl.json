@@ -50,7 +50,9 @@
                                     "pending":  "In afwachting",
                                     "needsReview":  "te beoordelen",
                                     "avgTransaction":  "Gem. transactie",
-                                    "perReceipt":  "per bon"
+                                    "perReceipt":  "per bon",
+                                    "savedThisMonth":  "Bespaard deze maand",
+                                    "savedAllTime":  "{{amount}} in totaal"
                                 },
                       "recent":  {
                                      "heading":  "Recente transacties",

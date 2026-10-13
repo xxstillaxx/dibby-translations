@@ -50,7 +50,9 @@
       "pending": "En attente",
       "needsReview": "à vérifier",
       "avgTransaction": "Transaction moy.",
-      "perReceipt": "par reçu"
+      "perReceipt": "par reçu",
+      "savedThisMonth": "Économisé ce mois-ci",
+      "savedAllTime": "{{amount}} au total"
     },
     "recent": {
       "heading": "Transactions récentes",

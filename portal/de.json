@@ -50,7 +50,9 @@
       "pending": "Ausstehend",
       "needsReview": "zu prüfen",
       "avgTransaction": "Ø Transaktion",
-      "perReceipt": "pro Beleg"
+      "perReceipt": "pro Beleg",
+      "savedThisMonth": "Diesen Monat gespart",
+      "savedAllTime": "{{amount}} insgesamt"
     },
     "recent": {
       "heading": "Letzte Transaktionen",

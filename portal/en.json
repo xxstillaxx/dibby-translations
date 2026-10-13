@@ -50,7 +50,9 @@
                                     "pending":  "Pending",
                                     "needsReview":  "needs review",
                                     "avgTransaction":  "Avg Transaction",
-                                    "perReceipt":  "per receipt"
+                                    "perReceipt":  "per receipt",
+                                    "savedThisMonth":  "Saved this month",
+                                    "savedAllTime":  "{{amount}} all time"
                                 },
                       "recent":  {
                                      "heading":  "Recent Transactions",
