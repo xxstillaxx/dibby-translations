@@ -489,7 +489,12 @@
             "sendFailed": "Der Code konnte nicht gesendet werden. Versuche es später erneut.",
             "codeInvalid": "Der Code ist falsch oder abgelaufen. Prüfe ihn oder fordere einen neuen an.",
             "generic": "Etwas ist schiefgelaufen. Versuche es erneut."
-        }
+        },
+        "autoSendIntro":  "Wähle, welche Belege Dibby selbst an deine Buchhaltung sendet.",
+        "autoSendOff":  "Aus: Ich sende Belege selbst",
+        "autoSendAll":  "Alle neuen Belege",
+        "autoSendAllHint":  "Jeder Beleg, den du ab jetzt hinzufügst, ob in einem Ordner oder nicht. Vorhandene Belege bleiben unverändert.",
+        "autoSendBinders":  "Nur Belege in diesen Ordnern"
     }
   },
   "review": {

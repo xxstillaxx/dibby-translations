@@ -489,7 +489,12 @@
                             "sendFailed": "De code kon niet worden verstuurd. Probeer het later opnieuw.",
                             "codeInvalid": "Die code klopt niet of is verlopen. Controleer de code of vraag een nieuwe aan.",
                             "generic": "Er ging iets mis. Probeer het opnieuw."
-                        }
+                        },
+                        "autoSendIntro":  "Kies welke bonnen Dibby zelf naar je boekhouding stuurt.",
+                        "autoSendOff":  "Uit: ik verstuur bonnen zelf",
+                        "autoSendAll":  "Alle nieuwe bonnen",
+                        "autoSendAllHint":  "Elke bon die je vanaf nu toevoegt, in een map of niet. Bonnen die je al hebt blijven zoals ze zijn.",
+                        "autoSendBinders":  "Alleen bonnen in deze mappen"
                     }
                 },
   "review": {
