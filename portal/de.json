@@ -203,6 +203,39 @@
       "download": "Herunterladen",
       "receiptAlt": "Beleg",
       "receiptPdfTitle": "Beleg-PDF"
+    },
+    "accounting":  {
+        "send": "An {{provider}} senden",
+        "sendAgain": "Erneut senden",
+        "sendAgainConfirm": "Dieser Beleg wurde bereits an {{provider}} gesendet. Erneut senden?",
+        "sending": "Wird gesendet...",
+        "status": {
+            "queued": "Unterwegs zu {{provider}}",
+            "sent": "Am {{date}} an {{provider}} gesendet",
+            "failed": "Senden an {{provider}} fehlgeschlagen",
+            "bounced": "{{provider}} hat diesen Beleg abgelehnt"
+        },
+        "badge": {
+            "queued": "Wird gesendet",
+            "sent": "Gesendet",
+            "failed": "Fehlgeschlagen",
+            "bounced": "Abgelehnt"
+        },
+        "unsupported": "Nur PDFs und Fotos können an {{provider}} gesendet werden.",
+        "sendFailed": "Senden hat nicht funktioniert. Versuche es erneut.",
+        "dailyLimit": "Du hast das heutige Limit von 200 Belegen erreicht. Versuche es morgen erneut.",
+        "bulk_one": "{{count}} an {{provider}} senden",
+        "bulk_other": "{{count}} an {{provider}} senden",
+        "bulkConfirm_one": "{{count}} Beleg an {{provider}} senden?",
+        "bulkConfirm_other": "{{count}} Belege an {{provider}} senden?",
+        "bulkYes": "Senden",
+        "bulkCancel": "Abbrechen",
+        "bulkQueued_one": "{{count}} Beleg ist unterwegs zu {{provider}}.",
+        "bulkQueued_other": "{{count}} Belege sind unterwegs zu {{provider}}.",
+        "bulkSkipped_one": "{{count}} übersprungen: Nur PDFs und Fotos können gesendet werden.",
+        "bulkSkipped_other": "{{count}} übersprungen: Nur PDFs und Fotos können gesendet werden.",
+        "needsUpdate": "{{provider}} hat einen Beleg abgelehnt. Prüfe deine Eingangsadresse in den Einstellungen.",
+        "openSettings": "Einstellungen öffnen"
     }
   },
   "profile": {
@@ -222,7 +255,8 @@
       "payments": "Zahlungsmethoden",
       "preferences": "Einstellungen",
       "security": "Sicherheit",
-      "emailImport": "E-Mail-Import"
+      "emailImport": "E-Mail-Import",
+      "integrations":  "Buchhaltung"
     },
     "sectionHeader": {
       "cancel": "Abbrechen",
@@ -400,6 +434,58 @@
         "setupFailed": "Einrichtung konnte nicht gestartet werden.",
         "invalidCode": "Ungültiger Code. Bitte versuchen Sie es erneut."
       }
+    },
+    "integrations":  {
+        "title": "Buchhaltungsprogramm",
+        "description": "Sende deine Belege direkt an dein Buchhaltungsprogramm. Dibby mailt jeden Beleg an die eigene Eingangsadresse deines Programms, wo er als neues Dokument erscheint.",
+        "loading": "Wird geladen...",
+        "loadFailed": "Deine Buchhaltungsverbindung konnte nicht geladen werden.",
+        "retry": "Erneut versuchen",
+        "chooseProvider": "Wähle dein Buchhaltungsprogramm",
+        "comingSoon": "Weitere Programme folgen: e-Boekhouden, Exact Online, SnelStart und Jortt.",
+        "addressLabel": "Deine {{provider}}-Eingangsadresse",
+        "connect": "Verbinden",
+        "connecting": "Wird verbunden...",
+        "cancel": "Abbrechen",
+        "status": {
+            "unverified": "Wartet auf den Code",
+            "active": "Verbunden",
+            "needs_update": "Adresse funktioniert nicht mehr"
+        },
+        "verifyTitle": "Bestätigungscode eingeben",
+        "verifyHint": "Wir haben ein Dokument mit einem 6-stelligen Code an {{address}} gesendet. Öffne es in {{provider}} und gib den Code unten ein. Danach kannst du das Dokument löschen.",
+        "codeLabel": "Bestätigungscode",
+        "verify": "Bestätigen",
+        "verifying": "Wird geprüft...",
+        "resend": "Neuen Code senden",
+        "resent": "Ein neuer Code ist unterwegs.",
+        "connectedHint": "Belege, die du aus Dibby sendest, kommen in {{provider}} als neue Dokumente an.",
+        "lastSent": "Letzter Beleg gesendet: {{date}}",
+        "neverSent": "Noch keine Belege gesendet.",
+        "changeAddress": "Adresse ändern",
+        "newAddressHint": "Eine neue Adresse in {{provider}} erstellt? Gib sie hier ein, dann senden wir einen neuen Code zur Prüfung.",
+        "needsUpdateHint": "{{provider}} hat den letzten Beleg abgelehnt. Wenn du eine neue Eingangsadresse erstellt hast, gib sie hier ein.",
+        "autoSendTitle": "Automatisch senden",
+        "autoSendHint": "Belege, die diesen Ordnern hinzugefügt oder in sie verschoben werden, werden automatisch gesendet.",
+        "autoSendNone": "Du hast noch keine Ordner. Erstelle einen auf der Belege-Seite, zum Beispiel \"Geschäftlich\".",
+        "save": "Speichern",
+        "saved": "Gespeichert",
+        "disconnect": "Trennen",
+        "disconnectConfirm": "{{provider}} trennen? Es werden dann keine Belege mehr gesendet.",
+        "disconnectYes": "Ja, trennen",
+        "providers": {
+            "moneybird": {
+                "help": "Öffne in Moneybird deine Administration, gehe zum Tab Inkomend und klicke auf die @-Schaltfläche. Kopiere die dort angezeigte Adresse.",
+                "example": "deinefirma-1234abcd@inkomend.moneybird.nl"
+            }
+        },
+        "errors": {
+            "invalidAddress": "Das ist keine {{provider}}-Eingangsadresse. Sie sieht so aus: {{example}}.",
+            "tooManyEmails": "Zu viele Codes gesendet. Versuche es in einer Stunde erneut.",
+            "sendFailed": "Der Code konnte nicht gesendet werden. Versuche es später erneut.",
+            "codeInvalid": "Der Code ist falsch oder abgelaufen. Prüfe ihn oder fordere einen neuen an.",
+            "generic": "Etwas ist schiefgelaufen. Versuche es erneut."
+        }
     }
   },
   "review": {

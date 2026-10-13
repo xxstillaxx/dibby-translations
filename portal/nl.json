@@ -203,7 +203,40 @@
                                     "download":  "Downloaden",
                                     "receiptAlt":  "Bon",
                                     "receiptPdfTitle":  "Bon PDF"
-                                }
+                                },
+                     "accounting":  {
+                         "send": "Naar {{provider}} sturen",
+                         "sendAgain": "Opnieuw sturen",
+                         "sendAgainConfirm": "Deze bon is al naar {{provider}} gestuurd. Opnieuw sturen?",
+                         "sending": "Versturen...",
+                         "status": {
+                             "queued": "Onderweg naar {{provider}}",
+                             "sent": "Naar {{provider}} gestuurd op {{date}}",
+                             "failed": "Versturen naar {{provider}} mislukt",
+                             "bounced": "{{provider}} heeft deze bon geweigerd"
+                         },
+                         "badge": {
+                             "queued": "Versturen",
+                             "sent": "Verstuurd",
+                             "failed": "Mislukt",
+                             "bounced": "Geweigerd"
+                         },
+                         "unsupported": "Alleen pdf's en foto's kunnen naar {{provider}} worden gestuurd.",
+                         "sendFailed": "Versturen lukte niet. Probeer het opnieuw.",
+                         "dailyLimit": "Je hebt het maximum van 200 bonnen voor vandaag bereikt. Probeer het morgen opnieuw.",
+                         "bulk_one": "{{count}} naar {{provider}} sturen",
+                         "bulk_other": "{{count}} naar {{provider}} sturen",
+                         "bulkConfirm_one": "{{count}} bon naar {{provider}} sturen?",
+                         "bulkConfirm_other": "{{count}} bonnen naar {{provider}} sturen?",
+                         "bulkYes": "Versturen",
+                         "bulkCancel": "Annuleren",
+                         "bulkQueued_one": "{{count}} bon is onderweg naar {{provider}}.",
+                         "bulkQueued_other": "{{count}} bonnen zijn onderweg naar {{provider}}.",
+                         "bulkSkipped_one": "{{count}} overgeslagen: alleen pdf's en foto's kunnen worden verstuurd.",
+                         "bulkSkipped_other": "{{count}} overgeslagen: alleen pdf's en foto's kunnen worden verstuurd.",
+                         "needsUpdate": "{{provider}} heeft een bon geweigerd. Controleer je inbox-adres bij Instellingen.",
+                         "openSettings": "Instellingen openen"
+                     }
                  },
     "profile":  {
                     "pageTitle":  "Profiel | Dibby",
@@ -222,7 +255,8 @@
                                  "payments":  "Betaalmethoden",
                                  "preferences":  "Voorkeuren",
                                  "security":  "Beveiliging",
-                                 "emailImport":  "E-mailimport"
+                                 "emailImport":  "E-mailimport",
+                                 "integrations":  "Boekhouding"
                              },
                     "sectionHeader":  {
                                           "cancel":  "Annuleren",
@@ -400,7 +434,59 @@
                                                      "setupFailed":  "Instellen starten mislukt.",
                                                      "invalidCode":  "Ongeldige code. Probeer het opnieuw."
                                                  }
-                                  }
+                                  },
+                    "integrations":  {
+                        "title": "Boekhoudpakket",
+                        "description": "Stuur je bonnen direct naar je boekhoudpakket. Dibby mailt elke bon naar het eigen inbox-adres van je pakket, waar hij als nieuw document binnenkomt.",
+                        "loading": "Laden...",
+                        "loadFailed": "Je boekhoudkoppeling kon niet worden geladen.",
+                        "retry": "Opnieuw proberen",
+                        "chooseProvider": "Kies je boekhoudpakket",
+                        "comingSoon": "Er komen meer pakketten: e-Boekhouden, Exact Online, SnelStart en Jortt.",
+                        "addressLabel": "Je {{provider}} inbox-adres",
+                        "connect": "Koppelen",
+                        "connecting": "Koppelen...",
+                        "cancel": "Annuleren",
+                        "status": {
+                            "unverified": "Wacht op de code",
+                            "active": "Gekoppeld",
+                            "needs_update": "Adres werkt niet meer"
+                        },
+                        "verifyTitle": "Vul de verificatiecode in",
+                        "verifyHint": "We hebben een document met een 6-cijferige code naar {{address}} gestuurd. Open het in {{provider}} en vul de code hieronder in. Daarna kun je dat document verwijderen.",
+                        "codeLabel": "Verificatiecode",
+                        "verify": "Controleren",
+                        "verifying": "Controleren...",
+                        "resend": "Stuur een nieuwe code",
+                        "resent": "Er is een nieuwe code onderweg.",
+                        "connectedHint": "Bonnen die je vanuit Dibby verstuurt, komen in {{provider}} binnen als nieuw document.",
+                        "lastSent": "Laatste bon verstuurd: {{date}}",
+                        "neverSent": "Nog geen bonnen verstuurd.",
+                        "changeAddress": "Adres wijzigen",
+                        "newAddressHint": "Een nieuw adres aangemaakt in {{provider}}? Vul het hier in, dan sturen we een nieuwe code om het te controleren.",
+                        "needsUpdateHint": "{{provider}} heeft de laatste bon geweigerd. Heb je een nieuw inbox-adres aangemaakt? Vul het hier in.",
+                        "autoSendTitle": "Automatisch versturen",
+                        "autoSendHint": "Bonnen die in deze mappen worden toegevoegd of erheen worden verplaatst, worden automatisch verstuurd.",
+                        "autoSendNone": "Je hebt nog geen mappen. Maak er een aan op de pagina Bonnen, bijvoorbeeld \"Zakelijk\".",
+                        "save": "Opslaan",
+                        "saved": "Opgeslagen",
+                        "disconnect": "Ontkoppelen",
+                        "disconnectConfirm": "{{provider}} ontkoppelen? Er worden dan geen bonnen meer verstuurd.",
+                        "disconnectYes": "Ja, ontkoppelen",
+                        "providers": {
+                            "moneybird": {
+                                "help": "Open in Moneybird je administratie, ga naar het tabblad Inkomend en klik op de @-knop. Kopieer het adres dat daar staat.",
+                                "example": "jouwbedrijf-1234abcd@inkomend.moneybird.nl"
+                            }
+                        },
+                        "errors": {
+                            "invalidAddress": "Dit is geen {{provider}} inbox-adres. Het ziet eruit als {{example}}.",
+                            "tooManyEmails": "Te veel codes verstuurd. Probeer het over een uur opnieuw.",
+                            "sendFailed": "De code kon niet worden verstuurd. Probeer het later opnieuw.",
+                            "codeInvalid": "Die code klopt niet of is verlopen. Controleer de code of vraag een nieuwe aan.",
+                            "generic": "Er ging iets mis. Probeer het opnieuw."
+                        }
+                    }
                 },
   "review": {
     "approve": "Klopt",
