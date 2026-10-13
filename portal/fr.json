@@ -213,13 +213,15 @@
             "queued": "En route vers {{provider}}",
             "sent": "Envoyé à {{provider}} le {{date}}",
             "failed": "Échec de l'envoi à {{provider}}",
-            "bounced": "{{provider}} a refusé ce reçu"
+            "bounced": "{{provider}} a refusé ce reçu",
+            "booked":  "Comptabilisé dans {{provider}} le {{date}}"
         },
         "badge": {
             "queued": "Envoi",
             "sent": "Envoyé",
             "failed": "Échec",
-            "bounced": "Refusé"
+            "bounced": "Refusé",
+            "booked":  "Comptabilisé"
         },
         "unsupported": "Seuls les PDF et les photos peuvent être envoyés à {{provider}}.",
         "sendFailed": "L'envoi n'a pas fonctionné. Réessayez.",
@@ -235,7 +237,10 @@
         "bulkSkipped_one": "{{count}} ignoré : seuls les PDF et les photos peuvent être envoyés.",
         "bulkSkipped_other": "{{count}} ignorés : seuls les PDF et les photos peuvent être envoyés.",
         "needsUpdate": "{{provider}} a refusé un reçu. Vérifiez votre adresse de réception dans les paramètres.",
-        "openSettings": "Ouvrir les paramètres"
+        "openSettings": "Ouvrir les paramètres",
+        "needsReconnect":  "Dibby n'a plus accès à {{provider}}. Reconnectez-le dans les Paramètres.",
+        "planRequired":  "La comptabilisation dans Moneybird fait partie de Dibby Pro.",
+        "openIn":  "Ouvrir dans {{provider}}"
     }
   },
   "profile": {
@@ -450,7 +455,8 @@
         "status": {
             "unverified": "En attente du code",
             "active": "Connecté",
-            "needs_update": "L'adresse ne fonctionne plus"
+            "needs_update": "L'adresse ne fonctionne plus",
+            "setup":  "Terminer la configuration"
         },
         "verifyTitle": "Saisissez le code de vérification",
         "verifyHint": "Nous avons envoyé un document avec un code à 6 chiffres à {{address}}. Ouvrez-le dans {{provider}} et saisissez le code ci-dessous. Vous pourrez ensuite supprimer ce document.",
@@ -494,7 +500,55 @@
         "autoSendOff":  "Désactivé : j'envoie mes reçus moi-même",
         "autoSendAll":  "Tous les nouveaux reçus",
         "autoSendAllHint":  "Chaque reçu ajouté à partir de maintenant, dans un classeur ou non. Les reçus existants ne sont pas modifiés.",
-        "autoSendBinders":  "Uniquement les reçus de ces classeurs"
+        "autoSendBinders":  "Uniquement les reçus de ces classeurs",
+        "api":  {
+            "pro": "Pro",
+            "offerTitle": "Comptabiliser les reçus directement dans Moneybird",
+            "offerBody": "Dibby comptabilise chaque reçu pour vous : fournisseur, date, montant, taux de TVA et compte comptable, avec la photo ou le PDF en pièce jointe. Plus besoin de traiter les reçus dans votre boîte Moneybird.",
+            "offerReplacesInbox": "Cela remplace l'envoi à votre adresse de réception.",
+            "connect": "Connecter Moneybird",
+            "proOnly": "Disponible avec Dibby Pro.",
+            "redirecting": "Ouverture de Moneybird...",
+            "reconnect": "Reconnecter",
+            "reconnectHint": "Dibby n'a plus accès à Moneybird. Reconnectez-le pour continuer à comptabiliser les reçus.",
+            "administration": "Administration : {{name}}",
+            "changeAdministration": "Modifier",
+            "chooseAdministration": "Dans quelle administration les reçus doivent-ils être comptabilisés ?",
+            "bookingTitle": "Comment les reçus sont comptabilisés",
+            "bookingHint": "Chaque reçu devient un reçu dans Moneybird avec une ligne : le total TTC. Choisissez le compte comptable par catégorie ; les catégories sans choix utilisent le compte par défaut.",
+            "defaultLedger": "Compte comptable par défaut",
+            "chooseLedger": "Choisir un compte comptable",
+            "defaultTaxRate": "Taux de TVA par défaut",
+            "noTaxRate": "Aucun",
+            "taxRateHint": "Dibby déduit le taux de TVA du reçu. Ce taux est utilisé quand ce n'est pas possible, par exemple pour un reçu avec plusieurs taux.",
+            "perCategory": "Compte comptable par catégorie",
+            "useDefault": "Utiliser le compte par défaut",
+            "refreshOptions": "Recharger depuis Moneybird",
+            "bookingIn": "Comptabilise dans {{name}}",
+            "connectedByApi": "Connecté à Moneybird",
+            "activeHint": "Les reçus sont comptabilisés dans {{provider}}.",
+            "lastBooked": "Dernière comptabilisation : {{date}}.",
+            "neverBooked": "Rien de comptabilisé pour l'instant.",
+            "setupHint": "Presque terminé : choisissez l'administration et un compte comptable par défaut pour commencer.",
+            "status": {
+                "setup": "Terminer la configuration",
+                "active": "Connecté",
+                "needs_update": "Reconnecter"
+            },
+            "errors": {
+                "planRequired": "La comptabilisation dans Moneybird fait partie de Dibby Pro.",
+                "notConfigured": "La comptabilisation dans Moneybird n'est pas encore disponible. Réessayez plus tard.",
+                "unavailable": "Moneybird est injoignable pour le moment. Réessayez dans un instant.",
+                "optionsChanged": "Un compte comptable ou un taux de TVA n'existe plus dans Moneybird. La liste a été rechargée ; choisissez à nouveau."
+            },
+            "callback": {
+                "connecting": "Connexion à Moneybird...",
+                "declined": "Moneybird n'a pas été connecté. Vous pouvez réessayer depuis les Paramètres.",
+                "expired": "Ce lien a expiré. Recommencez la connexion depuis les Paramètres.",
+                "failed": "La connexion à Moneybird n'a pas fonctionné. Réessayez depuis les Paramètres.",
+                "back": "Retour aux paramètres"
+            }
+        }
     }
   },
   "review": {

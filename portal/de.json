@@ -213,13 +213,15 @@
             "queued": "Unterwegs zu {{provider}}",
             "sent": "Am {{date}} an {{provider}} gesendet",
             "failed": "Senden an {{provider}} fehlgeschlagen",
-            "bounced": "{{provider}} hat diesen Beleg abgelehnt"
+            "bounced": "{{provider}} hat diesen Beleg abgelehnt",
+            "booked":  "Am {{date}} in {{provider}} gebucht"
         },
         "badge": {
             "queued": "Wird gesendet",
             "sent": "Gesendet",
             "failed": "Fehlgeschlagen",
-            "bounced": "Abgelehnt"
+            "bounced": "Abgelehnt",
+            "booked":  "Gebucht"
         },
         "unsupported": "Nur PDFs und Fotos können an {{provider}} gesendet werden.",
         "sendFailed": "Senden hat nicht funktioniert. Versuche es erneut.",
@@ -235,7 +237,10 @@
         "bulkSkipped_one": "{{count}} übersprungen: Nur PDFs und Fotos können gesendet werden.",
         "bulkSkipped_other": "{{count}} übersprungen: Nur PDFs und Fotos können gesendet werden.",
         "needsUpdate": "{{provider}} hat einen Beleg abgelehnt. Prüfe deine Eingangsadresse in den Einstellungen.",
-        "openSettings": "Einstellungen öffnen"
+        "openSettings": "Einstellungen öffnen",
+        "needsReconnect":  "Dibby hat keinen Zugriff mehr auf {{provider}}. Verbinde in den Einstellungen erneut.",
+        "planRequired":  "Das Buchen in Moneybird ist Teil von Dibby Pro.",
+        "openIn":  "In {{provider}} öffnen"
     }
   },
   "profile": {
@@ -450,7 +455,8 @@
         "status": {
             "unverified": "Wartet auf den Code",
             "active": "Verbunden",
-            "needs_update": "Adresse funktioniert nicht mehr"
+            "needs_update": "Adresse funktioniert nicht mehr",
+            "setup":  "Einrichtung abschließen"
         },
         "verifyTitle": "Bestätigungscode eingeben",
         "verifyHint": "Wir haben ein Dokument mit einem 6-stelligen Code an {{address}} gesendet. Öffne es in {{provider}} und gib den Code unten ein. Danach kannst du das Dokument löschen.",
@@ -494,7 +500,55 @@
         "autoSendOff":  "Aus: Ich sende Belege selbst",
         "autoSendAll":  "Alle neuen Belege",
         "autoSendAllHint":  "Jeder Beleg, den du ab jetzt hinzufügst, ob in einem Ordner oder nicht. Vorhandene Belege bleiben unverändert.",
-        "autoSendBinders":  "Nur Belege in diesen Ordnern"
+        "autoSendBinders":  "Nur Belege in diesen Ordnern",
+        "api":  {
+            "pro": "Pro",
+            "offerTitle": "Belege direkt in Moneybird buchen",
+            "offerBody": "Dibby bucht jeden Beleg für dich: Lieferant, Datum, Betrag, Steuersatz und Sachkonto, mit dem Foto oder PDF als Anhang. Kein Abarbeiten von Belegen mehr in deinem Moneybird-Eingang.",
+            "offerReplacesInbox": "Das ersetzt das Senden an deine Eingangsadresse.",
+            "connect": "Mit Moneybird verbinden",
+            "proOnly": "Verfügbar mit Dibby Pro.",
+            "redirecting": "Moneybird wird geöffnet...",
+            "reconnect": "Erneut verbinden",
+            "reconnectHint": "Dibby hat keinen Zugriff mehr auf Moneybird. Verbinde erneut, um weiter Belege zu buchen.",
+            "administration": "Verwaltung: {{name}}",
+            "changeAdministration": "Ändern",
+            "chooseAdministration": "In welcher Verwaltung sollen Belege gebucht werden?",
+            "bookingTitle": "So werden Belege gebucht",
+            "bookingHint": "Jeder Beleg wird in Moneybird zu einem Beleg mit einer Zeile: dem Gesamtbetrag inklusive Steuer. Wähle das Sachkonto pro Kategorie; Kategorien ohne Auswahl verwenden das Standardkonto.",
+            "defaultLedger": "Standard-Sachkonto",
+            "chooseLedger": "Sachkonto wählen",
+            "defaultTaxRate": "Standard-Steuersatz",
+            "noTaxRate": "Keiner",
+            "taxRateHint": "Dibby liest den Steuersatz vom Beleg ab. Dieser Satz wird verwendet, wenn das nicht gelingt, zum Beispiel bei einem Beleg mit mehreren Sätzen.",
+            "perCategory": "Sachkonto pro Kategorie",
+            "useDefault": "Standard verwenden",
+            "refreshOptions": "Neu aus Moneybird laden",
+            "bookingIn": "Bucht in {{name}}",
+            "connectedByApi": "Mit Moneybird verbunden",
+            "activeHint": "Belege werden in {{provider}} gebucht.",
+            "lastBooked": "Zuletzt gebucht: {{date}}.",
+            "neverBooked": "Noch nichts gebucht.",
+            "setupHint": "Fast fertig: Wähle die Verwaltung und ein Standard-Sachkonto, um mit dem Buchen zu beginnen.",
+            "status": {
+                "setup": "Einrichtung abschließen",
+                "active": "Verbunden",
+                "needs_update": "Erneut verbinden"
+            },
+            "errors": {
+                "planRequired": "Das Buchen in Moneybird ist Teil von Dibby Pro.",
+                "notConfigured": "Das Buchen in Moneybird ist noch nicht verfügbar. Versuche es später erneut.",
+                "unavailable": "Moneybird ist gerade nicht erreichbar. Versuche es gleich noch einmal.",
+                "optionsChanged": "Ein Sachkonto oder Steuersatz existiert in Moneybird nicht mehr. Die Liste wurde neu geladen; bitte erneut wählen."
+            },
+            "callback": {
+                "connecting": "Moneybird wird verbunden...",
+                "declined": "Moneybird wurde nicht verbunden. Du kannst es in den Einstellungen erneut versuchen.",
+                "expired": "Dieser Link ist abgelaufen. Starte die Verbindung in den Einstellungen neu.",
+                "failed": "Die Verbindung mit Moneybird hat nicht geklappt. Versuche es in den Einstellungen erneut.",
+                "back": "Zurück zu den Einstellungen"
+            }
+        }
     }
   },
   "review": {

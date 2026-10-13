@@ -213,13 +213,15 @@
                              "queued": "On its way to {{provider}}",
                              "sent": "Sent to {{provider}} on {{date}}",
                              "failed": "Sending to {{provider}} failed",
-                             "bounced": "{{provider}} rejected this receipt"
+                             "bounced": "{{provider}} rejected this receipt",
+                             "booked":  "Booked in {{provider}} on {{date}}"
                          },
                          "badge": {
                              "queued": "Sending",
                              "sent": "Sent",
                              "failed": "Failed",
-                             "bounced": "Rejected"
+                             "bounced": "Rejected",
+                             "booked":  "Booked"
                          },
                          "unsupported": "Only PDFs and photos can be sent to {{provider}}.",
                          "sendFailed": "Sending didn't work. Try again.",
@@ -235,7 +237,10 @@
                          "bulkSkipped_one": "{{count}} skipped: only PDFs and photos can be sent.",
                          "bulkSkipped_other": "{{count}} skipped: only PDFs and photos can be sent.",
                          "needsUpdate": "{{provider}} rejected a receipt. Check your inbox address in Settings.",
-                         "openSettings": "Open settings"
+                         "openSettings": "Open settings",
+                         "needsReconnect":  "Dibby no longer has access to {{provider}}. Connect again in Settings.",
+                         "planRequired":  "Booking in Moneybird is part of Dibby Pro.",
+                         "openIn":  "Open in {{provider}}"
                      }
                  },
     "profile":  {
@@ -450,7 +455,8 @@
                         "status": {
                             "unverified": "Waiting for the code",
                             "active": "Connected",
-                            "needs_update": "Address no longer works"
+                            "needs_update": "Address no longer works",
+                            "setup":  "Finish setup"
                         },
                         "verifyTitle": "Enter the verification code",
                         "verifyHint": "We sent a document with a 6-digit code to {{address}}. Open it in {{provider}} and enter the code below. You can delete that document afterwards.",
@@ -494,7 +500,55 @@
                         "autoSendOff":  "Off: I send receipts myself",
                         "autoSendAll":  "All new receipts",
                         "autoSendAllHint":  "Every receipt you add from now on, in a binder or not. Receipts you already have stay as they are.",
-                        "autoSendBinders":  "Only receipts in these binders"
+                        "autoSendBinders":  "Only receipts in these binders",
+                        "api":  {
+                            "pro": "Pro",
+                            "offerTitle": "Book receipts directly in Moneybird",
+                            "offerBody": "Dibby books each receipt for you: supplier, date, amount, VAT rate and ledger account, with the photo or PDF attached. No more processing receipts in your Moneybird inbox.",
+                            "offerReplacesInbox": "This replaces sending to your inbox address.",
+                            "connect": "Connect with Moneybird",
+                            "proOnly": "Available with Dibby Pro.",
+                            "redirecting": "Opening Moneybird...",
+                            "reconnect": "Connect again",
+                            "reconnectHint": "Dibby no longer has access to Moneybird. Connect again to keep booking receipts.",
+                            "administration": "Administration: {{name}}",
+                            "changeAdministration": "Change",
+                            "chooseAdministration": "Which administration should receipts be booked in?",
+                            "bookingTitle": "How receipts are booked",
+                            "bookingHint": "Each receipt becomes a receipt in Moneybird with one line: the total including VAT. Pick the ledger account per category; categories without one use the default.",
+                            "defaultLedger": "Default ledger account",
+                            "chooseLedger": "Choose a ledger account",
+                            "defaultTaxRate": "Default VAT rate",
+                            "noTaxRate": "None",
+                            "taxRateHint": "Dibby works out the VAT rate from the receipt. This rate is used when it can't, for example when a receipt has several rates.",
+                            "perCategory": "Ledger account per category",
+                            "useDefault": "Use the default",
+                            "refreshOptions": "Reload from Moneybird",
+                            "bookingIn": "Booking in {{name}}",
+                            "connectedByApi": "Connected to Moneybird",
+                            "activeHint": "Receipts are booked in {{provider}}.",
+                            "lastBooked": "Last booked: {{date}}.",
+                            "neverBooked": "Nothing booked yet.",
+                            "setupHint": "Almost done: choose the administration and a default ledger account to start booking.",
+                            "status": {
+                                "setup": "Finish setup",
+                                "active": "Connected",
+                                "needs_update": "Connect again"
+                            },
+                            "errors": {
+                                "planRequired": "Booking in Moneybird is part of Dibby Pro.",
+                                "notConfigured": "Booking in Moneybird isn't available yet. Try again later.",
+                                "unavailable": "Moneybird can't be reached right now. Try again in a moment.",
+                                "optionsChanged": "A ledger account or VAT rate no longer exists in Moneybird. The list has been reloaded; choose again."
+                            },
+                            "callback": {
+                                "connecting": "Connecting Moneybird...",
+                                "declined": "Moneybird wasn't connected. You can try again from Settings.",
+                                "expired": "This link has expired. Start connecting again from Settings.",
+                                "failed": "Connecting Moneybird didn't work. Try again from Settings.",
+                                "back": "Back to settings"
+                            }
+                        }
                     }
                 },
   "review": {
