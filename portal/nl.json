@@ -442,7 +442,7 @@
                         "loadFailed": "Je boekhoudkoppeling kon niet worden geladen.",
                         "retry": "Opnieuw proberen",
                         "chooseProvider": "Kies je boekhoudpakket",
-                        "comingSoon": "Er komen meer pakketten: e-Boekhouden, Exact Online, SnelStart en Jortt.",
+                        "comingSoon": "Er komen meer pakketten: e-Boekhouden, Exact Online en SnelStart.",
                         "addressLabel": "Je {{provider}} inbox-adres",
                         "connect": "Koppelen",
                         "connecting": "Koppelen...",
@@ -477,6 +477,10 @@
                             "moneybird": {
                                 "help": "Open in Moneybird je administratie, ga naar het tabblad Inkomend en klik op de @-knop. Kopieer het adres dat daar staat.",
                                 "example": "jouwbedrijf-1234abcd@inkomend.moneybird.nl"
+                            },
+                            "jortt":  {
+                                "help": "Ga in Jortt naar Instellingen > jortt Inbox. Je adres is de naam die je daar hebt gekozen, gevolgd door @inbox.jortt.nl.",
+                                "example": "jouwbedrijf@inbox.jortt.nl"
                             }
                         },
                         "errors": {
