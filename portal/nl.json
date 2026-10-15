@@ -521,6 +521,8 @@
                             "defaultTaxRate": "Standaard btw-tarief",
                             "noTaxRate": "Geen",
                             "taxRateHint": "Dibby leest het btw-tarief van de bon af. Dit tarief wordt gebruikt als dat niet lukt, bijvoorbeeld bij een bon met meerdere tarieven.",
+                            "markPaid": "Verstuurde bonnen markeren als betaald",
+                            "markPaidHint": "Moneybird markeert elke bon als betaald zonder bewijs, op de datum van de bon. Laat dit uit als Moneybird je banktransacties aan bonnen koppelt: een bon die al betaald is, kan niet meer gekoppeld worden.",
                             "perCategory": "Grootboekrekening per categorie",
                             "useDefault": "Standaard gebruiken",
                             "refreshOptions": "Opnieuw ophalen uit Moneybird",

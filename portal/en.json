@@ -521,6 +521,8 @@
                             "defaultTaxRate": "Default VAT rate",
                             "noTaxRate": "None",
                             "taxRateHint": "Dibby works out the VAT rate from the receipt. This rate is used when it can't, for example when a receipt has several rates.",
+                            "markPaid": "Mark sent receipts as paid",
+                            "markPaidHint": "Moneybird marks each receipt as paid without proof, on the receipt date. Leave this off if Moneybird matches your bank transactions to receipts: a receipt that is already paid can't be matched.",
                             "perCategory": "Ledger account per category",
                             "useDefault": "Use the default",
                             "refreshOptions": "Reload from Moneybird",
