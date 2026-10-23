@@ -1,1 +1,46 @@
-﻿{}
+{
+  "nav": {
+    "home": "Home",
+    "receipts": "Bonnetjes",
+    "scan": "Scannen",
+    "cards": "Pasjes",
+    "account": "Account"
+  },
+  "auth": {
+    "signIn": "Inloggen met Dibby",
+    "welcome": "Je bonnetjes en klantenkaarten samen.",
+    "restoring": "Sessie herstellen…",
+    "signingIn": "Inloggen…",
+    "signingOut": "Uitloggen…"
+  },
+  "scan": {
+    "title": "Scannen",
+    "prompt": "Wat wil je scannen?",
+    "receipt": "Bonnetje",
+    "loyaltyCard": "Klantenkaart"
+  },
+  "receipts": {
+    "loading": "Bonnetjes laden…",
+    "emptyTitle": "Nog geen bonnetjes",
+    "emptyMessage": "Scan of importeer je eerste bonnetje om het hier te zien.",
+    "retry": "Opnieuw proberen",
+    "offline": "Je bent offline. Controleer je verbinding en probeer het opnieuw.",
+    "error": "Bonnetjes konden niet worden geladen. Probeer het opnieuw."
+  },
+  "cards": {
+    "emptyTitle": "Nog geen klantenkaarten",
+    "emptyMessage": "Voeg een kaart toe om de barcode bij de kassa klaar te hebben."
+  },
+  "account": {
+    "openPortal": "Portal openen",
+    "signOut": "Uitloggen"
+  },
+  "common": {
+    "cancel": "Annuleren",
+    "homeDashboardReady": "Je dashboard staat klaar",
+    "homeDashboardMessage": "Recente bonnetjes en maandtotalen verschijnen hier.",
+    "scanReceipt": "Bonnetje scannen",
+    "addCard": "Kaart toevoegen",
+    "receipt": "Bonnetje"
+  }
+}

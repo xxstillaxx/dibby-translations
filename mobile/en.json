@@ -1,1 +1,46 @@
-﻿{}
+{
+  "nav": {
+    "home": "Home",
+    "receipts": "Receipts",
+    "scan": "Scan",
+    "cards": "Cards",
+    "account": "Account"
+  },
+  "auth": {
+    "signIn": "Sign in with Dibby",
+    "welcome": "Your receipts and loyalty cards, together.",
+    "restoring": "Restoring your session…",
+    "signingIn": "Signing in…",
+    "signingOut": "Signing out…"
+  },
+  "scan": {
+    "title": "Scan",
+    "prompt": "What would you like to scan?",
+    "receipt": "Receipt",
+    "loyaltyCard": "Loyalty card"
+  },
+  "receipts": {
+    "loading": "Loading receipts…",
+    "emptyTitle": "No receipts yet",
+    "emptyMessage": "Scan or import your first receipt to see it here.",
+    "retry": "Try again",
+    "offline": "You appear to be offline. Check your connection and try again.",
+    "error": "Could not load receipts. Please try again."
+  },
+  "cards": {
+    "emptyTitle": "No loyalty cards yet",
+    "emptyMessage": "Add a card to have its barcode ready at checkout."
+  },
+  "account": {
+    "openPortal": "Open portal",
+    "signOut": "Sign out"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "homeDashboardReady": "Your dashboard is ready",
+    "homeDashboardMessage": "Recent receipts and monthly totals will appear here.",
+    "scanReceipt": "Scan a receipt",
+    "addCard": "Add a card",
+    "receipt": "Receipt"
+  }
+}
