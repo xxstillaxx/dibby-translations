@@ -30,6 +30,8 @@
   "cards": {
     "emptyTitle": "Nog geen klantenkaarten",
     "emptyMessage": "Voeg een kaart toe om de barcode bij de kassa klaar te hebben.",
+    "offline": "Je lijkt offline te zijn. Controleer je verbinding en probeer het opnieuw.",
+    "error": "Klantenkaarten konden niet worden geladen. Probeer het opnieuw.",
     "wallet": {
       "view": "Bekijk in Wallet",
       "errorTitle": "Apple Wallet",
