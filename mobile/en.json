@@ -29,7 +29,13 @@
   },
   "cards": {
     "emptyTitle": "No loyalty cards yet",
-    "emptyMessage": "Add a card to have its barcode ready at checkout."
+    "emptyMessage": "Add a card to have its barcode ready at checkout.",
+    "wallet": {
+      "view": "View in Wallet",
+      "errorTitle": "Apple Wallet",
+      "offline": "Adding a card to Wallet needs an internet connection. The barcode in Dibby works offline.",
+      "failed": "The card couldn't be added to Wallet. Please try again."
+    }
   },
   "account": {
     "openPortal": "Open portal",

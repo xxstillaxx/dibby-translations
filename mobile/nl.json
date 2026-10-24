@@ -29,7 +29,13 @@
   },
   "cards": {
     "emptyTitle": "Nog geen klantenkaarten",
-    "emptyMessage": "Voeg een kaart toe om de barcode bij de kassa klaar te hebben."
+    "emptyMessage": "Voeg een kaart toe om de barcode bij de kassa klaar te hebben.",
+    "wallet": {
+      "view": "Bekijk in Wallet",
+      "errorTitle": "Apple Wallet",
+      "offline": "Voor het toevoegen aan Wallet is internet nodig. De barcode in Dibby werkt ook offline.",
+      "failed": "De kaart kon niet aan Wallet worden toegevoegd. Probeer het opnieuw."
+    }
   },
   "account": {
     "openPortal": "Portal openen",
