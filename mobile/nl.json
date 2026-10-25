@@ -90,6 +90,7 @@
   },
   "account": {
     "openPortal": "Portal openen",
+    "faceId": "Face ID gebruiken om te ontgrendelen",
     "signOut": "Uitloggen"
   },
   "common": {
