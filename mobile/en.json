@@ -90,6 +90,7 @@
   },
   "account": {
     "openPortal": "Open portal",
+    "faceId": "Use Face ID to unlock",
     "signOut": "Sign out"
   },
   "common": {
