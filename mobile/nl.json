@@ -37,10 +37,60 @@
       "errorTitle": "Apple Wallet",
       "offline": "Voor het toevoegen aan Wallet is internet nodig. De barcode in Dibby werkt ook offline.",
       "failed": "De kaart kon niet aan Wallet worden toegevoegd. Probeer het opnieuw."
+    },
+    "form": {
+      "add": "Kaart toevoegen",
+      "edit": "Kaart bewerken",
+      "save": "Bewaar",
+      "store": "Winkel",
+      "storePlaceholder": "bijv. Albert Heijn",
+      "number": "Kaartnummer",
+      "format": "Soort barcode",
+      "formatHelp": "Het soort barcode op je kaart. Weet je het niet? Laat Code 128 staan: dat werkt voor de meeste kaarten. Kies EAN-13 als er 13 cijfers onder de barcode staan, of QR voor een vierkante code.",
+      "color": "Kleur",
+      "colorDefault": "Dibby-blauw",
+      "notes": "Notities",
+      "notesPlaceholder": "Optioneel",
+      "offlineTitle": "Je bent offline",
+      "offline": "Voor het toevoegen of wijzigen van een kaart is internet nodig. Je kaarten en hun barcodes werken ook offline.",
+      "invalidStore": "Vul de naam van de winkel in (maximaal 200 tekens).",
+      "invalidNotes": "Notities kunnen maximaal 2000 tekens zijn.",
+      "invalidNumber": {
+        "empty": "Vul het kaartnummer in.",
+        "long": "Het kaartnummer kan maximaal 2000 tekens zijn.",
+        "EAN13": "Een EAN-13-nummer heeft 12 of 13 cijfers.",
+        "EAN8": "Een EAN-8-nummer heeft 7 of 8 cijfers.",
+        "UPCA": "Een UPC-A-nummer heeft 11 of 12 cijfers.",
+        "UPCE": "Een UPC-E-nummer heeft 6 tot 8 cijfers.",
+        "ITF": "Een ITF-nummer heeft een even aantal cijfers.",
+        "Code39": "Code 39 kent alleen cijfers, hoofdletters, spaties en - . $ / + %.",
+        "Code128": "Code 128 kent alleen letters, cijfers en gewone tekens, zonder accenten of emoji."
+      },
+      "errors": {
+        "offline": "Je bent offline. Je wijzigingen blijven bewaard: probeer het opnieuw zodra je verbinding hebt.",
+        "invalidNumber": "Het nummer past niet bij dit soort barcode. Controleer het nummer of kies een ander soort.",
+        "invalidFormat": "Dit soort barcode wordt niet ondersteund.",
+        "invalidStore": "Vul de naam van de winkel in.",
+        "unknownMerchant": "Deze winkel is niet meer beschikbaar. Typ de naam van de winkel in.",
+        "tooManyCards": "Je hebt het maximum van 500 kaarten bereikt. Verwijder een kaart die je niet meer gebruikt om een nieuwe toe te voegen.",
+        "invalidNotes": "Notities kunnen maximaal 2000 tekens zijn.",
+        "notFound": "Deze kaart bestaat niet meer. Misschien is hij op een ander apparaat verwijderd.",
+        "failed": "De kaart kon niet worden bewaard. Probeer het opnieuw."
+      }
+    },
+    "detail": {
+      "edit": "Bewerk",
+      "notes": "Notities",
+      "delete": "Verwijder kaart",
+      "deleteTitle": "Deze kaart verwijderen?",
+      "deleteMessage": "De kaart en de foto's worden op al je apparaten uit Dibby verwijderd.",
+      "deleteOffline": "Voor het verwijderen van een kaart is internet nodig.",
+      "deleteFailed": "De kaart kon niet worden verwijderd. Probeer het opnieuw."
     }
   },
   "account": {
     "openPortal": "Portal openen",
+    "faceId": "Face ID gebruiken om te ontgrendelen",
     "signOut": "Uitloggen"
   },
   "common": {

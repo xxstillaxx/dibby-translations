@@ -37,10 +37,60 @@
       "errorTitle": "Apple Wallet",
       "offline": "Adding a card to Wallet needs an internet connection. The barcode in Dibby works offline.",
       "failed": "The card couldn't be added to Wallet. Please try again."
+    },
+    "form": {
+      "add": "Add card",
+      "edit": "Edit card",
+      "save": "Save",
+      "store": "Store",
+      "storePlaceholder": "e.g. Albert Heijn",
+      "number": "Card number",
+      "format": "Barcode type",
+      "formatHelp": "The type of barcode on your card. Not sure? Keep Code 128: it works for most cards. Choose EAN-13 when the barcode has 13 digits underneath, or QR for a square code.",
+      "color": "Colour",
+      "colorDefault": "Dibby blue",
+      "notes": "Notes",
+      "notesPlaceholder": "Optional",
+      "offlineTitle": "You're offline",
+      "offline": "Adding or changing a card needs an internet connection. Your cards and their barcodes still work offline.",
+      "invalidStore": "Enter the store's name (up to 200 characters).",
+      "invalidNotes": "Notes can be up to 2000 characters.",
+      "invalidNumber": {
+        "empty": "Enter the card number.",
+        "long": "The card number can be up to 2000 characters.",
+        "EAN13": "An EAN-13 number has 12 or 13 digits.",
+        "EAN8": "An EAN-8 number has 7 or 8 digits.",
+        "UPCA": "A UPC-A number has 11 or 12 digits.",
+        "UPCE": "A UPC-E number has 6 to 8 digits.",
+        "ITF": "An ITF number has an even number of digits.",
+        "Code39": "Code 39 only takes digits, capital letters, spaces and - . $ / + %.",
+        "Code128": "Code 128 only takes letters, digits and common symbols, without accents or emoji."
+      },
+      "errors": {
+        "offline": "You're offline. Your changes are kept: try again when you're connected.",
+        "invalidNumber": "The number doesn't fit this barcode type. Check the number or choose another type.",
+        "invalidFormat": "This barcode type isn't supported.",
+        "invalidStore": "Enter the store's name.",
+        "unknownMerchant": "This store is no longer available. Type the store's name instead.",
+        "tooManyCards": "You've reached the maximum of 500 cards. Delete a card you no longer use to add a new one.",
+        "invalidNotes": "Notes can be up to 2000 characters.",
+        "notFound": "This card no longer exists. It may have been deleted on another device.",
+        "failed": "The card couldn't be saved. Please try again."
+      }
+    },
+    "detail": {
+      "edit": "Edit",
+      "notes": "Notes",
+      "delete": "Delete card",
+      "deleteTitle": "Delete this card?",
+      "deleteMessage": "The card and its photos are removed from Dibby on all your devices.",
+      "deleteOffline": "Deleting a card needs an internet connection.",
+      "deleteFailed": "The card couldn't be deleted. Please try again."
     }
   },
   "account": {
     "openPortal": "Open portal",
+    "faceId": "Use Face ID to unlock",
     "signOut": "Sign out"
   },
   "common": {
