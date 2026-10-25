@@ -118,8 +118,10 @@
       "openid": "Jouw identiteit verifiëren",
       "profile": "Toegang tot je naam en profielinformatie",
       "email": "Toegang tot je e-mailadres",
-      "api": "Toegang tot API-resources namens jou",
-      "payment": "Betalingen verwerken met je opgeslagen betaalmethoden"
+      "api": "Volledige toegang tot je Dibby-account (alleen Dibby-apps)",
+      "payment": "Je opgeslagen betaalmethoden zien en ermee betalen",
+      "address": "Je opgeslagen adressen zien",
+      "push_receipts": "Bonnetjes toevoegen aan je Dibby-account"
     }
   }
 }

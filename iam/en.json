@@ -118,8 +118,10 @@
       "openid": "Verify your identity",
       "profile": "Access your name and profile information",
       "email": "Access your email address",
-      "api": "Access API resources on your behalf",
-      "payment": "Process payments using your saved payment methods"
+      "api": "Full access to your Dibby account (Dibby apps only)",
+      "payment": "See your saved payment methods and pay with them",
+      "address": "See your saved addresses",
+      "push_receipts": "Add receipts to your Dibby account"
     }
   }
 }
