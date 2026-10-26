@@ -116,6 +116,28 @@
       "typedHelp": "Staat hij er niet tussen? Gebruik de naam zoals je hem hebt getypt.",
       "failed": "De lijst met winkels kon niet worden geladen. Je kunt de naam van de winkel ook zelf typen.",
       "retry": "Opnieuw proberen"
+    },
+    "photos": {
+      "title": "Foto's",
+      "help": "Bewaar een foto van de voor- en achterkant, voor als de kassa de kaart wil zien of als er op de achterkant iets nuttigs staat.",
+      "front": "Voorkant",
+      "back": "Achterkant",
+      "addFront": "Foto van voorkant toevoegen",
+      "addBack": "Foto van achterkant toevoegen",
+      "take": "Maak een foto",
+      "choose": "Kies uit foto’s",
+      "remove": "Verwijder foto",
+      "removeTitle": "Deze foto verwijderen?",
+      "removeMessage": "De foto wordt op al je apparaten uit Dibby verwijderd als je de kaart bewaart.",
+      "unreadable": "Deze afbeelding kon niet worden gelezen. Probeer een andere foto.",
+      "uploading": "Foto's uploaden…",
+      "retry": "Opnieuw proberen",
+      "errors": {
+        "offline": "De foto kon niet worden geüpload omdat je offline bent. De kaart is bewaard: probeer het opnieuw zodra je verbinding hebt.",
+        "tooLarge": "De foto is te groot om te uploaden.",
+        "unsupported": "Dit bestand kon niet als foto worden bewaard. Probeer een andere foto.",
+        "failed": "De foto kon niet worden bewaard. De kaart zelf is wel bewaard."
+      }
     }
   },
   "account": {
