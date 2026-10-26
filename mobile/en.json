@@ -154,7 +154,7 @@
     "receipt": "Receipt"
   },
   "infoPlist": {
-    "NSCameraUsageDescription": "Dibby uses the camera to scan the barcode on your loyalty cards.",
+    "NSCameraUsageDescription": "Dibby uses the camera to scan the barcode on your loyalty cards and to take photos of them.",
     "NSFaceIDUsageDescription": "Use Face ID to unlock Dibby"
   }
 }

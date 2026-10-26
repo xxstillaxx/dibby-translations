@@ -154,7 +154,7 @@
     "receipt": "Bonnetje"
   },
   "infoPlist": {
-    "NSCameraUsageDescription": "Dibby gebruikt de camera om de barcode op je klantenkaarten te scannen.",
+    "NSCameraUsageDescription": "Dibby gebruikt de camera om de barcode op je klantenkaarten te scannen en om ze te fotograferen.",
     "NSFaceIDUsageDescription": "Gebruik Face ID om Dibby te ontgrendelen"
   }
 }
