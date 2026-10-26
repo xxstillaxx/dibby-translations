@@ -76,7 +76,8 @@
         "invalidNotes": "Notities kunnen maximaal 2000 tekens zijn.",
         "notFound": "Deze kaart bestaat niet meer. Misschien is hij op een ander apparaat verwijderd.",
         "failed": "De kaart kon niet worden bewaard. Probeer het opnieuw."
-      }
+      },
+      "checkFormat": "Dibby kan dit soort barcode niet tonen en gebruikt daarom Code 128. Vergelijk de barcode hieronder met je kaart, of kies een ander type."
     },
     "detail": {
       "edit": "Bewerk",
@@ -91,6 +92,17 @@
       "show": "Toon bij de kassa",
       "rotate": "Draai barcode",
       "unknownFormat": "Voor dit soort barcode is een nieuwere versie van Dibby nodig. De kassamedewerker kan het nummer hieronder intypen."
+    },
+    "scan": {
+      "title": "Kaart scannen",
+      "guidance": "Richt op de barcode van je kaart",
+      "chooseOne": "Tik op de barcode die je wilt gebruiken",
+      "typeIn": "Zelf intypen",
+      "torchOn": "Lamp aan",
+      "torchOff": "Lamp uit",
+      "deniedTitle": "Geen toegang tot de camera",
+      "deniedMessage": "Geef Dibby in Instellingen toegang tot de camera om je kaart te scannen. Of typ het nummer zelf in.",
+      "openSettings": "Open Instellingen"
     }
   },
   "account": {
@@ -105,5 +117,9 @@
     "scanReceipt": "Bonnetje scannen",
     "addCard": "Kaart toevoegen",
     "receipt": "Bonnetje"
+  },
+  "infoPlist": {
+    "NSCameraUsageDescription": "Dibby gebruikt de camera om de barcode op je klantenkaarten te scannen.",
+    "NSFaceIDUsageDescription": "Gebruik Face ID om Dibby te ontgrendelen"
   }
 }

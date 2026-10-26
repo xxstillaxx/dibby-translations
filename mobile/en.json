@@ -76,7 +76,8 @@
         "invalidNotes": "Notes can be up to 2000 characters.",
         "notFound": "This card no longer exists. It may have been deleted on another device.",
         "failed": "The card couldn't be saved. Please try again."
-      }
+      },
+      "checkFormat": "Dibby can't show this type of barcode, so it's set to Code 128. Check the barcode below against your card, or choose another type."
     },
     "detail": {
       "edit": "Edit",
@@ -91,6 +92,17 @@
       "show": "Show at the till",
       "rotate": "Rotate barcode",
       "unknownFormat": "This barcode type needs a newer version of Dibby. The cashier can type in the number below."
+    },
+    "scan": {
+      "title": "Scan card",
+      "guidance": "Point at the barcode on your card",
+      "chooseOne": "Tap the barcode you want to use",
+      "typeIn": "Type it in",
+      "torchOn": "Turn on the light",
+      "torchOff": "Turn off the light",
+      "deniedTitle": "No access to the camera",
+      "deniedMessage": "To scan your card, allow Dibby to use the camera in Settings. Or type the number in yourself.",
+      "openSettings": "Open Settings"
     }
   },
   "account": {
@@ -105,5 +117,9 @@
     "scanReceipt": "Scan a receipt",
     "addCard": "Add a card",
     "receipt": "Receipt"
+  },
+  "infoPlist": {
+    "NSCameraUsageDescription": "Dibby uses the camera to scan the barcode on your loyalty cards.",
+    "NSFaceIDUsageDescription": "Use Face ID to unlock Dibby"
   }
 }
