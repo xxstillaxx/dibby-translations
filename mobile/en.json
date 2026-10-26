@@ -116,6 +116,28 @@
       "typedHelp": "Not in the list? Use the name as you typed it.",
       "failed": "The list of stores couldn't be loaded. You can still type the store's name.",
       "retry": "Try again"
+    },
+    "photos": {
+      "title": "Photos",
+      "help": "Keep a photo of the front and back, for when the cashier wants to see the card or the back has useful text.",
+      "front": "Front",
+      "back": "Back",
+      "addFront": "Add front photo",
+      "addBack": "Add back photo",
+      "take": "Take photo",
+      "choose": "Choose from library",
+      "remove": "Remove photo",
+      "removeTitle": "Remove this photo?",
+      "removeMessage": "The photo is removed from Dibby on all your devices when you save the card.",
+      "unreadable": "This image couldn't be read. Try another photo.",
+      "uploading": "Uploading photos…",
+      "retry": "Try again",
+      "errors": {
+        "offline": "The photo couldn't be uploaded because you're offline. The card is saved: try again when you're connected.",
+        "tooLarge": "The photo is too large to upload.",
+        "unsupported": "This file couldn't be saved as a photo. Try another photo.",
+        "failed": "The photo couldn't be saved. The card itself is saved."
+      }
     }
   },
   "account": {
@@ -132,7 +154,7 @@
     "receipt": "Receipt"
   },
   "infoPlist": {
-    "NSCameraUsageDescription": "Dibby uses the camera to scan the barcode on your loyalty cards.",
+    "NSCameraUsageDescription": "Dibby uses the camera to scan the barcode on your loyalty cards and to take photos of them.",
     "NSFaceIDUsageDescription": "Use Face ID to unlock Dibby"
   }
 }
