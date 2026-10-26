@@ -86,6 +86,11 @@
       "deleteMessage": "The card and its photos are removed from Dibby on all your devices.",
       "deleteOffline": "Deleting a card needs an internet connection.",
       "deleteFailed": "The card couldn't be deleted. Please try again."
+    },
+    "till": {
+      "show": "Show at the till",
+      "rotate": "Rotate barcode",
+      "unknownFormat": "This barcode type needs a newer version of Dibby. The cashier can type in the number below."
     }
   },
   "account": {

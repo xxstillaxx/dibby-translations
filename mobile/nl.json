@@ -86,6 +86,11 @@
       "deleteMessage": "De kaart en de foto's worden op al je apparaten uit Dibby verwijderd.",
       "deleteOffline": "Voor het verwijderen van een kaart is internet nodig.",
       "deleteFailed": "De kaart kon niet worden verwijderd. Probeer het opnieuw."
+    },
+    "till": {
+      "show": "Toon bij de kassa",
+      "rotate": "Draai barcode",
+      "unknownFormat": "Voor dit soort barcode is een nieuwere versie van Dibby nodig. De kassamedewerker kan het nummer hieronder intypen."
     }
   },
   "account": {
