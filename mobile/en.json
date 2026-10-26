@@ -103,6 +103,10 @@
       "deniedTitle": "No access to the camera",
       "deniedMessage": "To scan your card, allow Dibby to use the camera in Settings. Or type the number in yourself.",
       "openSettings": "Open Settings"
+    },
+    "list": {
+      "search": "Search cards",
+      "details": "Details"
     }
   },
   "account": {

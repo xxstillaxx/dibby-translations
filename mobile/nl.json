@@ -103,6 +103,10 @@
       "deniedTitle": "Geen toegang tot de camera",
       "deniedMessage": "Geef Dibby in Instellingen toegang tot de camera om je kaart te scannen. Of typ het nummer zelf in.",
       "openSettings": "Open Instellingen"
+    },
+    "list": {
+      "search": "Zoek een kaart",
+      "details": "Details"
     }
   },
   "account": {
