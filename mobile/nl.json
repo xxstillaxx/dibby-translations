@@ -43,7 +43,7 @@
       "edit": "Kaart bewerken",
       "save": "Bewaar",
       "store": "Winkel",
-      "storePlaceholder": "bijv. Albert Heijn",
+      "storeChoose": "Kies een winkel",
       "number": "Kaartnummer",
       "format": "Soort barcode",
       "formatHelp": "Het soort barcode op je kaart. Weet je het niet? Laat Code 128 staan: dat werkt voor de meeste kaarten. Kies EAN-13 als er 13 cijfers onder de barcode staan, of QR voor een vierkante code.",
@@ -71,7 +71,7 @@
         "invalidNumber": "Het nummer past niet bij dit soort barcode. Controleer het nummer of kies een ander soort.",
         "invalidFormat": "Dit soort barcode wordt niet ondersteund.",
         "invalidStore": "Vul de naam van de winkel in.",
-        "unknownMerchant": "Deze winkel is niet meer beschikbaar. Typ de naam van de winkel in.",
+        "unknownMerchant": "Deze winkel staat niet meer in de lijst van Dibby. Bewaar opnieuw om hem onder deze naam te houden, of kies een andere winkel.",
         "tooManyCards": "Je hebt het maximum van 500 kaarten bereikt. Verwijder een kaart die je niet meer gebruikt om een nieuwe toe te voegen.",
         "invalidNotes": "Notities kunnen maximaal 2000 tekens zijn.",
         "notFound": "Deze kaart bestaat niet meer. Misschien is hij op een ander apparaat verwijderd.",
@@ -107,6 +107,15 @@
     "list": {
       "search": "Zoek een kaart",
       "details": "Details"
+    },
+    "merchants": {
+      "title": "Winkel",
+      "search": "Zoek een winkel",
+      "owned": "Je hebt al een kaart van deze winkel",
+      "useTyped": "Gebruik „{{name}}”",
+      "typedHelp": "Staat hij er niet tussen? Gebruik de naam zoals je hem hebt getypt.",
+      "failed": "De lijst met winkels kon niet worden geladen. Je kunt de naam van de winkel ook zelf typen.",
+      "retry": "Opnieuw proberen"
     }
   },
   "account": {

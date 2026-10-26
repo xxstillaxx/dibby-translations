@@ -43,7 +43,7 @@
       "edit": "Edit card",
       "save": "Save",
       "store": "Store",
-      "storePlaceholder": "e.g. Albert Heijn",
+      "storeChoose": "Choose a store",
       "number": "Card number",
       "format": "Barcode type",
       "formatHelp": "The type of barcode on your card. Not sure? Keep Code 128: it works for most cards. Choose EAN-13 when the barcode has 13 digits underneath, or QR for a square code.",
@@ -71,7 +71,7 @@
         "invalidNumber": "The number doesn't fit this barcode type. Check the number or choose another type.",
         "invalidFormat": "This barcode type isn't supported.",
         "invalidStore": "Enter the store's name.",
-        "unknownMerchant": "This store is no longer available. Type the store's name instead.",
+        "unknownMerchant": "This store is no longer in Dibby's list. Save again to keep it under this name, or choose another store.",
         "tooManyCards": "You've reached the maximum of 500 cards. Delete a card you no longer use to add a new one.",
         "invalidNotes": "Notes can be up to 2000 characters.",
         "notFound": "This card no longer exists. It may have been deleted on another device.",
@@ -107,6 +107,15 @@
     "list": {
       "search": "Search cards",
       "details": "Details"
+    },
+    "merchants": {
+      "title": "Store",
+      "search": "Search stores",
+      "owned": "You already have a card for this store",
+      "useTyped": "Use “{{name}}”",
+      "typedHelp": "Not in the list? Use the name as you typed it.",
+      "failed": "The list of stores couldn't be loaded. You can still type the store's name.",
+      "retry": "Try again"
     }
   },
   "account": {
