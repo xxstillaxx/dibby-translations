@@ -161,6 +161,15 @@
         "several": "Dit bestand bevat meerdere passen. Open elke pas apart om hem toe te voegen.",
         "noBarcode": "Deze pas heeft geen barcode, dus Dibby kan hem niet aan de kassa laten zien. Hij werkt waarschijnlijk alleen met NFC."
       }
+    },
+    "recognition": {
+      "auto": "Automatisch herkennen",
+      "autoHelp": "Dibby herkent de winkel aan je kaart na het bewaren. Je kunt hem ook zelf kiezen.",
+      "pending": "Winkel herkennen…",
+      "pendingHelp": "Dibby herkent de winkel. Je kunt de kaart al gebruiken.",
+      "unknown": "Welke winkel is dit?",
+      "unknownHelp": "Dibby kon de winkel van deze kaart niet herkennen. Kies hem om de naam en het logo te tonen.",
+      "choose": "Kies winkel"
     }
   },
   "account": {

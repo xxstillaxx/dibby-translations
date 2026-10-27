@@ -161,6 +161,15 @@
         "several": "This file holds several passes. Open each pass on its own to add it.",
         "noBarcode": "This pass has no barcode, so Dibby can't show it at the till. It probably works with NFC only."
       }
+    },
+    "recognition": {
+      "auto": "Recognise automatically",
+      "autoHelp": "Dibby recognises the store from your card after saving. You can also choose it yourself.",
+      "pending": "Recognising store…",
+      "pendingHelp": "Dibby is recognising the store. You can already use the card.",
+      "unknown": "Which store is this?",
+      "unknownHelp": "Dibby couldn't recognise the store of this card. Choose it to show its name and logo.",
+      "choose": "Choose store"
     }
   },
   "account": {
