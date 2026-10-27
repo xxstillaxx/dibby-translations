@@ -367,7 +367,9 @@
                                                             },
                                         "pushNotifications":  "Push Notifications",
                                         "emailNotifications":  "Email Notifications",
-                                        "monthlyReport":  "Monthly Report"
+                                        "monthlyReport":  "Monthly Report",
+                                        "shareCardPrefixes": "Help recognise stores",
+                                        "shareCardPrefixesHelp": "Share the anonymous start of your loyalty card numbers (never the whole number), so Dibby can recognise stores for everyone."
                                     },
                     "emailImport":  {
                                         "title":  "Email Receipt Forwarding",

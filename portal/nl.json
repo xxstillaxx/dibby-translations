@@ -367,7 +367,9 @@
                                                             },
                                         "pushNotifications":  "Pushmeldingen",
                                         "emailNotifications":  "E-mailmeldingen",
-                                        "monthlyReport":  "Maandrapport"
+                                        "monthlyReport":  "Maandrapport",
+                                        "shareCardPrefixes": "Help winkels herkennen",
+                                        "shareCardPrefixesHelp": "Deel het anonieme begin van je klantenkaartnummers (nooit het hele nummer), zodat Dibby winkels voor iedereen kan herkennen."
                                     },
                     "emailImport":  {
                                         "title":  "E-mail bondoorsturen",

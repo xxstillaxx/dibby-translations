@@ -367,7 +367,9 @@
       },
       "pushNotifications": "Push-Benachrichtigungen",
       "emailNotifications": "E-Mail-Benachrichtigungen",
-      "monthlyReport": "Monatsbericht"
+      "monthlyReport": "Monatsbericht",
+      "shareCardPrefixes": "Geschäfte erkennen helfen",
+      "shareCardPrefixesHelp": "Teile den anonymen Anfang deiner Kundenkartennummern (nie die ganze Nummer), damit Dibby Geschäfte für alle erkennen kann."
     },
     "emailImport": {
       "title": "E-Mail-Belegweiterleitung",
