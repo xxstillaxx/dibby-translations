@@ -102,7 +102,8 @@
       "torchOff": "Lamp uit",
       "deniedTitle": "Geen toegang tot de camera",
       "deniedMessage": "Geef Dibby in Instellingen toegang tot de camera om je kaart te scannen. Of typ het nummer zelf in.",
-      "openSettings": "Open Instellingen"
+      "openSettings": "Open Instellingen",
+      "choosePhoto": "Kies uit foto's"
     },
     "list": {
       "search": "Zoek een kaart",
@@ -138,6 +139,13 @@
         "unsupported": "Dit bestand kon niet als foto worden bewaard. Probeer een andere foto.",
         "failed": "De foto kon niet worden bewaard. De kaart zelf is wel bewaard."
       }
+    },
+    "photoScan": {
+      "title": "Kies de barcode",
+      "none": "Geen barcode gevonden in deze afbeelding. Typ het nummer zelf in: de afbeelding blijft boven het formulier staan.",
+      "another": "Andere afbeelding",
+      "reference": "Je afbeelding",
+      "referenceHelp": "Tik om in te zoomen en het nummer over te nemen."
     }
   },
   "account": {

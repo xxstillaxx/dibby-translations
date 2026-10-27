@@ -102,7 +102,8 @@
       "torchOff": "Turn off the light",
       "deniedTitle": "No access to the camera",
       "deniedMessage": "To scan your card, allow Dibby to use the camera in Settings. Or type the number in yourself.",
-      "openSettings": "Open Settings"
+      "openSettings": "Open Settings",
+      "choosePhoto": "Choose from photos"
     },
     "list": {
       "search": "Search cards",
@@ -138,6 +139,13 @@
         "unsupported": "This file couldn't be saved as a photo. Try another photo.",
         "failed": "The photo couldn't be saved. The card itself is saved."
       }
+    },
+    "photoScan": {
+      "title": "Choose the barcode",
+      "none": "No barcode found in this picture. Type the number in yourself: the picture stays above the form.",
+      "another": "Another picture",
+      "reference": "Your picture",
+      "referenceHelp": "Tap to zoom in and copy the number."
     }
   },
   "account": {
