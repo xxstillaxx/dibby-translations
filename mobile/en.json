@@ -175,7 +175,9 @@
   "account": {
     "openPortal": "Open portal",
     "faceId": "Use Face ID to unlock",
-    "signOut": "Sign out"
+    "signOut": "Sign out",
+    "shareCardPrefixes": "Help recognise stores",
+    "shareCardPrefixesHelp": "Shares the anonymous start of your loyalty card numbers (never the whole number), so Dibby can recognise stores for everyone."
   },
   "common": {
     "cancel": "Cancel",

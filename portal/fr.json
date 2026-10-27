@@ -367,7 +367,9 @@
       },
       "pushNotifications": "Notifications push",
       "emailNotifications": "Notifications par e-mail",
-      "monthlyReport": "Rapport mensuel"
+      "monthlyReport": "Rapport mensuel",
+      "shareCardPrefixes": "Aider à reconnaître les magasins",
+      "shareCardPrefixesHelp": "Partagez le début anonyme des numéros de vos cartes de fidélité (jamais le numéro complet) pour que Dibby puisse reconnaître les magasins pour tout le monde."
     },
     "emailImport": {
       "title": "Transfert de reçus par e-mail",
