@@ -146,6 +146,21 @@
       "another": "Andere afbeelding",
       "reference": "Je afbeelding",
       "referenceHelp": "Tik om in te zoomen en het nummer over te nemen."
+    },
+    "passImport": {
+      "choose": "Wallet-pasbestand importeren",
+      "notStoreCard": "Deze pas lijkt geen klantenkaart. Het kan een ticket of instapkaart zijn: controleer de gegevens voordat je hem bewaart.",
+      "failedTitle": "Deze pas kan niet worden toegevoegd",
+      "duplicateTitle": "Je hebt deze kaart al",
+      "duplicateMessage": "Je kaart van {{name}} heeft hetzelfde nummer.",
+      "duplicateOpen": "Kaart openen",
+      "duplicateAdd": "Toch toevoegen",
+      "errors": {
+        "unreadable": "Dibby kan dit bestand niet lezen. Is het een Wallet-pas (.pkpass)?",
+        "tooLarge": "Dit bestand is te groot voor een Wallet-pas.",
+        "several": "Dit bestand bevat meerdere passen. Open elke pas apart om hem toe te voegen.",
+        "noBarcode": "Deze pas heeft geen barcode, dus Dibby kan hem niet aan de kassa laten zien. Hij werkt waarschijnlijk alleen met NFC."
+      }
     }
   },
   "account": {

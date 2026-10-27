@@ -146,6 +146,21 @@
       "another": "Another picture",
       "reference": "Your picture",
       "referenceHelp": "Tap to zoom in and copy the number."
+    },
+    "passImport": {
+      "choose": "Import a Wallet pass file",
+      "notStoreCard": "This pass doesn't look like a loyalty card. It may be a ticket or a boarding pass: check the details before you save it.",
+      "failedTitle": "Can't add this pass",
+      "duplicateTitle": "You already have this card",
+      "duplicateMessage": "Your {{name}} card has the same number.",
+      "duplicateOpen": "Open card",
+      "duplicateAdd": "Add anyway",
+      "errors": {
+        "unreadable": "Dibby can't read this file. Is it a Wallet pass (.pkpass)?",
+        "tooLarge": "This file is too large to be a Wallet pass.",
+        "several": "This file holds several passes. Open each pass on its own to add it.",
+        "noBarcode": "This pass has no barcode, so Dibby can't show it at the till. It probably works with NFC only."
+      }
     }
   },
   "account": {
