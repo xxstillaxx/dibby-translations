@@ -303,6 +303,33 @@
   },
   "infoPlist": {
     "NSCameraUsageDescription": "Dibby uses the camera to scan your receipts and the barcode on your loyalty cards, and to take photos of your cards.",
-    "NSFaceIDUsageDescription": "Use Face ID to unlock Dibby"
+    "NSFaceIDUsageDescription": "Use Face ID to unlock Dibby",
+    "quickActionScanReceipt": "Scan receipt",
+    "quickActionAddCard": "Add card"
+  },
+  "shortcuts": {
+    "scanReceipt": "Scan receipt",
+    "scanReceiptDescription": "Opens Dibby's camera to scan a receipt.",
+    "addCard": "Add card",
+    "addCardDescription": "Opens Dibby to add a loyalty card."
+  },
+  "widget": {
+    "scan": {
+      "name": "Scan",
+      "description": "Scan a receipt or add a card in one tap."
+    },
+    "scanReceipt": "Scan receipt",
+    "addCard": "Add card",
+    "control": {
+      "name": "Scan receipt",
+      "description": "Opens Dibby's camera to scan a receipt."
+    }
+  },
+  "appShortcuts": {
+    "scanReceiptWith": "Scan a receipt with ${applicationName}",
+    "scanReceiptIn": "Scan a receipt in ${applicationName}",
+    "addReceipt": "Add a receipt to ${applicationName}",
+    "addLoyaltyCard": "Add a loyalty card to ${applicationName}",
+    "addCardIn": "Add a card in ${applicationName}"
   }
 }
