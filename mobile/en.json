@@ -6,6 +6,15 @@
     "cards": "Cards",
     "account": "Account"
   },
+  "home": {
+    "showCard": "Show a card",
+    "recentReceipts": "Recent receipts",
+    "allReceipts": "All receipts",
+    "welcomeTitle": "Welcome to Dibby",
+    "welcomeMessage": "Keep your receipts and loyalty cards together. Start with one of these.",
+    "scanFirstReceipt": "Scan your first receipt",
+    "addFirstCard": "Add your first card"
+  },
   "auth": {
     "signIn": "Sign in with Dibby",
     "welcome": "Your receipts and loyalty cards, together.",
@@ -239,8 +248,6 @@
   },
   "common": {
     "cancel": "Cancel",
-    "homeDashboardReady": "Your dashboard is ready",
-    "homeDashboardMessage": "Recent receipts and monthly totals will appear here.",
     "scanReceipt": "Scan a receipt",
     "addCard": "Add a card",
     "receipt": "Receipt"

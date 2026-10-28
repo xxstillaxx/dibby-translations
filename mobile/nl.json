@@ -6,6 +6,15 @@
     "cards": "Pasjes",
     "account": "Account"
   },
+  "home": {
+    "showCard": "Pasje laten zien",
+    "recentReceipts": "Recente bonnetjes",
+    "allReceipts": "Alle bonnetjes",
+    "welcomeTitle": "Welkom bij Dibby",
+    "welcomeMessage": "Bewaar je bonnetjes en klantenkaarten bij elkaar. Begin met een van deze.",
+    "scanFirstReceipt": "Scan je eerste bonnetje",
+    "addFirstCard": "Voeg je eerste pasje toe"
+  },
   "auth": {
     "signIn": "Inloggen met Dibby",
     "welcome": "Je bonnetjes en klantenkaarten samen.",
@@ -239,8 +248,6 @@
   },
   "common": {
     "cancel": "Annuleren",
-    "homeDashboardReady": "Je dashboard staat klaar",
-    "homeDashboardMessage": "Recente bonnetjes en maandtotalen verschijnen hier.",
     "scanReceipt": "Bonnetje scannen",
     "addCard": "Kaart toevoegen",
     "receipt": "Bonnetje"
