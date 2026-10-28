@@ -109,8 +109,34 @@
       "saveFailed": "De wijzigingen konden niet worden opgeslagen. Probeer het opnieuw.",
       "offline": "Je bent offline. Je wijzigingen blijven staan: sla opnieuw op als je verbinding hebt."
     },
-    "filterEmpty": "Geen van je laatste bonnetjes past hierbij.",
-    "showAll": "Alles tonen"
+    "filterEmpty": "Geen bonnetjes passen bij deze filters.",
+    "showAll": "Alles tonen",
+    "noMatches": "Geen bonnetjes gevonden",
+    "loadingMore": "Oudere bonnetjes laden…",
+    "search": "Winkel, nummer of notitie",
+    "views": {
+      "list": "Lijst",
+      "calendar": "Kalender"
+    },
+    "filters": {
+      "title": "Filter",
+      "folder": "Map",
+      "allFolders": "Alle mappen",
+      "unfiled": "Niet in een map",
+      "status": "Status",
+      "anyStatus": "Elke status",
+      "anyCategory": "Elke categorie",
+      "anyStore": "Elke winkel",
+      "clear": "Filters wissen"
+    },
+    "calendar": {
+      "previous": "Vorige maand",
+      "next": "Volgende maand",
+      "today": "Vandaag",
+      "emptyDay": "Geen bonnetjes op deze dag.",
+      "count": "Bonnetjes: {{count}}",
+      "monthCount": "Bonnetjes deze maand: {{count}}"
+    }
   },
   "cards": {
     "emptyTitle": "Nog geen klantenkaarten",
