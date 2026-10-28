@@ -109,8 +109,34 @@
       "saveFailed": "The changes couldn't be saved. Please try again.",
       "offline": "You're offline. Your changes are kept here: save again when you're connected."
     },
-    "filterEmpty": "None of your latest receipts match.",
-    "showAll": "Show all"
+    "filterEmpty": "No receipts match these filters.",
+    "showAll": "Show all",
+    "noMatches": "No matching receipts",
+    "loadingMore": "Loading older receipts…",
+    "search": "Store, number or note",
+    "views": {
+      "list": "List",
+      "calendar": "Calendar"
+    },
+    "filters": {
+      "title": "Filter",
+      "folder": "Folder",
+      "allFolders": "All folders",
+      "unfiled": "Not in a folder",
+      "status": "Status",
+      "anyStatus": "Any status",
+      "anyCategory": "Any category",
+      "anyStore": "Any store",
+      "clear": "Clear filters"
+    },
+    "calendar": {
+      "previous": "Previous month",
+      "next": "Next month",
+      "today": "Today",
+      "emptyDay": "No receipts on this day.",
+      "count": "Receipts: {{count}}",
+      "monthCount": "Receipts this month: {{count}}"
+    }
   },
   "cards": {
     "emptyTitle": "No loyalty cards yet",
