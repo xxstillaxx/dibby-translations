@@ -39,7 +39,9 @@
     "welcome": "Your receipts and loyalty cards, together.",
     "restoring": "Restoring your session…",
     "signingIn": "Signing in…",
-    "signingOut": "Signing out…"
+    "signingOut": "Signing out…",
+    "unlock": "Unlock with Face ID",
+    "signInAgain": "Sign in again"
   },
   "scan": {
     "title": "Scan",

@@ -39,7 +39,9 @@
     "welcome": "Je bonnetjes en klantenkaarten samen.",
     "restoring": "Sessie herstellen…",
     "signingIn": "Inloggen…",
-    "signingOut": "Uitloggen…"
+    "signingOut": "Uitloggen…",
+    "unlock": "Ontgrendel met Face ID",
+    "signInAgain": "Opnieuw inloggen"
   },
   "scan": {
     "title": "Scannen",
