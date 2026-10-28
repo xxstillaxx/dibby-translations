@@ -13,7 +13,26 @@
     "welcomeTitle": "Welkom bij Dibby",
     "welcomeMessage": "Bewaar je bonnetjes en klantenkaarten bij elkaar. Begin met een van deze.",
     "scanFirstReceipt": "Scan je eerste bonnetje",
-    "addFirstCard": "Voeg je eerste pasje toe"
+    "addFirstCard": "Voeg je eerste pasje toe",
+    "needsAttention": "Aandacht nodig",
+    "attention": {
+      "unreadable": "Kon niet worden gelezen",
+      "toCheck": "Nakijken",
+      "suggestion": "Voorstel klaar",
+      "accounting": "Niet naar boekhouding gestuurd",
+      "reading": "Wordt gelezen"
+    },
+    "thisMonth": "Deze maand",
+    "saved": "Bespaard",
+    "lessThan": "{{amount}} minder dan {{month}}",
+    "moreThan": "{{amount}} meer dan {{month}}",
+    "sameAs": "Evenveel als {{month}}",
+    "byCategory": "Per categorie",
+    "lastMonths": "Afgelopen {{count}} maanden",
+    "noTotals": "Je totalen verschijnen hier zodra Dibby je bonnetjes heeft gelezen.",
+    "numbersFailed": "Je totalen konden niet worden geladen.",
+    "otherCurrencies": "Bonnetjes in een andere valuta tellen niet mee ({{count}}).",
+    "offlineUpdated": "Offline · bijgewerkt {{time}}"
   },
   "auth": {
     "signIn": "Inloggen met Dibby",
@@ -89,7 +108,9 @@
       "itemsIncomplete": "Elk artikel heeft een omschrijving en een bedrag nodig.",
       "saveFailed": "De wijzigingen konden niet worden opgeslagen. Probeer het opnieuw.",
       "offline": "Je bent offline. Je wijzigingen blijven staan: sla opnieuw op als je verbinding hebt."
-    }
+    },
+    "filterEmpty": "Geen van je laatste bonnetjes past hierbij.",
+    "showAll": "Alles tonen"
   },
   "cards": {
     "emptyTitle": "Nog geen klantenkaarten",

@@ -13,7 +13,26 @@
     "welcomeTitle": "Welcome to Dibby",
     "welcomeMessage": "Keep your receipts and loyalty cards together. Start with one of these.",
     "scanFirstReceipt": "Scan your first receipt",
-    "addFirstCard": "Add your first card"
+    "addFirstCard": "Add your first card",
+    "needsAttention": "Needs attention",
+    "attention": {
+      "unreadable": "Couldn't be read",
+      "toCheck": "To check",
+      "suggestion": "Suggestion ready",
+      "accounting": "Not sent to accounting",
+      "reading": "Being read"
+    },
+    "thisMonth": "This month",
+    "saved": "Saved",
+    "lessThan": "{{amount}} less than {{month}}",
+    "moreThan": "{{amount}} more than {{month}}",
+    "sameAs": "The same as {{month}}",
+    "byCategory": "By category",
+    "lastMonths": "Last {{count}} months",
+    "noTotals": "Your totals appear here once Dibby has read your receipts.",
+    "numbersFailed": "Couldn't load your totals.",
+    "otherCurrencies": "Receipts in another currency aren't counted ({{count}}).",
+    "offlineUpdated": "Offline · updated {{time}}"
   },
   "auth": {
     "signIn": "Sign in with Dibby",
@@ -89,7 +108,9 @@
       "itemsIncomplete": "Every item needs a description and an amount.",
       "saveFailed": "The changes couldn't be saved. Please try again.",
       "offline": "You're offline. Your changes are kept here: save again when you're connected."
-    }
+    },
+    "filterEmpty": "None of your latest receipts match.",
+    "showAll": "Show all"
   },
   "cards": {
     "emptyTitle": "No loyalty cards yet",
