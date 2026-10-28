@@ -303,6 +303,33 @@
   },
   "infoPlist": {
     "NSCameraUsageDescription": "Dibby gebruikt de camera om je bonnetjes en de barcode op je klantenkaarten te scannen, en om je kaarten te fotograferen.",
-    "NSFaceIDUsageDescription": "Gebruik Face ID om Dibby te ontgrendelen"
+    "NSFaceIDUsageDescription": "Gebruik Face ID om Dibby te ontgrendelen",
+    "quickActionScanReceipt": "Bonnetje scannen",
+    "quickActionAddCard": "Pasje toevoegen"
+  },
+  "shortcuts": {
+    "scanReceipt": "Bonnetje scannen",
+    "scanReceiptDescription": "Opent de camera van Dibby om een bonnetje te scannen.",
+    "addCard": "Pasje toevoegen",
+    "addCardDescription": "Opent Dibby om een klantenkaart toe te voegen."
+  },
+  "widget": {
+    "scan": {
+      "name": "Scannen",
+      "description": "Scan een bonnetje of voeg een pasje toe met één tik."
+    },
+    "scanReceipt": "Bonnetje scannen",
+    "addCard": "Pasje toevoegen",
+    "control": {
+      "name": "Bonnetje scannen",
+      "description": "Opent de camera van Dibby om een bonnetje te scannen."
+    }
+  },
+  "appShortcuts": {
+    "scanReceiptWith": "Scan een bonnetje met ${applicationName}",
+    "scanReceiptIn": "Scan een bonnetje in ${applicationName}",
+    "addReceipt": "Voeg een bonnetje toe aan ${applicationName}",
+    "addLoyaltyCard": "Voeg een klantenkaart toe aan ${applicationName}",
+    "addCardIn": "Voeg een pasje toe in ${applicationName}"
   }
 }
