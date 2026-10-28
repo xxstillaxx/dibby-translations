@@ -25,7 +25,23 @@
     "emptyMessage": "Scan of importeer je eerste bonnetje om het hier te zien.",
     "retry": "Opnieuw proberen",
     "offline": "Je bent offline. Controleer je verbinding en probeer het opnieuw.",
-    "error": "Bonnetjes konden niet worden geladen. Probeer het opnieuw."
+    "error": "Bonnetjes konden niet worden geladen. Probeer het opnieuw.",
+    "add": {
+      "title": "Bonnetje toevoegen",
+      "camera": "Foto maken",
+      "photos": "Kies uit foto's",
+      "file": "Kies bestand",
+      "uploading": "Bonnetje toevoegen…",
+      "added": "Bonnetje toegevoegd. Dibby leest het nu.",
+      "failedTitle": "Bonnetje niet toegevoegd",
+      "errors": {
+        "offline": "Je bent offline. Probeer het opnieuw als je verbinding hebt.",
+        "tooLarge": "Dit bestand is groter dan 10 MB.",
+        "unsupported": "Dibby kan alleen foto's en pdf-bestanden toevoegen.",
+        "unreadable": "Dit bestand kan niet worden gelezen. Probeer een ander bestand.",
+        "failed": "Het bonnetje kon niet worden toegevoegd. Probeer het opnieuw."
+      }
+    }
   },
   "cards": {
     "emptyTitle": "Nog geen klantenkaarten",
@@ -170,6 +186,9 @@
       "unknown": "Welke winkel is dit?",
       "unknownHelp": "Dibby kon de winkel van deze kaart niet herkennen. Kies hem om de naam en het logo te tonen.",
       "choose": "Kies winkel"
+    },
+    "add": {
+      "camera": "Scannen met camera"
     }
   },
   "account": {
@@ -188,7 +207,7 @@
     "receipt": "Bonnetje"
   },
   "infoPlist": {
-    "NSCameraUsageDescription": "Dibby gebruikt de camera om de barcode op je klantenkaarten te scannen en om ze te fotograferen.",
+    "NSCameraUsageDescription": "Dibby gebruikt de camera om je bonnetjes en de barcode op je klantenkaarten te scannen, en om je kaarten te fotograferen.",
     "NSFaceIDUsageDescription": "Gebruik Face ID om Dibby te ontgrendelen"
   }
 }
