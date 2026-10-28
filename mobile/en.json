@@ -41,6 +41,45 @@
         "unreadable": "This file couldn't be read. Try another one.",
         "failed": "The receipt couldn't be added. Please try again."
       }
+    },
+    "detail": {
+      "reading": "Dibby is reading this receipt…",
+      "readFailed": "Dibby couldn't read this receipt. Fill in the details yourself with Edit.",
+      "checks": "Worth checking",
+      "store": "Store",
+      "unknownStore": "Unknown store",
+      "date": "Date",
+      "total": "Total",
+      "tax": "VAT",
+      "discount": "You saved",
+      "paymentMethod": "Payment method",
+      "category": "Category",
+      "receiptNumber": "Receipt number",
+      "note": "Note",
+      "items": "Items",
+      "open": "Open receipt",
+      "fileFailed": "The receipt's photo couldn't be loaded.",
+      "retry": "Try again",
+      "edit": "Edit",
+      "delete": "Delete receipt",
+      "deleteTitle": "Delete this receipt?",
+      "deleteMessage": "The receipt and its photo are removed from Dibby on all your devices.",
+      "deleteFailed": "The receipt couldn't be deleted. Please try again."
+    },
+    "edit": {
+      "title": "Edit receipt",
+      "save": "Save",
+      "addDate": "Add date",
+      "noCategory": "None",
+      "addItem": "Add item",
+      "itemDescription": "Description",
+      "itemAmount": "Amount",
+      "itemQuantity": "Qty",
+      "itemsSum": "Items add up to {{sum}}",
+      "invalidAmount": "Enter amounts as numbers, for example 12,50.",
+      "itemsIncomplete": "Every item needs a description and an amount.",
+      "saveFailed": "The changes couldn't be saved. Please try again.",
+      "offline": "You're offline. Your changes are kept here: save again when you're connected."
     }
   },
   "cards": {
