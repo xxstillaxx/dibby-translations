@@ -41,6 +41,45 @@
         "unreadable": "Dit bestand kan niet worden gelezen. Probeer een ander bestand.",
         "failed": "Het bonnetje kon niet worden toegevoegd. Probeer het opnieuw."
       }
+    },
+    "detail": {
+      "reading": "Dibby leest dit bonnetje…",
+      "readFailed": "Dibby kon dit bonnetje niet lezen. Vul de gegevens zelf in met Bewerken.",
+      "checks": "Even controleren",
+      "store": "Winkel",
+      "unknownStore": "Onbekende winkel",
+      "date": "Datum",
+      "total": "Totaal",
+      "tax": "Btw",
+      "discount": "Je bespaarde",
+      "paymentMethod": "Betaalmethode",
+      "category": "Categorie",
+      "receiptNumber": "Bonnummer",
+      "note": "Notitie",
+      "items": "Artikelen",
+      "open": "Bonnetje openen",
+      "fileFailed": "De foto van het bonnetje kon niet worden geladen.",
+      "retry": "Opnieuw proberen",
+      "edit": "Bewerken",
+      "delete": "Bonnetje verwijderen",
+      "deleteTitle": "Dit bonnetje verwijderen?",
+      "deleteMessage": "Het bonnetje en de foto worden uit Dibby verwijderd, op al je apparaten.",
+      "deleteFailed": "Het bonnetje kon niet worden verwijderd. Probeer het opnieuw."
+    },
+    "edit": {
+      "title": "Bonnetje bewerken",
+      "save": "Opslaan",
+      "addDate": "Datum toevoegen",
+      "noCategory": "Geen",
+      "addItem": "Artikel toevoegen",
+      "itemDescription": "Omschrijving",
+      "itemAmount": "Bedrag",
+      "itemQuantity": "Aantal",
+      "itemsSum": "Artikelen samen {{sum}}",
+      "invalidAmount": "Vul bedragen in als getal, bijvoorbeeld 12,50.",
+      "itemsIncomplete": "Elk artikel heeft een omschrijving en een bedrag nodig.",
+      "saveFailed": "De wijzigingen konden niet worden opgeslagen. Probeer het opnieuw.",
+      "offline": "Je bent offline. Je wijzigingen blijven staan: sla opnieuw op als je verbinding hebt."
     }
   },
   "cards": {
