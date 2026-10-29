@@ -149,6 +149,27 @@
       "confirm": "Klopt",
       "fix": "Aanpassen",
       "failed": "Dat lukte niet. Probeer het opnieuw."
+    },
+    "readAgain": {
+      "open": "Opnieuw lezen",
+      "title": "Opnieuw lezen",
+      "noteLabel": "Wat klopte er niet? (optioneel)",
+      "notePlaceholder": "bijv. het totaal is 23,40, niet 2,34",
+      "help": "Dibby leest het bonnetje opnieuw met je notitie. Jij kiest welke nieuwe gegevens je gebruikt: er verandert niets tot je opslaat.",
+      "start": "Opnieuw lezen",
+      "reading": "Dibby leest dit bonnetje opnieuw…",
+      "ready": "Er is een nieuwe lezing klaar.",
+      "review": "Bekijken",
+      "failed": "Opnieuw lezen is niet gelukt. Je kunt het nog eens proberen.",
+      "alreadyReading": "Dibby leest dit bonnetje al opnieuw.",
+      "startFailed": "Opnieuw lezen kon niet worden gestart. Probeer het opnieuw.",
+      "section": "Nieuwe lezing",
+      "noChanges": "De nieuwe lezing vond dezelfde gegevens.",
+      "use": "Gekozen gegevens gebruiken",
+      "discard": "Nieuwe lezing weggooien",
+      "applied": "Overgenomen. Sla op om ze te bewaren.",
+      "discardFailed": "De nieuwe lezing kon niet worden weggegooid. Probeer het opnieuw.",
+      "itemsSummary": "{{count}} artikelen, {{sum}}"
     }
   },
   "cards": {
