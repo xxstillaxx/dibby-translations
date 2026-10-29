@@ -149,6 +149,27 @@
       "confirm": "Looks right",
       "fix": "Fix",
       "failed": "That didn't work. Please try again."
+    },
+    "readAgain": {
+      "open": "Read again",
+      "title": "Read again",
+      "noteLabel": "What was wrong? (optional)",
+      "notePlaceholder": "e.g. the total is 23,40, not 2,34",
+      "help": "Dibby reads the receipt again with your note. You choose which new values to use: nothing changes until you save.",
+      "start": "Read again",
+      "reading": "Dibby is reading this receipt again…",
+      "ready": "A new reading is ready.",
+      "review": "Review",
+      "failed": "Reading it again didn't work. You can try again.",
+      "alreadyReading": "Dibby is already reading this receipt again.",
+      "startFailed": "Reading again couldn't be started. Please try again.",
+      "section": "New reading",
+      "noChanges": "The new reading found the same values.",
+      "use": "Use selected",
+      "discard": "Discard new reading",
+      "applied": "Taken over. Save to keep them.",
+      "discardFailed": "The new reading couldn't be discarded. Please try again.",
+      "itemsSummary": "{{count}} items, {{sum}}"
     }
   },
   "cards": {
