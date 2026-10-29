@@ -70,7 +70,8 @@
         "unsupported": "Dibby kan alleen foto's en pdf-bestanden toevoegen.",
         "unreadable": "Dit bestand kan niet worden gelezen. Probeer een ander bestand.",
         "failed": "Het bonnetje kon niet worden toegevoegd. Probeer het opnieuw."
-      }
+      },
+      "check": "Controleren"
     },
     "detail": {
       "reading": "Dibby leest dit bonnetje…",
@@ -109,7 +110,10 @@
       "invalidAmount": "Vul bedragen in als getal, bijvoorbeeld 12,50.",
       "itemsIncomplete": "Elk artikel heeft een omschrijving en een bedrag nodig.",
       "saveFailed": "De wijzigingen konden niet worden opgeslagen. Probeer het opnieuw.",
-      "offline": "Je bent offline. Je wijzigingen blijven staan: sla opnieuw op als je verbinding hebt."
+      "offline": "Je bent offline. Je wijzigingen blijven staan: sla opnieuw op als je verbinding hebt.",
+      "shopUnknown": "Nog niet herkend",
+      "shopRead": "Gelezen als „{{name}}”",
+      "shopUnavailable": "Die winkel is niet beschikbaar. Kies een andere."
     },
     "filterEmpty": "Geen bonnetjes passen bij deze filters.",
     "showAll": "Alles tonen",
@@ -138,6 +142,13 @@
       "emptyDay": "Geen bonnetjes op deze dag.",
       "count": "Bonnetjes: {{count}}",
       "monthCount": "Bonnetjes deze maand: {{count}}"
+    },
+    "check": {
+      "title": "Klopt dit?",
+      "message": "Controleer de winkel, datum en het totaal dat Dibby las. Een winkel die je aanpast, onthoudt Dibby voor je volgende bonnetjes.",
+      "confirm": "Klopt",
+      "fix": "Aanpassen",
+      "failed": "Dat lukte niet. Probeer het opnieuw."
     }
   },
   "cards": {
@@ -229,7 +240,14 @@
       "useTyped": "Gebruik „{{name}}”",
       "typedHelp": "Staat hij er niet tussen? Gebruik de naam zoals je hem hebt getypt.",
       "failed": "De lijst met winkels kon niet worden geladen. Je kunt de naam van de winkel ook zelf typen.",
-      "retry": "Opnieuw proberen"
+      "retry": "Opnieuw proberen",
+      "websiteTitle": "Zoeken op website",
+      "websitePlaceholder": "Website van de winkel, bijv. winkel.nl",
+      "websiteFind": "Zoeken",
+      "websiteHelp": "Dibby zoekt de naam en het logo van de winkel op de website.",
+      "websiteNotFound": "Op die website hebben we geen winkel gevonden.",
+      "websiteInvalid": "Vul een website in, zoals winkel.nl.",
+      "websiteFailed": "De winkel kon niet worden opgezocht. Probeer het opnieuw."
     },
     "photos": {
       "title": "Foto's",
