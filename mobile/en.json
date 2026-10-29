@@ -70,7 +70,8 @@
         "unsupported": "Dibby can only add photos and PDF files.",
         "unreadable": "This file couldn't be read. Try another one.",
         "failed": "The receipt couldn't be added. Please try again."
-      }
+      },
+      "check": "Check"
     },
     "detail": {
       "reading": "Dibby is reading this receipt…",
@@ -109,7 +110,10 @@
       "invalidAmount": "Enter amounts as numbers, for example 12,50.",
       "itemsIncomplete": "Every item needs a description and an amount.",
       "saveFailed": "The changes couldn't be saved. Please try again.",
-      "offline": "You're offline. Your changes are kept here: save again when you're connected."
+      "offline": "You're offline. Your changes are kept here: save again when you're connected.",
+      "shopUnknown": "Not recognised yet",
+      "shopRead": "Read as “{{name}}”",
+      "shopUnavailable": "That store isn't available. Pick another one."
     },
     "filterEmpty": "No receipts match these filters.",
     "showAll": "Show all",
@@ -138,6 +142,13 @@
       "emptyDay": "No receipts on this day.",
       "count": "Receipts: {{count}}",
       "monthCount": "Receipts this month: {{count}}"
+    },
+    "check": {
+      "title": "Is this right?",
+      "message": "Check the store, date and total Dibby read. A store you fix is remembered for your next receipts.",
+      "confirm": "Looks right",
+      "fix": "Fix",
+      "failed": "That didn't work. Please try again."
     }
   },
   "cards": {
@@ -229,7 +240,14 @@
       "useTyped": "Use “{{name}}”",
       "typedHelp": "Not in the list? Use the name as you typed it.",
       "failed": "The list of stores couldn't be loaded. You can still type the store's name.",
-      "retry": "Try again"
+      "retry": "Try again",
+      "websiteTitle": "Find it by its website",
+      "websitePlaceholder": "The store's website, e.g. shop.nl",
+      "websiteFind": "Find",
+      "websiteHelp": "Dibby looks up the store's name and logo on its website.",
+      "websiteNotFound": "We couldn't find a store at that website.",
+      "websiteInvalid": "Enter a website like shop.nl.",
+      "websiteFailed": "The store couldn't be looked up. Please try again."
     },
     "photos": {
       "title": "Photos",
