@@ -7,6 +7,7 @@
   },
   "header": {
     "overview": "Resumen",
+    "searchPlaceholder": "Buscar recibos",
     "allReceipts": "Todos los recibos",
     "shoppingProfile": "Perfil de compras",
     "profile": "Perfil",
@@ -88,6 +89,9 @@
     },
     "toolbar": {
       "filterPlaceholder": "Filtrar...",
+      "viewList": "Lista",
+      "viewGrid": "Cuadrícula",
+      "viewCalendar": "Calendario",
       "count_one": "{{count}} recibo",
       "count_other": "{{count}} recibos"
     },
@@ -190,6 +194,7 @@
     "discountTypes": {"promotion": "Promoción", "coupon": "Cupón", "loyalty": "Tarjeta de cliente", "other": "Descuento"},
     "detail": {
       "closeAria": "Cerrar modal",
+      "back": "Volver a los recibos",
       "aria": "Recibo de {{name}}",
       "items": "Artículos",
       "payment": "Pago",

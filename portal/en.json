@@ -7,6 +7,7 @@
                 },
     "header":  {
                    "overview":  "Overview",
+                   "searchPlaceholder":  "Search receipts",
                    "allReceipts":  "All Receipts",
                    "shoppingProfile":  "Shopping Profile",
                    "profile":  "Profile",
@@ -88,6 +89,9 @@
                                         },
                      "toolbar":  {
                                      "filterPlaceholder":  "Filter...",
+                                     "viewList":  "List",
+                                     "viewGrid":  "Grid",
+                                     "viewCalendar":  "Calendar",
                                      "count_one":  "{{count}} receipt",
                                      "count_other":  "{{count}} receipts"
                                  },
@@ -111,7 +115,7 @@
                                     "title":  "Upload Receipt",
                                     "close":  "Close",
                                     "prompt":  "Drop a file or click to browse",
-                                    "fileTypes":  "JPEG, PNG, WebP, GIF, or PDF Â· Max 10 MB",
+                                    "fileTypes":  "JPEG, PNG, WebP, GIF, or PDF · Max 10 MB",
                                     "previewAlt":  "Preview",
                                     "binder":  "Binder",
                                     "binderPlaceholder":  "Select a binder...",
@@ -190,6 +194,7 @@
                      "discountTypes":  {"promotion": "Promotion", "coupon": "Coupon", "loyalty": "Loyalty card", "other": "Discount"},
                      "detail":  {
                                     "closeAria":  "Close modal",
+                                    "back":  "Back to receipts",
                                     "aria":  "Receipt from {{name}}",
                                     "items":  "Items",
                                     "payment":  "Payment",

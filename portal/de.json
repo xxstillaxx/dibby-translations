@@ -7,6 +7,7 @@
   },
   "header": {
     "overview": "Übersicht",
+    "searchPlaceholder": "Belege durchsuchen",
     "allReceipts": "Alle Belege",
     "shoppingProfile": "Einkaufsprofil",
     "profile": "Profil",
@@ -88,6 +89,9 @@
     },
     "toolbar": {
       "filterPlaceholder": "Filtern...",
+      "viewList": "Liste",
+      "viewGrid": "Raster",
+      "viewCalendar": "Kalender",
       "count_one": "{{count}} Beleg",
       "count_other": "{{count}} Belege"
     },
@@ -190,6 +194,7 @@
     "discountTypes": {"promotion": "Aktion", "coupon": "Gutschein", "loyalty": "Kundenkarte", "other": "Rabatt"},
     "detail": {
       "closeAria": "Fenster schließen",
+      "back": "Zurück zu den Belegen",
       "aria": "Beleg von {{name}}",
       "items": "Artikel",
       "payment": "Zahlung",

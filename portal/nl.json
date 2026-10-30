@@ -7,6 +7,7 @@
                 },
     "header":  {
                    "overview":  "Overzicht",
+                   "searchPlaceholder":  "Zoek in bonnen",
                    "allReceipts":  "Alle bonnen",
                    "shoppingProfile":  "Winkelprofiel",
                    "profile":  "Profiel",
@@ -88,6 +89,9 @@
                                         },
                      "toolbar":  {
                                      "filterPlaceholder":  "Filter...",
+                                     "viewList":  "Lijst",
+                                     "viewGrid":  "Raster",
+                                     "viewCalendar":  "Kalender",
                                      "count_one":  "{{count}} bon",
                                      "count_other":  "{{count}} bonnen"
                                  },
@@ -111,7 +115,7 @@
                                     "title":  "Bon uploaden",
                                     "close":  "Sluiten",
                                     "prompt":  "Sleep een bestand hierheen of klik om te bladeren",
-                                    "fileTypes":  "JPEG, PNG, WebP, GIF of PDF Â· Max 10 MB",
+                                    "fileTypes":  "JPEG, PNG, WebP, GIF of PDF · Max 10 MB",
                                     "previewAlt":  "Voorbeeld",
                                     "binder":  "Map",
                                     "binderPlaceholder":  "Kies een map...",
@@ -190,6 +194,7 @@
                      "discountTypes":  {"promotion": "Actie", "coupon": "Kortingsbon", "loyalty": "Klantenkaart", "other": "Korting"},
                      "detail":  {
                                     "closeAria":  "Venster sluiten",
+                                    "back":  "Terug naar bonnen",
                                     "aria":  "Bon van {{name}}",
                                     "items":  "Artikelen",
                                     "payment":  "Betaling",
