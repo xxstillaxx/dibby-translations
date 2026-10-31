@@ -7,6 +7,7 @@
   },
   "header": {
     "overview": "Aperçu",
+    "searchPlaceholder": "Rechercher des reçus",
     "allReceipts": "Tous les reçus",
     "shoppingProfile": "Profil d'achat",
     "profile": "Profil",
@@ -88,6 +89,9 @@
     },
     "toolbar": {
       "filterPlaceholder": "Filtrer...",
+      "viewList": "Liste",
+      "viewGrid": "Grille",
+      "viewCalendar": "Calendrier",
       "count_one": "{{count}} reçu",
       "count_other": "{{count}} reçus"
     },
@@ -190,6 +194,7 @@
     "discountTypes": {"promotion": "Promotion", "coupon": "Bon de réduction", "loyalty": "Carte de fidélité", "other": "Remise"},
     "detail": {
       "closeAria": "Fermer la fenêtre",
+      "back": "Retour aux reçus",
       "aria": "Reçu de {{name}}",
       "items": "Articles",
       "payment": "Paiement",
