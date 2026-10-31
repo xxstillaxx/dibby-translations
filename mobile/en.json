@@ -73,6 +73,10 @@
       },
       "check": "Check"
     },
+    "camera": {
+      "guidance": "Fit the whole receipt in the picture",
+      "deniedMessage": "To photograph a receipt, allow Dibby to use the camera in Settings. Or choose a photo or file instead."
+    },
     "detail": {
       "reading": "Dibby is reading this receipt…",
       "readFailed": "Dibby couldn't read this receipt. Fill in the details yourself with Edit.",
