@@ -73,6 +73,10 @@
       },
       "check": "Controleren"
     },
+    "camera": {
+      "guidance": "Zorg dat het hele bonnetje in beeld is",
+      "deniedMessage": "Geef Dibby in Instellingen toegang tot de camera om een bonnetje te fotograferen. Of kies een foto of bestand."
+    },
     "detail": {
       "reading": "Dibby leest dit bonnetje…",
       "readFailed": "Dibby kon dit bonnetje niet lezen. Vul de gegevens zelf in met Bewerken.",
